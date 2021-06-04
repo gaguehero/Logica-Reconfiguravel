@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\tutoriaisBRABOS\mux\simulation\qsim
+vmux4_1
+Z1 I[5]G^0BhI_aecU;1S3SSH2
+Z2 Ve=`S]?ml`eSgOBc0T7]9Z1
+Z3 dC:\altera\tutoriaisBRABOS\mux\simulation\qsim
+Z4 w1614781267
+Z5 8mux4_1.vo
+Z6 Fmux4_1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 gQ4n_GQgF@CRb6J;AUnfD1
+!s85 0
+Z10 !s108 1614781276.781000
+Z11 !s107 mux4_1.vo|
+Z12 !s90 -work|work|mux4_1.vo|
+!s101 -O0
+vmux4_1_vlg_check_tst
+!i10b 1
+!s100 7ERA1Ua4f8]kQ6`_n66WN0
+IhI8MK1QDT7]OeKjkENDFl2
+Vhb0Me>PlY:J8QCfhm0z5O3
+R3
+Z13 w1614781263
+Z14 8mux4_1.vt
+Z15 Fmux4_1.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1614781277.203000
+Z17 !s107 mux4_1.vt|
+Z18 !s90 -work|work|mux4_1.vt|
+!s101 -O0
+R8
+vmux4_1_vlg_sample_tst
+!i10b 1
+!s100 k[0H:[D9h^MYiVkWzQRG>0
+IMbh42`MUGmkBC6J7gSTJH2
+Va`[<0Li>@I`1RWf><H6E32
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vmux4_1_vlg_vec_tst
+!i10b 1
+!s100 jDFaNPoLm9D[OQgaRab?@1
+I]`^no_mU:V[2zi]4M;Xif0
+Vh7ZDj^;Hf[hd8mhZo8BX40
+R3
+R13
+R14
+R15
+L0 154
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

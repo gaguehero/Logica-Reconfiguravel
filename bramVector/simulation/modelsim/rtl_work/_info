@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\bramVector\simulation\modelsim
+Ebramvector
+Z1 w1620063154
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\bramVector\simulation\modelsim
+Z6 8C:/altera/bramVector/bramVector.vhd
+Z7 FC:/altera/bramVector/bramVector.vhd
+l0
+L5
+Vf9`^2=iR6JWj[mceo;kG]2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1620063468.034000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/bramVector/bramVector.vhd|
+Z11 !s107 C:/altera/bramVector/bramVector.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 cS`zK:Ln?2Ib38cea74Ze2
+!i10b 1
+Aarc
+R2
+R3
+R4
+DEx4 work 10 bramvector 0 22 f9`^2=iR6JWj[mceo;kG]2
+l18
+L15
+VNocWTceY>E[CKg=F5kPUN1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 iOXbfKHA<=G@hAXB[2UmB2
+!i10b 1
+Ebramvector_tb
+Z14 w1620063277
+R2
+R3
+R4
+R5
+Z15 8C:/altera/bramVector/bramVector_tb.vhd
+Z16 FC:/altera/bramVector/bramVector_tb.vhd
+l0
+L5
+ViP7T;S_VncfBeK1?N7dbU2
+!s100 WS3lM=jLTOEVUzdPJegUO2
+R8
+32
+!i10b 1
+Z17 !s108 1620063476.648000
+Z18 !s90 -reportprogress|300|-work|work|C:/altera/bramVector/bramVector_tb.vhd|
+Z19 !s107 C:/altera/bramVector/bramVector_tb.vhd|
+Z20 o-work work -O0
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 13 bramvector_tb 0 22 iP7T;S_VncfBeK1?N7dbU2
+l22
+L8
+VX@4o5adSU`DBNCW6nzUo_2
+!s100 M3;`6J^3:N8IfU9Hn_<9O3
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R20
+R13

@@ -1,0 +1,28 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\aaaaa\NIOS-IV\SimpleNiosII\software\teste9\obj\default\runtime\sim\mentor
+vxEH/06IIKp/Fj9wUuuXTaq0voMbSMogkyGvvezqxxDM=
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 0
+Z2 !s100 <1EGLKm77CbP9lez8i29T1
+Z3 I3e_m<m>ZK1iYc^mlJ;IEi3
+Z4 VA6G6lglY;QOHbkKlTEAXC0
+xsip
+!i8a 1856278240
+Z5 !s105 altera_merlin_slave_translator_sv_unit
+S1
+d.
+Z6 Fnofile
+L0 38
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1600382015.777000
+!s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_merlin_slave_translator.sv|
+Z8 !s90 -reportprogress|300|-sv|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_merlin_slave_translator.sv|-work|memory_s1_translator|
+!s101 -O0
+Z9 o-sv -work memory_s1_translator -O0
+Z10 n6d33602

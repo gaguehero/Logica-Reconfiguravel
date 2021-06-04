@@ -1,0 +1,48 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do cont3_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/cont3_sinais/cont3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont3
+# -- Compiling architecture hardware of cont3
+# 
+vcom -reportprogress 300 -work work C:/altera/cont3_sinais/cont3_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont3_tb
+# -- Compiling architecture X1 of cont3_tb
+vsim work.cont3_tb(x1)
+# vsim work.cont3_tb(x1) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.cont3_tb(x1)
+# Loading work.cont3(hardware)
+add wave -position insertpoint  \
+sim:/cont3_tb/clk
+add wave -position insertpoint  \
+sim:/cont3_tb/rst
+add wave -position insertpoint  \
+sim:/cont3_tb/EN
+add wave -position insertpoint  \
+sim:/cont3_tb/CLR
+add wave -position insertpoint  \
+sim:/cont3_tb/Q
+run 500 ns

@@ -1,0 +1,32 @@
+|totalV
+CLK => cont3:totalizador.CLK
+RST => cont3:totalizador.RST
+Qout[0] <= contador.DB_MAX_OUTPUT_PORT_TYPE
+Qout[1] <= contador.DB_MAX_OUTPUT_PORT_TYPE
+Qout[2] <= <GND>
+
+
+|totalV|cont3:totalizador
+RST => contador[0].ACLR
+RST => contador[1].ACLR
+RST => contador[2].ACLR
+CLK => contador[0].CLK
+CLK => contador[1].CLK
+CLK => contador[2].CLK
+Q[0] <= contador[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= contador[1].DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= contador[2].DB_MAX_OUTPUT_PORT_TYPE
+EN => contador.OUTPUTSELECT
+EN => contador.OUTPUTSELECT
+EN => contador.OUTPUTSELECT
+CLR => contador.OUTPUTSELECT
+CLR => contador.OUTPUTSELECT
+CLR => contador.OUTPUTSELECT
+LD => contador.OUTPUTSELECT
+LD => contador.OUTPUTSELECT
+LD => contador.OUTPUTSELECT
+LOAD[0] => ~NO_FANOUT~
+LOAD[1] => ~NO_FANOUT~
+LOAD[2] => ~NO_FANOUT~
+
+

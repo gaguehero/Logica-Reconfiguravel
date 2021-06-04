@@ -1,0 +1,65 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do reg32_avalon_interface_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# 
+# vcom -93 -work work {D:/VHDL/user_HW_Copia1/hw/reg32_avalon_interface.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'work' at "work".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./reg32_avalon_interface_run_msim_rtl_vhdl.do line 8
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {D:/VHDL/user_HW_Copia1/hw/reg32_avalon_interface.vhd}"
+do reg32_avalon_interface_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# 
+# vcom -93 -work rtl_work {D:/VHDL/user_HW_Copia1/hw/reg32_avalon_interface.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32_avalon_interface
+# -- Compiling architecture Structure of reg32_avalon_interface
+# vcom -93 -work rtl_work {D:/VHDL/user_HW_Copia1/hw/reg32.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg32
+# -- Compiling architecture Behavior of reg32
+# vcom -93 -work rtl_work {D:/VHDL/user_HW_Copia1/hw/contador8bit.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity contador8bit
+# -- Compiling architecture contador of contador8bit
+# vcom -93 -work rtl_work {D:/VHDL/user_HW_Copia1/hw/contador1.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador1
+# -- Compiling architecture cont1 of contador1
+# vcom -93 -work rtl_work {D:/VHDL/user_HW_Copia1/hw/contador0.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador0
+# -- Compiling architecture cont0 of contador0
+# 

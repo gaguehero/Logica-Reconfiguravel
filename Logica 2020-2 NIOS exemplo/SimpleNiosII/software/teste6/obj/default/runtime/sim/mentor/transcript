@@ -1,0 +1,200 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do msim_setup.tcl 
+# HostSystem_tb
+# ./../
+# C:/altera/13.0sp1/quartus/
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# [exec] file_copy 
+# List Of Command Line Aliases 
+# 
+# file_copy                     -- Copy ROM/RAM files to simulation directory 
+# 
+# dev_com                       -- Compile device library files 
+# 
+# com                           -- Compile the design files in correct order 
+# 
+# elab                          -- Elaborate top level design 
+# 
+# elab_debug                    -- Elaborate the top level design with novopt option 
+# 
+# ld                            -- Compile all the design files and elaborate the top level design 
+# 
+# ld_debug                      -- Compile all the design files and elaborate the top level design with -novopt 
+# 
+# 
+# 
+# List Of Variables 
+# 
+# TOP_LEVEL_NAME                -- Top level module name. 
+# 
+# SYSTEM_INSTANCE_NAME          -- Instantiated system module name inside top level module. 
+# 
+# QSYS_SIMDIR                   -- Qsys base simulation directory. 
+# 
+# QUARTUS_INSTALL_DIR           -- Quartus installation directory. 
+#  ld 
+# [exec] dev_com 
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'irq_mapper' at "irq_mapper".
+# 
+# No such file or directory. (errno = ENOENT)
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#   
+vlib irq_mapper
+vlib rsp_xbar_mux
+vlib rst_controller
+vlib id_router
+vlib addr_router
+vlib memory_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+vlib memory_s1_translator_avalon_universal_slave_0_agent
+vlib nios2_qsys_0_instruction_master_translator_avalon_universal_master_0_agent
+vlib memory_s1_translator
+vlib nios2_qsys_0_instruction_master_translator
+vlib memory
+vlib nios2_qsys_0
+vlib HostSystem_inst_reset_bfm
+vlib HostSystem_inst_clk_bfm
+vlib HostSystem_inst
+vlib work
+
+vlib HostSystem_inst_clk_bfm
+# ** Warning: (vlib-34) Library already exists at "HostSystem_inst_clk_bfm".
+# 
+vlib rsp_xbar_demux
+vlib cmd_xbar_mux_001
+vlib cmd_xbar_mux
+vlib cmd_xbar_demux_001
+vlib cmd_xbar_demux
+vlib limiter
+vlib id_router_001
+vlib addr_router_001
+vlib jtag_uart_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+vlib niosii_system_mm_interconnect_0_jtag_uart_avalon_jtag_slave_translator_avalon_universal_slave_0_agent_rsp_fifo
+vlib mm_interconnect_0
+vlib width_adapter
+vlib burst_adapter
+vlib countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+vlib cpu_instruction_master_translator_avalon_universal_master_0_agent
+vlib cpu_instruction_master_translator
+vlib countBits_0
+vlib cpu 
+
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_001
+# -- Compiling architecture RTL of HostSystem_id_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router
+# -- Compiling architecture RTL of HostSystem_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router
+# -- Compiling architecture RTL of HostSystem_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# -- Compiling architecture RTL of HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_memory_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+# -- Compiling architecture RTL of HostSystem_memory_s1_translator_avalon_universal_slave_0_agent_rsp_fifo
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Warning: D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_merlin_slave_agent.sv(38): in protected region.
+# ** Warning: D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_merlin_slave_agent.sv(38): in protected region.
+# ** Warning: D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_merlin_slave_agent.sv(38): in protected region.
+# ** Warning: D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_merlin_slave_agent.sv(38): in protected region.
+# ** Warning: D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_merlin_slave_agent.sv(38): in protected region.
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity toplevel
+# -- Compiling architecture behav of toplevel
+# ** Error: D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/toplevel.vhd(108): near "ZZZZZZZZZZZZZZZZZ;": (vcom-1203) String literal is not terminated with the " character.
+# ** Error: D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/toplevel.vhd(108): String literal has a character ';' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/toplevel.vhd(110): near "end": expecting ';'
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.

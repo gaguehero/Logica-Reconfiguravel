@@ -1,0 +1,63 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do msim_setup.tcl 
+# HostSystem_tb
+# ./../
+# C:/altera/13.0sp1/quartus/
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# [exec] file_copy 
+# List Of Command Line Aliases 
+# 
+# file_copy                     -- Copy ROM/RAM files to simulation directory 
+# 
+# dev_com                       -- Compile device library files 
+# 
+# com                           -- Compile the design files in correct order 
+# 
+# elab                          -- Elaborate top level design 
+# 
+# elab_debug                    -- Elaborate the top level design with novopt option 
+# 
+# ld                            -- Compile all the design files and elaborate the top level design 
+# 
+# ld_debug                      -- Compile all the design files and elaborate the top level design with -novopt 
+# 
+# 
+# 
+# List Of Variables 
+# 
+# TOP_LEVEL_NAME                -- Top level module name. 
+# 
+# SYSTEM_INSTANCE_NAME          -- Instantiated system module name inside top level module. 
+# 
+# QSYS_SIMDIR                   -- Qsys base simulation directory. 
+# 
+# QUARTUS_INSTALL_DIR           -- Quartus installation directory. 
+#  ld 
+# [exec] dev_com 
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'irq_mapper' at "irq_mapper".
+# 
+# No such file or directory. (errno = ENOENT)
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#   
+pwd
+# D:/VHDL1/SimpleNiosII/software/app_NOVO/obj/default/runtime/sim/mentor

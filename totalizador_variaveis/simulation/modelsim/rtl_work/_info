@@ -1,0 +1,116 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\totalizador_variaveis\simulation\modelsim
+Econt3
+Z1 w1616958281
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\totalizador_variaveis\simulation\modelsim
+Z6 8C:/altera/cont3_variavel/cont3.vhd
+Z7 FC:/altera/cont3_variavel/cont3.vhd
+l0
+L6
+V[BTCV6C6<gcYXhVddF^OO2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1616969337.068000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/cont3_variavel/cont3.vhd|
+Z11 !s107 C:/altera/cont3_variavel/cont3.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 86:P>WI5KhAY98FzG0<722
+!i10b 1
+Ahardware
+R2
+R3
+R4
+DEx4 work 5 cont3 0 22 [BTCV6C6<gcYXhVddF^OO2
+l17
+L15
+VDUbfQj3BjDz6CkK6VIUz93
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 UE8ng?KB3b=[Nb]PQg^mz1
+!i10b 1
+Etotalv
+Z14 w1616967962
+R2
+R3
+R4
+R5
+Z15 8C:/altera/totalizador_variaveis/totalV.vhd
+Z16 FC:/altera/totalizador_variaveis/totalV.vhd
+l0
+L5
+V>R<_BmC8fcQ[kF_5`RMZl3
+R8
+31
+Z17 !s108 1616969337.405000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/altera/totalizador_variaveis/totalV.vhd|
+Z19 !s107 C:/altera/totalizador_variaveis/totalV.vhd|
+R12
+R13
+!s100 ?fZYc_PzkIQhbbzV0]l`50
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 6 totalv 0 22 >R<_BmC8fcQ[kF_5`RMZl3
+l25
+L11
+Vd>2?P[=NLEWb2[lkb5UMQ3
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 <53?AW`[3mVYPQ36O?7GS1
+!i10b 1
+Etotalv_tb
+Z20 w1616969399
+R2
+R3
+R4
+R5
+Z21 8C:/altera/totalizador_variaveis/totalV_tb.vhd
+Z22 FC:/altera/totalizador_variaveis/totalV_tb.vhd
+l0
+L5
+V@zhdkCgl@glOYUDM7RSO@2
+!s100 JA?;IS_MD[@ibClDagfOj3
+R8
+32
+!i10b 1
+Z23 !s108 1616969409.149000
+Z24 !s90 -reportprogress|300|-work|work|C:/altera/totalizador_variaveis/totalV_tb.vhd|
+Z25 !s107 C:/altera/totalizador_variaveis/totalV_tb.vhd|
+Z26 o-work work -O0
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 9 totalv_tb 0 22 @zhdkCgl@glOYUDM7RSO@2
+l19
+L8
+V?iMIhK96BTKVj6BCgEBUb2
+!s100 i?Dg2iNbMA6fC8^b@ac==2
+R8
+32
+!i10b 1
+R23
+R24
+R25
+R26
+R13

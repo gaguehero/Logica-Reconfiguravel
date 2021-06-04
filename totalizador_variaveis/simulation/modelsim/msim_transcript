@@ -1,0 +1,81 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do totalV_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/cont3_variavel/cont3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cont3
+# -- Compiling architecture hardware of cont3
+# vcom -93 -work work {C:/altera/totalizador_variaveis/totalV.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity totalV
+# -- Compiling architecture x of totalV
+# 
+vcom -reportprogress 300 -work work C:/altera/totalizador_variaveis/totalV_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity totalV_tb
+# -- Compiling architecture x of totalV_tb
+# ** Error: C:/altera/totalizador_variaveis/totalV_tb.vhd(38): (vcom-1141) Identifier "totalS" does not identify a component declaration.
+# 
+# ** Error: C:/altera/totalizador_variaveis/totalV_tb.vhd(43): VHDL Compiler exiting
+vcom -reportprogress 300 -work work C:/altera/totalizador_variaveis/totalV_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity totalV_tb
+# -- Compiling architecture x of totalV_tb
+# ** Error: C:/altera/totalizador_variaveis/totalV_tb.vhd(38): (vcom-1141) Identifier "totalS" does not identify a component declaration.
+# 
+# ** Error: C:/altera/totalizador_variaveis/totalV_tb.vhd(43): VHDL Compiler exiting
+vcom -reportprogress 300 -work work C:/altera/totalizador_variaveis/totalV_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity totalV_tb
+# -- Compiling architecture x of totalV_tb
+vsim work.totalv_tb(x)
+# vsim work.totalv_tb(x) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.totalv_tb(x)
+# Loading work.totalv(x)
+# Loading work.cont3(hardware)
+add wave -position insertpoint  \
+sim:/totalv_tb/clk \
+sim:/totalv_tb/rst \
+sim:/totalv_tb/Q
+run 500 ns
+# ** Fatal: (vsim-3421) Value 8 for contador is out of range 0 to 7.
+#    Time: 170 ns  Iteration: 1  Process: /totalv_tb/DUT/totalizador/line__18 File: C:/altera/cont3_variavel/cont3.vhd
+# Fatal error in Process line__18 at C:/altera/cont3_variavel/cont3.vhd line 31
+# 
+# HDL call sequence:
+# Stopped at C:/altera/cont3_variavel/cont3.vhd 31 Process line__18
+# 
+# Unrecognized paper size (Letter), using Custom

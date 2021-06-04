@@ -1,0 +1,188 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\SimpleNiosII\software\app_NOVO1\obj\default\runtime\sim\mentor
+Econtador0
+Z1 w1617215461
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\SimpleNiosII\software\app_NOVO1\obj\default\runtime\sim\mentor
+Z6 8D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador0.vhd
+Z7 FD:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador0.vhd
+l0
+L5
+Vd6kh8VX=]8>USj72Sl<510
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1617216145.581000
+Z10 !s90 -reportprogress|300|D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador0.vhd|-work|exemplo_novo_0|
+Z11 !s107 D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador0.vhd|
+Z12 o-work exemplo_novo_0 -O0
+Z13 tExplicit 1
+!s100 m`<a20TnAB1ZTLTWDN8[G0
+!i10b 1
+Acont0
+R2
+R3
+R4
+DEx4 work 9 contador0 0 22 d6kh8VX=]8>USj72Sl<510
+l12
+L10
+V[`J5fiV[OJP>WL]7=@li80
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 H6D4ZdzQ3?f_NNkkVh5AH3
+!i10b 1
+Econtador1
+R1
+R2
+R3
+R4
+R5
+Z14 8D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador1.vhd
+Z15 FD:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador1.vhd
+l0
+L5
+Vn97JFL9LTXeBSez;AmFCC3
+R8
+32
+Z16 !s108 1617216146.992000
+Z17 !s90 -reportprogress|300|D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador1.vhd|-work|exemplo_novo_0|
+Z18 !s107 D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador1.vhd|
+R12
+R13
+!s100 o;;e@iJLhzU2X9dYjA`Ug3
+!i10b 1
+Acont1
+R2
+R3
+R4
+DEx4 work 9 contador1 0 22 n97JFL9LTXeBSez;AmFCC3
+l12
+L10
+V0n^LS==lXO`ZcAkg2T3^T3
+R8
+32
+R16
+R17
+R18
+R12
+R13
+!s100 [1?8<az;AUiP_QUk1M2^P1
+!i10b 1
+Econtador8bit
+R1
+Z19 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R3
+R4
+R5
+Z21 8D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador8bit.vhd
+Z22 FD:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador8bit.vhd
+l0
+L5
+V]MHze7a^n42nfP7kSA6Pd0
+R8
+32
+Z23 !s108 1617216148.292000
+Z24 !s90 -reportprogress|300|D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador8bit.vhd|-work|exemplo_novo_0|
+Z25 !s107 D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/contador8bit.vhd|
+R12
+R13
+!s100 C?DoTJWW4?9S8TFXC@eHV3
+!i10b 1
+Acontador
+R19
+R20
+R3
+R4
+DEx4 work 12 contador8bit 0 22 ]MHze7a^n42nfP7kSA6Pd0
+l36
+L14
+VEz`O9HEMjL:ekcofGTjYY1
+R8
+32
+R23
+R24
+R25
+R12
+R13
+!s100 `@GU2WkGYUIlBoS_RL;281
+!i10b 1
+Ereg32
+R1
+R3
+R4
+R5
+Z26 8D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/reg32.vhd
+Z27 FD:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/reg32.vhd
+l0
+L3
+V@Cm6LnHRfN2Ya`MYkFVKn1
+R8
+32
+Z28 !s108 1617216149.581000
+Z29 !s90 -reportprogress|300|D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/reg32.vhd|-work|exemplo_novo_0|
+Z30 !s107 D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/reg32.vhd|
+R12
+R13
+!s100 kk@4:=b9]e1^l]aUjiNY70
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 5 reg32 0 22 @Cm6LnHRfN2Ya`MYkFVKn1
+l20
+L10
+VRdkacV365BdzcTGl6aOzO3
+R8
+32
+R28
+R29
+R30
+R12
+R13
+!s100 9L3LOcIDU=6LkG_ETQ8Z93
+!i10b 1
+Ereg32_avalon_interface
+R1
+R3
+R4
+R5
+Z31 8D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/reg32_avalon_interface.vhd
+Z32 FD:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/reg32_avalon_interface.vhd
+l0
+L3
+V?m=O71m=nfVCFfWANkV;W2
+!s100 CaRB]l9Z>>aYgj<z>V[z]1
+R8
+32
+!i10b 1
+Z33 !s108 1617216151.111000
+Z34 !s90 -reportprogress|300|D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/reg32_avalon_interface.vhd|-work|exemplo_novo_0|
+Z35 !s107 D:/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/reg32_avalon_interface.vhd|
+R12
+R13
+Astructure
+R3
+R4
+DEx4 work 22 reg32_avalon_interface 0 22 ?m=O71m=nfVCFfWANkV;W2
+l35
+L13
+VZRj>C44Fjz4WcHD2e>P4O0
+!s100 aIk?PB^VmjG:j_XnMfc6;3
+R8
+32
+!i10b 1
+R33
+R34
+R35
+R12
+R13

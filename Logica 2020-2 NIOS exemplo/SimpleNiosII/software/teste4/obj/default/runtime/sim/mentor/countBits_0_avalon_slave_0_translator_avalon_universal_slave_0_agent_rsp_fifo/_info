@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\aaaaa\NIOS-IV\SimpleNiosII\software\teste4\obj\default\runtime\sim\mentor
+Ehostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+Z1 w1600353145
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\aaaaa\NIOS-IV\SimpleNiosII\software\teste4\obj\default\runtime\sim\mentor
+Z5 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho
+Z6 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho
+l0
+L30
+V6d9=I5A<MhDE6V8JQh9KY1
+!s100 8i7Xe^hXNXQW48:`1XFO_3
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1600353996.354000
+Z9 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho|-work|countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo|
+Z10 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho|
+Z11 o-work countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo -O0
+Z12 tExplicit 1
+Artl
+R2
+R3
+Z13 DEx4 work 88 hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo 0 22 6d9=I5A<MhDE6V8JQh9KY1
+l277
+L48
+Z14 VO<kQ2XecRH6o`379@04Lf2
+Z15 !s100 `NFN6L]B01GDl9GVd5m9K2
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12

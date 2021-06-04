@@ -1,0 +1,12 @@
+--
+-- Testbench Xor 2_1
+--
+-- Gabriel Guerrero
+-- Março 2021
+--
+-- A B | O
+-- 0 0 | 0
+-- 0 1 | 1
+-- 1 0 | 1
+-- 1 1 | 0
+--

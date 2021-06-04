@@ -1,0 +1,190 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\aaaaa\NIOS-IV\SimpleNiosII\software\teste9\obj\default\runtime\sim\mentor
+Ecount8bits
+Z1 w1600381118
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\aaaaa\NIOS-IV\SimpleNiosII\software\teste9\obj\default\runtime\sim\mentor
+Z6 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/count8bits.vhd
+Z7 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/count8bits.vhd
+l0
+L6
+VjPnI_SEM:k^LLMhd4UXDo0
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1600382018.668000
+Z10 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/count8bits.vhd|-work|countBits_0|
+Z11 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/count8bits.vhd|
+Z12 o-work countBits_0 -O0
+Z13 tExplicit 1
+!s100 d3J2>3@G^hlFPOnD_eAA:1
+!i10b 1
+Abehav
+R2
+R3
+R4
+DEx4 work 10 count8bits 0 22 jPnI_SEM:k^LLMhd4UXDo0
+l24
+L20
+VRO_Eonk:ZcmQVUNzL^FGj3
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 HbnY^?kDE??Wo8fhGOO3a1
+!i10b 1
+Ecountbits0
+R1
+R2
+R3
+R4
+R5
+Z14 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/countBits0.vhd
+Z15 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/countBits0.vhd
+l0
+L8
+V:a:n:zKkNB<Ym<_lLRn=22
+R8
+32
+Z16 !s108 1600382019.572000
+Z17 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/countBits0.vhd|-work|countBits_0|
+Z18 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/countBits0.vhd|
+R12
+R13
+!s100 A`5G2bnYSRz0cHaHofiVE0
+!i10b 1
+Abehav
+R2
+R3
+R4
+DEx4 work 10 countbits0 0 22 :a:n:zKkNB<Ym<_lLRn=22
+l20
+L16
+V3?4625OLKGFS5@Lf2jWDL0
+R8
+32
+R16
+R17
+R18
+R12
+R13
+!s100 =4h<dGX5XlSJ`l`kfR_CR1
+!i10b 1
+Ecountbits1
+R1
+R2
+R3
+R4
+R5
+Z19 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/countBits1.vhd
+Z20 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/countBits1.vhd
+l0
+L8
+VD5[KSjAlgQ9@NzPhddnFA2
+R8
+32
+Z21 !s108 1600382020.271000
+Z22 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/countBits1.vhd|-work|countBits_0|
+Z23 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/countBits1.vhd|
+R12
+R13
+!s100 I8ZkBN^K7RAjBTJUXWi=B1
+!i10b 1
+Abehav
+R2
+R3
+R4
+DEx4 work 10 countbits1 0 22 D5[KSjAlgQ9@NzPhddnFA2
+l20
+L16
+V4Wl6<R5MXf=RMghj=fEQ]1
+!s100 mE=;g@G6biI;<nXlZT3F41
+R8
+32
+R21
+R22
+R23
+R12
+R13
+!i10b 1
+Eregister16bits
+R1
+R2
+R3
+R4
+R5
+Z24 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/register16bits.vhd
+Z25 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/register16bits.vhd
+l0
+L6
+VH2FJO7WA8^AcfH8j:h58S3
+!s100 2kJjdn3>VI@0mEC<mmkB^2
+R8
+32
+!i10b 1
+Z26 !s108 1600382021.275000
+Z27 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/register16bits.vhd|-work|countBits_0|
+Z28 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/register16bits.vhd|
+R12
+R13
+Abehav
+R2
+R3
+R4
+Z29 DEx4 work 14 register16bits 0 22 H2FJO7WA8^AcfH8j:h58S3
+l22
+L18
+Z30 V1Rl0cA3nFV1jc:G3>1S7j2
+Z31 !s100 A>XdY<`l?da@j:zdRUUQZ1
+R8
+32
+!i10b 1
+R26
+R27
+R28
+R12
+R13
+Etoplevel
+R1
+R2
+R3
+R4
+R5
+Z32 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/toplevel.vhd
+Z33 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/toplevel.vhd
+l0
+L8
+VmLzTk;7Qnd=8n>Ib=LARJ2
+R8
+32
+Z34 !s108 1600382017.781000
+Z35 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/toplevel.vhd|-work|countBits_0|
+Z36 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/toplevel.vhd|
+R12
+R13
+!s100 nnnXR3Y3ojzHg:Czn8CP=0
+!i10b 1
+Abehav
+R2
+R3
+R4
+DEx4 work 8 toplevel 0 22 mLzTk;7Qnd=8n>Ib=LARJ2
+l64
+L20
+V;UPG;CBe[4a^RbSWAEZem1
+R8
+32
+R34
+R35
+R36
+R12
+R13
+!s100 =QRCDOkZ?nBJ[I<G>Z^aQ1
+!i10b 1

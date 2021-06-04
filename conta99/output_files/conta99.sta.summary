@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'conta4:dezena|CONT[0]'
+Slack : -2.156
+TNS   : -2.156
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -0.603
+TNS   : -2.390
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.008
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'conta4:dezena|CONT[0]'
+Slack : 1.665
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'conta4:dezena|CONT[0]'
+Slack : 0.427
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'conta4:dezena|CONT[0]'
+Slack : -1.879
+TNS   : -1.879
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -0.434
+TNS   : -1.429
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : -0.023
+TNS   : -0.023
+
+Type  : Slow 1200mV 0C Model Hold 'conta4:dezena|CONT[0]'
+Slack : 1.551
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -11.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'conta4:dezena|CONT[0]'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'conta4:dezena|CONT[0]'
+Slack : -0.779
+TNS   : -0.779
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : 0.095
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : -0.003
+TNS   : -0.003
+
+Type  : Fast 1200mV 0C Model Hold 'conta4:dezena|CONT[0]'
+Slack : 0.903
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -11.748
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'conta4:dezena|CONT[0]'
+Slack : 0.431
+TNS   : 0.000
+
+------------------------------------------------------------

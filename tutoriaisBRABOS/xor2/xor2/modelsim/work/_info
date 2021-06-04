@@ -1,0 +1,73 @@
+m255
+K3
+13
+cModel Technology
+dC:\altera\tutoriaisBRABOS\xor2\simulation\modelsim
+Etestbench1
+Z0 w1614796607
+Z1 dC:\altera\tutoriaisBRABOS\xor2\xor2\modelsim
+Z2 8C:/altera/tutoriaisBRABOS/xor2/xor2_1_tb.vhd
+Z3 FC:/altera/tutoriaisBRABOS/xor2/xor2_1_tb.vhd
+l0
+L13
+V]XXZ3Rn>?b=2AJib]^:ZM2
+!s100 <H9KU>9nU=O@`TDXTgLE?0
+Z4 OV;C;10.1d;51
+32
+!i10b 1
+Z5 !s108 1614882503.200000
+Z6 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/altera/tutoriaisBRABOS/xor2/xor2_1_tb.vhd|
+Z7 !s107 C:/altera/tutoriaisBRABOS/xor2/xor2_1_tb.vhd|
+Z8 o-work work -2002 -explicit -O0
+Z9 tExplicit 1
+Axor2_1_tb
+Z10 DEx4 work 10 testbench1 0 22 ]XXZ3Rn>?b=2AJib]^:ZM2
+Z11 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z12 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+l31
+L19
+Z13 V43mgZE;iYWdJCZXklNBi:3
+Z14 !s100 a`fEBHMNU9ZmRgeeiz7Wa0
+R4
+32
+!i10b 1
+R5
+R6
+R7
+R8
+R9
+Exor2_1
+Z15 w1614881603
+R11
+R12
+R1
+Z16 8C:/altera/tutoriaisBRABOS/xor2/xor2_1.vhd
+Z17 FC:/altera/tutoriaisBRABOS/xor2/xor2_1.vhd
+l0
+L20
+VgF0h_ETDSRl_aegMkVGcE1
+R4
+32
+Z18 !s108 1614882502.708000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/altera/tutoriaisBRABOS/xor2/xor2_1.vhd|
+Z20 !s107 C:/altera/tutoriaisBRABOS/xor2/xor2_1.vhd|
+R8
+R9
+!s100 7VA[ODi6aRi@e_`LD<`@L2
+!i10b 1
+Ahardware
+R11
+R12
+DEx4 work 6 xor2_1 0 22 gF0h_ETDSRl_aegMkVGcE1
+l28
+L27
+VZcc9Y9a[gKWlT7TKd>J5=3
+!s100 @maZNK=Y[e`79@0YCQL4h0
+R4
+32
+R18
+R19
+R20
+R8
+R9
+!i10b 1

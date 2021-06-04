@@ -1,0 +1,6 @@
+|xor2_1
+in1 => o.IN0
+in2 => o.IN1
+o <= o.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,12 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\VHDL_NOVO\user_HW_Copia1\hw\aaaaa\NIOS-IV\SimpleNiosII\software\teste_NIOS_IV_1\obj\default\runtime\sim\mentor
+Ehostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+o-work countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo -O0
+Z1 tExplicit 1
+Z2 dD:\VHDL_NOVO\user_HW_Copia1\hw\aaaaa\NIOS-IV\SimpleNiosII\software\teste_NIOS_IV_1\obj\default\runtime\sim\mentor
+!s108 1600350365.402000
+!s90 -reportprogress|300|D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho|-work|countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo|
+!s107 D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho|

@@ -1,0 +1,116 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\totalizador_sinais\simulation\modelsim
+Econt3
+Z1 w1616958983
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\totalizador_sinais\simulation\modelsim
+Z6 8C:/altera/totalizador_sinais/cont3.vhd
+Z7 FC:/altera/totalizador_sinais/cont3.vhd
+l0
+L6
+VM?ACCoH4@<b:^=6U_l?em1
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1616969230.080000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/totalizador_sinais/cont3.vhd|
+Z11 !s107 C:/altera/totalizador_sinais/cont3.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 k?EnPgbe3aP57TSUKgf2[1
+!i10b 1
+Ahardware
+R2
+R3
+R4
+DEx4 work 5 cont3 0 22 M?ACCoH4@<b:^=6U_l?em1
+l17
+L15
+V]B>_cAV8GS3M3]cn_P1I62
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 AM2BigQ7ZK83LzKohKNlT2
+!i10b 1
+Etotals
+Z14 w1616965691
+R2
+R3
+R4
+R5
+Z15 8C:/altera/totalizador_sinais/totalS.vhd
+Z16 FC:/altera/totalizador_sinais/totalS.vhd
+l0
+L5
+ViHCAXkH[FgYo;hRh4JgOK3
+R8
+31
+Z17 !s108 1616969230.398000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/altera/totalizador_sinais/totalS.vhd|
+Z19 !s107 C:/altera/totalizador_sinais/totalS.vhd|
+R12
+R13
+!s100 520^Sk^BU1?`2Xhbbz2:_3
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 6 totals 0 22 iHCAXkH[FgYo;hRh4JgOK3
+l25
+L11
+Vbn]69eA1N4lZQC;^d<Bbz0
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 A0Sk;Hh4@1Z:gT11[TnZX0
+!i10b 1
+Etotals_tb
+Z20 w1616966522
+R2
+R3
+R4
+R5
+Z21 8C:/altera/totalizador_sinais/totalS_tb.vhd
+Z22 FC:/altera/totalizador_sinais/totalS_tb.vhd
+l0
+L5
+VML>B^Ka3c^BIHnTmYb:5d0
+!s100 b1Ri0`cP6onZoffWQCm4>1
+R8
+32
+!i10b 1
+Z23 !s108 1616969245.706000
+Z24 !s90 -reportprogress|300|-work|work|C:/altera/totalizador_sinais/totalS_tb.vhd|
+Z25 !s107 C:/altera/totalizador_sinais/totalS_tb.vhd|
+Z26 o-work work -O0
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 9 totals_tb 0 22 ML>B^Ka3c^BIHnTmYb:5d0
+l19
+L8
+VT90SEnAG>XZ]SRlgmk;M@3
+!s100 1MQNenGZ:Sb>;e8]m0WmS1
+R8
+32
+!i10b 1
+R23
+R24
+R25
+R26
+R13

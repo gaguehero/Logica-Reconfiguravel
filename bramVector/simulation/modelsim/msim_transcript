@@ -1,0 +1,45 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do bramVector_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/bramVector/bramVector.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bramVector
+# -- Compiling architecture arc of bramVector
+# 
+vcom -reportprogress 300 -work work C:/altera/bramVector/bramVector_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bramVector_tb
+# -- Compiling architecture x of bramVector_tb
+vsim work.bramvector_tb(x)
+# vsim work.bramvector_tb(x) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bramvector_tb(x)
+# ** Warning: (vsim-3473) Component instance "DUT : bram" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /bramvector_tb File: C:/altera/bramVector/bramVector_tb.vhd
+add wave -position insertpoint  \
+sim:/bramvector_tb/clk \
+sim:/bramvector_tb/wr_en \
+sim:/bramvector_tb/address \
+sim:/bramvector_tb/entra \
+sim:/bramvector_tb/sai
+run 500 ns

@@ -1,0 +1,116 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\cont4_completo\simulation\modelsim
+Econt4_completo
+Z1 w1616964811
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\cont4_completo\simulation\modelsim
+Z6 8C:/altera/cont4_completo/cont4_completo.vhd
+Z7 FC:/altera/cont4_completo/cont4_completo.vhd
+l0
+L5
+Vce1AJ_GjQRk9^VkVlmA5M0
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1620243474.420000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/cont4_completo/cont4_completo.vhd|
+Z11 !s107 C:/altera/cont4_completo/cont4_completo.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 NJEb9_kXZn3c6=50M9gnS3
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 14 cont4_completo 0 22 ce1AJ_GjQRk9^VkVlmA5M0
+l26
+L14
+V6bnk>nRa@`Mz1C<T9Yh2A3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 J0`0eb[UM`<TD7MzHEYzN0
+!i10b 1
+Econt4_completo_tb
+Z14 w1614775725
+R2
+R3
+R4
+R5
+Z15 8C:/altera/cont4_completo/cont4_completo_tb.vhd
+Z16 FC:/altera/cont4_completo/cont4_completo_tb.vhd
+l0
+L5
+V@lb=gzdoUZ64SfZIdbbTY2
+!s100 h4^7OT2A_en85G^7e>z^U1
+R8
+32
+!i10b 1
+Z17 !s108 1620243486.952000
+Z18 !s90 -reportprogress|300|-work|work|C:/altera/cont4_completo/cont4_completo_tb.vhd|
+Z19 !s107 C:/altera/cont4_completo/cont4_completo_tb.vhd|
+Z20 o-work work -O0
+R13
+Ax1
+R2
+R3
+R4
+DEx4 work 17 cont4_completo_tb 0 22 @lb=gzdoUZ64SfZIdbbTY2
+l25
+L8
+VgifnDChN[]9Fm?HoJbjL93
+!s100 KU5T3Kl16Lo]:4OnZdFX]3
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R20
+R13
+Edivisor
+Z21 w1616964201
+R2
+R3
+R4
+R5
+Z22 8C:/altera/Divisor/DIVISOR.vhd
+Z23 FC:/altera/Divisor/DIVISOR.vhd
+l0
+L5
+VE[UkI1Ez9jNAUJZV0JOn02
+R8
+31
+Z24 !s108 1620243474.021000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/altera/Divisor/DIVISOR.vhd|
+Z26 !s107 C:/altera/Divisor/DIVISOR.vhd|
+R12
+R13
+!s100 N^d6oWhEaNdPa1S:5WV?c1
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 7 divisor 0 22 E[UkI1Ez9jNAUJZV0JOn02
+l19
+L14
+VbJ]F6>5GVf^3P3edzIHE51
+R8
+31
+R24
+R25
+R26
+R12
+R13
+!s100 @M9oCF<P;bFOnkh4D;ceH2
+!i10b 1

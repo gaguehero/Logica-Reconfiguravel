@@ -1,0 +1,11 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity cronometro is
+	PORT(RST: in std_logic;
+	     CLK: in std_logic;
+		  Q: out unsigned(7 downto 0);
+		  B1: in std_logic; -- botão 1
+		  B2: in std_logic); -- botão 2
+end entity;  

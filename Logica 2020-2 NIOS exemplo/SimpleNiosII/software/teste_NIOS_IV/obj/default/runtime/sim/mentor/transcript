@@ -1,0 +1,944 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do msim_setup.tcl 
+# HostSystem_tb
+# ./../
+# C:/altera/13.0sp1/quartus/
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# Modifying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+# [exec] file_copy 
+# List Of Command Line Aliases 
+# 
+# file_copy                     -- Copy ROM/RAM files to simulation directory 
+# 
+# dev_com                       -- Compile device library files 
+# 
+# com                           -- Compile the design files in correct order 
+# 
+# elab                          -- Elaborate top level design 
+# 
+# elab_debug                    -- Elaborate the top level design with novopt option 
+# 
+# ld                            -- Compile all the design files and elaborate the top level design 
+# 
+# ld_debug                      -- Compile all the design files and elaborate the top level design with -novopt 
+# 
+# 
+# 
+# List Of Variables 
+# 
+# TOP_LEVEL_NAME                -- Top level module name. 
+# 
+# SYSTEM_INSTANCE_NAME          -- Instantiated system module name inside top level module. 
+# 
+# QSYS_SIMDIR                   -- Qsys base simulation directory. 
+# 
+# QUARTUS_INSTALL_DIR           -- Quartus installation directory. 
+#  ld 
+# [exec] dev_com 
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'irq_mapper' at "irq_mapper".
+# 
+# No such file or directory. (errno = ENOENT)
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+#   
+do compLib.do
+# ** Warning: (vlib-34) Library already exists at "HostSystem_inst_clk_bfm".
+# 
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vlog-19) Failed to access library 'width_adapter' at "width_adapter".
+# 
+# No such file or directory. (errno = ENOENT)
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+vlib width_adapter
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'rsp_xbar_demux_001' at "rsp_xbar_demux_001".
+# 
+# No such file or directory. (errno = ENOENT)
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib rsp_xbar_demux_001
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vlog-19) Failed to access library 'burst_adapter' at "burst_adapter".
+# 
+# No such file or directory. (errno = ENOENT)
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+vlib burst_adapter
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'id_router_002' at "id_router_002".
+# 
+# No such file or directory. (errno = ENOENT)
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib id_router_002
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_002
+# -- Compiling architecture RTL of HostSystem_id_router_002
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_001
+# -- Compiling architecture RTL of HostSystem_id_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router
+# -- Compiling architecture RTL of HostSystem_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router_001
+# -- Compiling architecture RTL of HostSystem_addr_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router
+# -- Compiling architecture RTL of HostSystem_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: (vcom-19) Failed to access library 'countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo' at "countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo".
+# 
+# No such file or directory. (errno = ENOENT)
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_002
+# -- Compiling architecture RTL of HostSystem_id_router_002
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_001
+# -- Compiling architecture RTL of HostSystem_id_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router
+# -- Compiling architecture RTL of HostSystem_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router_001
+# -- Compiling architecture RTL of HostSystem_addr_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router
+# -- Compiling architecture RTL of HostSystem_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Error: (vcom-1935) Unable to move temporary file D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/software/teste_NIOS_IV/obj/default/runtime/sim/mentor/countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo/_temp/vlog0g83tk to D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/software/teste_NIOS_IV/obj/default/runtime/sim/mentor/countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo/_primary.dbs.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho(46): VHDL Compiler exiting
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_002
+# -- Compiling architecture RTL of HostSystem_id_router_002
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_001
+# -- Compiling architecture RTL of HostSystem_id_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router
+# -- Compiling architecture RTL of HostSystem_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router_001
+# -- Compiling architecture RTL of HostSystem_addr_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router
+# -- Compiling architecture RTL of HostSystem_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Error: (vcom-7) Failed to open library file "D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/software/teste_NIOS_IV/obj/default/runtime/sim/mentor/countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo" in read/write/execute mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho(46): VHDL Compiler exiting
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib ountBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_002
+# -- Compiling architecture RTL of HostSystem_id_router_002
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_001
+# -- Compiling architecture RTL of HostSystem_id_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router
+# -- Compiling architecture RTL of HostSystem_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router_001
+# -- Compiling architecture RTL of HostSystem_addr_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router
+# -- Compiling architecture RTL of HostSystem_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Error: (vcom-7) Failed to open library file "D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/software/teste_NIOS_IV/obj/default/runtime/sim/mentor/countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo" in read/write/execute mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho(46): VHDL Compiler exiting
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Warning: (vlib-34) Library already exists at "hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo".
+# 
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_002
+# -- Compiling architecture RTL of HostSystem_id_router_002
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_001
+# -- Compiling architecture RTL of HostSystem_id_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router
+# -- Compiling architecture RTL of HostSystem_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router_001
+# -- Compiling architecture RTL of HostSystem_addr_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router
+# -- Compiling architecture RTL of HostSystem_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Error: (vcom-7) Failed to open library file "D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/software/teste_NIOS_IV/obj/default/runtime/sim/mentor/countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo" in read/write/execute mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho(46): VHDL Compiler exiting
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Warning: (vlib-34) Library already exists at "HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo".
+# 
+vlib HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Warning: (vlib-34) Library already exists at "HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo".
+# 
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_002
+# -- Compiling architecture RTL of HostSystem_id_router_002
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_001
+# -- Compiling architecture RTL of HostSystem_id_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router
+# -- Compiling architecture RTL of HostSystem_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router_001
+# -- Compiling architecture RTL of HostSystem_addr_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router
+# -- Compiling architecture RTL of HostSystem_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Error: (vcom-7) Failed to open library file "D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/software/teste_NIOS_IV/obj/default/runtime/sim/mentor/countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo" in read/write/execute mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho(46): VHDL Compiler exiting
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Warning: (vlib-34) Library already exists at "HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo".
+# 
+com
+# [exec] com 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_irq_mapper
+# -- Compiling architecture RTL of HostSystem_irq_mapper
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_mux
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_rsp_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_rsp_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package sgate_pack
+# -- Compiling entity HostSystem_cmd_xbar_mux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_mux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux_001
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_cmd_xbar_demux
+# -- Compiling architecture RTL of HostSystem_cmd_xbar_demux
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Top level modules:
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_002
+# -- Compiling architecture RTL of HostSystem_id_router_002
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router_001
+# -- Compiling architecture RTL of HostSystem_id_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_id_router
+# -- Compiling architecture RTL of HostSystem_id_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router_001
+# -- Compiling architecture RTL of HostSystem_addr_router_001
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_addr_router
+# -- Compiling architecture RTL of HostSystem_addr_router
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Error: (vcom-7) Failed to open library file "D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/software/teste_NIOS_IV/obj/default/runtime/sim/mentor/countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo" in read/write/execute mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo.vho(46): VHDL Compiler exiting
+# C:/altera/13.0sp1/modelsim_ase/win32aloem/vcom failed.
+vlib countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo
+# ** Warning: (vlib-34) Library already exists at "countBits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent_rsp_fifo".
+# 

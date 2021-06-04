@@ -1,0 +1,412 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\aaaaa\NIOS-IV\SimpleNiosII\software\teste4\obj\default\runtime\sim\mentor
+Ehostsystem
+Z1 w1600353135
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\aaaaa\NIOS-IV\SimpleNiosII\software\teste4\obj\default\runtime\sim\mentor
+Z6 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem.vhd
+Z7 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem.vhd
+l0
+L9
+VzKcOm1mIT[eL@=4hj9R[N0
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1600354013.390000
+Z10 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem.vhd|-work|HostSystem_inst|
+Z11 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem.vhd|
+Z12 o-work HostSystem_inst -O0
+Z13 tExplicit 1
+!s100 5SRoan;JOB9JhbmK8ozz`2
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 10 hostsystem 0 22 zKcOm1mIT[eL@=4hj9R[N0
+l1322
+L16
+V`4lXBInV4R[d^^eb9HnL31
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 5n=U7e6_k36AGZ;1PQGg`1
+!i10b 1
+Ehostsystem_countbits_0_avalon_slave_0_translator
+R1
+R2
+R3
+R4
+R5
+Z14 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_countbits_0_avalon_slave_0_translator.vhd
+Z15 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_countbits_0_avalon_slave_0_translator.vhd
+l0
+L9
+V;<k^8zV5Ve;K309<Eh9o81
+R8
+32
+Z16 !s108 1600354015.279000
+Z17 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_countbits_0_avalon_slave_0_translator.vhd|-work|HostSystem_inst|
+Z18 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_countbits_0_avalon_slave_0_translator.vhd|
+R12
+R13
+!s100 FEcF0QE02zU:oYF^bA[941
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 48 hostsystem_countbits_0_avalon_slave_0_translator 0 22 ;<k^8zV5Ve;K309<Eh9o81
+l148
+L78
+V21XBTYXbPTZT3UDSVlmB20
+R8
+32
+R16
+R17
+R18
+R12
+R13
+!s100 <:X21<0zM_z]j=jM0oPoi1
+!i10b 1
+Ehostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent
+R1
+R2
+R3
+R4
+R5
+Z19 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent.vhd
+Z20 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent.vhd
+l0
+L9
+VnfM`Dlo;>P0d4LJ1NbJ>X1
+R8
+32
+Z21 !s108 1600354017.206000
+Z22 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent.vhd|-work|HostSystem_inst|
+Z23 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent.vhd|
+R12
+R13
+!s100 2GNAe9alZPi=JDHcXa]nU3
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 79 hostsystem_countbits_0_avalon_slave_0_translator_avalon_universal_slave_0_agent 0 22 nfM`Dlo;>P0d4LJ1NbJ>X1
+l178
+L93
+VngfaG0zbcnCiL0Dl24TO10
+R8
+32
+R21
+R22
+R23
+R12
+R13
+!s100 iU@JiDOP8QI?6[]1[8bib1
+!i10b 1
+Ehostsystem_cpu_data_master_translator
+R1
+R2
+R3
+R4
+R5
+Z24 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_cpu_data_master_translator.vhd
+Z25 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_cpu_data_master_translator.vhd
+l0
+L9
+V[b^=UN[DMZFhRZ<UPzznE3
+!s100 lUn0PPB_j[jLH2<C<cS4a3
+R8
+32
+!i10b 1
+Z26 !s108 1600354022.538000
+Z27 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_cpu_data_master_translator.vhd|-work|HostSystem_inst|
+Z28 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_cpu_data_master_translator.vhd|
+R12
+R13
+Artl
+R2
+R3
+R4
+Z29 DEx4 work 37 hostsystem_cpu_data_master_translator 0 22 [b^=UN[DMZFhRZ<UPzznE3
+l140
+L74
+Z30 VAi;EE6f6E4D6WJO_1]9<51
+Z31 !s100 cnY7T>doUFZ>ood9Zn86J1
+R8
+32
+!i10b 1
+R26
+R27
+R28
+R12
+R13
+Ehostsystem_cpu_instruction_master_translator
+R1
+R2
+R3
+R4
+R5
+Z32 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_cpu_instruction_master_translator.vhd
+Z33 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_cpu_instruction_master_translator.vhd
+l0
+L9
+VnPR>mb<fLS:R7[ngMVzcZ2
+R8
+32
+Z34 !s108 1600354021.542000
+Z35 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_cpu_instruction_master_translator.vhd|-work|HostSystem_inst|
+Z36 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_cpu_instruction_master_translator.vhd|
+R12
+R13
+!s100 iRk?z=iV<RF;7c;9VTLgl0
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 44 hostsystem_cpu_instruction_master_translator 0 22 nPR>mb<fLS:R7[ngMVzcZ2
+l140
+L74
+V7bJZl2]KkL?V:6DAC1B<z3
+!s100 b;[0UD;oGTPfCoik`aDMa3
+R8
+32
+R34
+R35
+R36
+R12
+R13
+!i10b 1
+Ehostsystem_memory_s1_translator
+R1
+R2
+R3
+R4
+R5
+Z37 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_memory_s1_translator.vhd
+Z38 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_memory_s1_translator.vhd
+l0
+L9
+V5`4P2Ye_=PRE2TDeb[T`J0
+R8
+32
+Z39 !s108 1600354014.315000
+Z40 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_memory_s1_translator.vhd|-work|HostSystem_inst|
+Z41 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_memory_s1_translator.vhd|
+R12
+R13
+!s100 C?8ITB6C3k;noczNXo>dO1
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 31 hostsystem_memory_s1_translator 0 22 5`4P2Ye_=PRE2TDeb[T`J0
+l148
+L78
+V_0IQ8?APKd]mX89[;PSEV2
+R8
+32
+R39
+R40
+R41
+R12
+R13
+!s100 W<Ne^enaoXa7JUKB<cc@V0
+!i10b 1
+Ehostsystem_memory_s1_translator_avalon_universal_slave_0_agent
+R1
+R2
+R3
+R4
+R5
+Z42 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_memory_s1_translator_avalon_universal_slave_0_agent.vhd
+Z43 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_memory_s1_translator_avalon_universal_slave_0_agent.vhd
+l0
+L9
+ViMEgUX8IN7Tf8KaLUT47Z0
+R8
+32
+Z44 !s108 1600354016.227000
+Z45 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_memory_s1_translator_avalon_universal_slave_0_agent.vhd|-work|HostSystem_inst|
+Z46 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_memory_s1_translator_avalon_universal_slave_0_agent.vhd|
+R12
+R13
+!s100 gnhS_nW`_j=<ez2gUlAd`0
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 62 hostsystem_memory_s1_translator_avalon_universal_slave_0_agent 0 22 iMEgUX8IN7Tf8KaLUT47Z0
+l178
+L93
+VKD1CIH:ZJUAaBdXoc8Zgf1
+R8
+32
+R44
+R45
+R46
+R12
+R13
+!s100 bfeZmJO0jd1dk5zzF]^Ln1
+!i10b 1
+Ehostsystem_width_adapter
+R1
+R2
+R3
+R4
+R5
+Z47 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter.vhd
+Z48 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter.vhd
+l0
+L9
+V6W97QHAMLE9fVEVfm67in0
+R8
+32
+Z49 !s108 1600354018.066000
+Z50 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter.vhd|-work|HostSystem_inst|
+Z51 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter.vhd|
+R12
+R13
+!s100 5S7BVOJA4V;D_`Y>Z=_kj3
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 24 hostsystem_width_adapter 0 22 6W97QHAMLE9fVEVfm67in0
+l132
+L70
+V3@IP2=PG^@Al6MGg]=K[J2
+R8
+32
+R49
+R50
+R51
+R12
+R13
+!s100 CF6R;Don1zW4S8OTc3GT_2
+!i10b 1
+Ehostsystem_width_adapter_001
+R1
+R2
+R3
+R4
+R5
+Z52 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_001.vhd
+Z53 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_001.vhd
+l0
+L9
+VFIV?li6M>WHj^YII0Ra]R2
+R8
+32
+Z54 !s108 1600354018.857000
+Z55 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_001.vhd|-work|HostSystem_inst|
+Z56 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_001.vhd|
+R12
+R13
+!s100 ;9K`6EjYAF3Ag2fJgCE=_0
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 28 hostsystem_width_adapter_001 0 22 FIV?li6M>WHj^YII0Ra]R2
+l132
+L70
+VjC0CbGb8^dccYSY;SkDJ02
+R8
+32
+R54
+R55
+R56
+R12
+R13
+!s100 h=lCZb<f<L@j2BEAamClN1
+!i10b 1
+Ehostsystem_width_adapter_002
+R1
+R2
+R3
+R4
+R5
+Z57 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_002.vhd
+Z58 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_002.vhd
+l0
+L9
+VS<CEg?Nh63;ETI@XSn9GQ2
+R8
+32
+Z59 !s108 1600354019.765000
+Z60 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_002.vhd|-work|HostSystem_inst|
+Z61 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_002.vhd|
+R12
+R13
+!s100 h@:A5Alk2n79lF2XWh4CC2
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 28 hostsystem_width_adapter_002 0 22 S<CEg?Nh63;ETI@XSn9GQ2
+l132
+L70
+V;5`38bN_4SY;4LO>QG`G83
+R8
+32
+R59
+R60
+R61
+R12
+R13
+!s100 h_CWi]]f_j<V4[Y:NiF@O0
+!i10b 1
+Ehostsystem_width_adapter_003
+R1
+R2
+R3
+R4
+R5
+Z62 8D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_003.vhd
+Z63 FD:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_003.vhd
+l0
+L9
+V]N9GfhM4N8Y^[oe^SQk]51
+R8
+32
+Z64 !s108 1600354020.621000
+Z65 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_003.vhd|-work|HostSystem_inst|
+Z66 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/hostsystem_width_adapter_003.vhd|
+R12
+R13
+!s100 Kha^QC6@9gK;BlcHX7I5z0
+!i10b 1
+Artl
+R2
+R3
+R4
+DEx4 work 28 hostsystem_width_adapter_003 0 22 ]N9GfhM4N8Y^[oe^SQk]51
+l132
+L70
+VG:8G7FAgGR08W2DBY6a_F3
+R8
+32
+R64
+R65
+R66
+R12
+R13
+!s100 m]`09^DkM>AlYo0B>XVFF3
+!i10b 1

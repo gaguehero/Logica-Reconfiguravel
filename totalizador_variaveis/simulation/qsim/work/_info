@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\totalizador_variaveis\simulation\qsim
+vtotalV
+Z1 I90ml=V7mPJYJz4kL:64Fh2
+Z2 V2mHizROHDdLAZ=4=hH>1L3
+Z3 dC:\altera\totalizador_variaveis\simulation\qsim
+Z4 w1616969016
+Z5 8totalV.vo
+Z6 FtotalV.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|totalV.vo|
+Z9 o-work work -O0
+Z10 ntotal@v
+!i10b 1
+Z11 !s100 _DkhRh2SilZ]XNAR5YHRX1
+!s85 0
+Z12 !s108 1616969018.633000
+Z13 !s107 totalV.vo|
+!s101 -O0
+vtotalV_vlg_check_tst
+!i10b 1
+Z14 !s100 MSgo9W4[zgm`4Y5=h>Ho_2
+Z15 I[LII=<HLnSdQ[f1bIzIo21
+Z16 VXU05Ug??9dA5KhK7kM:N63
+R3
+Z17 w1616969015
+Z18 8totalV.vt
+Z19 FtotalV.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z20 !s108 1616969020.240000
+Z21 !s107 totalV.vt|
+Z22 !s90 -work|work|totalV.vt|
+!s101 -O0
+R9
+Z23 ntotal@v_vlg_check_tst
+vtotalV_vlg_sample_tst
+!i10b 1
+Z24 !s100 E@GKbGDblCZlZkM;n3jCM0
+Z25 Ibi_n55lZbT?mn7@>J<7UZ2
+Z26 VS<aDjZh=L`AELVY71Y9CQ3
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 ntotal@v_vlg_sample_tst
+vtotalV_vlg_vec_tst
+!i10b 1
+Z28 !s100 Ag?;m9U5e4T2h8bjEfh@Z2
+Z29 I`;U;:QCB?LZ6M:Ho[E]ok1
+Z30 V@ab:=^U9lleJb8OnZHF;X3
+R3
+R17
+R18
+R19
+Z31 L0 189
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 ntotal@v_vlg_vec_tst

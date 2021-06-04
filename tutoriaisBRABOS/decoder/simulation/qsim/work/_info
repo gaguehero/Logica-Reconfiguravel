@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\tutoriaisBRABOS\decoder\simulation\qsim
+vdecod2_4
+Z1 IN]@[d?J65Y[5o;n]H46S:0
+Z2 V95^0k7V_e`PLiKdWnlk=c2
+Z3 dC:\altera\tutoriaisBRABOS\decoder\simulation\qsim
+Z4 w1614782403
+Z5 8decod2_4.vo
+Z6 Fdecod2_4.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 4b_`>WX65o8jaIS9]ROY[1
+!s85 0
+Z10 !s108 1614782404.995000
+Z11 !s107 decod2_4.vo|
+Z12 !s90 -work|work|decod2_4.vo|
+!s101 -O0
+vdecod2_4_vlg_check_tst
+!i10b 1
+!s100 >H_2Yd2YBfVZb3A8?hY;_1
+I>l=bHeh4OohR[JXhQ?4393
+VDBRHY?8YZj>iCEeRXJ]LN0
+R3
+Z13 w1614782401
+Z14 8decod2_4.vt
+Z15 Fdecod2_4.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z16 !s108 1614782405.438000
+Z17 !s107 decod2_4.vt|
+Z18 !s90 -work|work|decod2_4.vt|
+!s101 -O0
+R8
+vdecod2_4_vlg_sample_tst
+!i10b 1
+!s100 O[76`TT86zKA^Pg?ZAjge0
+I950ZXN4`m3UD9`JI=i9D02
+VzM=NOm]^YhTnmb9T6SlQ]3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vdecod2_4_vlg_vec_tst
+!i10b 1
+!s100 H8jzaoTlM4B1Ejb?;:>271
+Ime;oie?hD7YRG1:edl]W<0
+V_hR;MXdQkD@`91WiVbjXK2
+R3
+R13
+R14
+R15
+L0 211
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

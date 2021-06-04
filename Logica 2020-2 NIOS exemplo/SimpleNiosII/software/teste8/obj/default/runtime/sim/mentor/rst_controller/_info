@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\aaaaa\NIOS-IV\SimpleNiosII\software\teste8\obj\default\runtime\sim\mentor
+vMyvZpIKtpqUAjdWqAU3s2uADnaaK39P16TcVj4HkDyU=
+Z1 !s100 dHHY^d=8bzo`YPd9HNH2U1
+Z2 I5fzY_5KN9RR7KbcFb:Z8l1
+Z3 VBWWT<i0A@QcN4KE]hBS<V0
+xsip
+d.
+Z4 Fnofile
+L0 38
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_reset_controller.v|-work|rst_controller|
+Z7 o-work rst_controller -O0
+Z8 nf2f26c2
+!i10b 0
+!i8a 211266800
+!s85 0
+Z9 !s108 1600380810.503000
+Z10 !s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_reset_controller.v|
+!s101 -O0
+vsBUFDkrLuu3nEyXL7l8ycURao+LHhvIOULLpRbUGAco=
+!i10b 0
+Z11 !s100 TdRZEgnOc0Cam4BQ?3[Pc1
+Z12 Iogi[^CX;[OC`ThdXF;8aj0
+Z13 V3CjoOZCIEdzCJgPn8]D7`2
+xsip
+!i8a 221264496
+d.
+R4
+L0 38
+R5
+r1
+!s85 0
+31
+!s108 1600380811.215000
+!s107 D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_reset_synchronizer.v|
+Z14 !s90 -reportprogress|300|D:/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/mentor/altera_reset_synchronizer.v|-work|rst_controller|
+!s101 -O0
+R7
+Z15 n15f2da2

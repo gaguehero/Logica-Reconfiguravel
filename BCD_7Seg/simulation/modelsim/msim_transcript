@@ -1,0 +1,41 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do BCD_7Seg_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/BCD_7Seg/BCD_7Seg.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BCD_7Seg
+# -- Compiling architecture hardware of BCD_7Seg
+# 
+vcom -reportprogress 300 -work work C:/altera/BCD_7Seg/BCD_7Seg_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BCD_7Seg_tb
+# -- Compiling architecture bcdaum of BCD_7Seg_tb
+vsim -voptargs=+acc work.bcd_7seg_tb
+# vsim -voptargs=+acc work.bcd_7seg_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.bcd_7seg_tb(bcdaum)
+# Loading work.bcd_7seg(hardware)
+add wave -position insertpoint  \
+sim:/bcd_7seg_tb/x1
+add wave -position insertpoint  \
+sim:/bcd_7seg_tb/seteseg1
+run 400 ns
+# Unrecognized paper size (Letter), using Custom
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/altera/BCD_7Seg/simulation/modelsim/wave.do

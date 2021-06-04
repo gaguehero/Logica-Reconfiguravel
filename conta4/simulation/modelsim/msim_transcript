@@ -1,0 +1,47 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do conta4_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/altera/conta4/conta4.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity conta4
+# -- Compiling architecture hardware of conta4
+# 
+vcom -reportprogress 300 -work work C:/altera/conta4/conta4_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity conta4_tb
+# -- Compiling architecture x of conta4_tb
+vsim work.conta4_tb(x)
+# vsim work.conta4_tb(x) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.conta4_tb(x)
+# Loading work.conta4(hardware)
+add wave -position insertpoint  \
+sim:/conta4_tb/clk \
+sim:/conta4_tb/rst \
+sim:/conta4_tb/EN \
+sim:/conta4_tb/CLR \
+sim:/conta4_tb/LD \
+sim:/conta4_tb/LOAD \
+sim:/conta4_tb/Q
+run 200 ns
+run 400 ns

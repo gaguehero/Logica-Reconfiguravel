@@ -1,0 +1,69 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do totalS_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {totalS.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module totalS
+# 
+# Top level modules:
+# 	totalS
+# 
+vcom -reportprogress 300 -work work C:/altera/totalizador_sinais/totalS_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity totalS_tb
+# -- Compiling architecture x of totalS_tb
+vsim gate_work.totals_tb
+# vsim gate_work.totals_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading gate_work.totals_tb(x)
+# ALTERA version supports only a single HDL
+# ** Error: (vsim-3039) C:/altera/totalizador_sinais/totalS_tb.vhd(42): Instantiation of 'totalS' failed.
+# 
+#         Region: /totals_tb
+# Error loading design
+vcom -work work -O0 C:/altera/totalizador_sinais/totalS_tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity totalS_tb
+# -- Compiling architecture x of totalS_tb
+vsim gate_work.totals_tb(x)
+# vsim gate_work.totals_tb(x) 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading gate_work.totals_tb(x)
+# ALTERA version supports only a single HDL
+# ** Error: (vsim-3039) C:/altera/totalizador_sinais/totalS_tb.vhd(42): Instantiation of 'totalS' failed.
+# 
+#         Region: /totals_tb
+# Error loading design
+vsim rtl_work.totals_tb
+# vsim rtl_work.totals_tb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading rtl_work.totals_tb(x)
+# Loading rtl_work.totals(x)
+# Loading rtl_work.cont3(hardware)
+# Load canceled

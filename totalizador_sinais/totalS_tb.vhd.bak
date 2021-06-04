@@ -1,0 +1,11 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity totalS is
+	PORT(	
+			CLK  	: in std_logic;
+			RST	: in STD_logic;
+			Qout	: out unsigned (2 downto 0));
+	end entity;
+	Architecture x of totalS is

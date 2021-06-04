@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity fifo is
+	port(
+	clk : in std_logic;
+	count : out unsigned(8 downto 0);
+	rst: in std_logic;
+	wr : in std_logic;
+	rd : in std_logic;
+	dataI : in unsigned(7 downto 0);
+	dataO : out unsigned(7 downto 0)
+	);
+end entity;
+
+architecture arc of fifo is
+	type mem is array (0 to 511) of unsigned (7 downto 0);
+	signal element: men;
+	signal wr_index, rd_index : unsigned(8 downto 0);
+begin
+	process (clk, rst)
+	begin
+		if rst = '1' then
+			count <= "00000000";
+			wr_index <= "00000000";
+			rd_index <= "00000000";
+		elsif clk'event and clk = '1' then
+			if rd = '1' then
+				
+				
+	

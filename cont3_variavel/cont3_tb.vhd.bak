@@ -1,0 +1,55 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity cont3_tb is
+end entity;
+
+Architecture X1 of cont3_tb is
+-- região declarativa
+
+--Component 
+component cont3 is
+   PORT(RST  : in std_logic;
+        CLK  : in std_logic;
+        Q    : out unsigned(2 downto 0);
+        EN   : in std_logic;
+        CLR  : in std_logic;
+end component;
+
+Signal clk, rst : std_logic;
+Signal EN, CLR : std_logic;
+signal Q: unsigned (2 downto 0);
+begin
+	-- região "ativa"
+	EN   <= '1';
+	CLR  <= '0';
+
+-- gerar o clock
+clk_gen: Process	
+begin
+	clk <= '0';
+   wait for 10 ns;
+	clk <= '1';
+   wait for 10 ns;
+end process;
+	
+-- gerar o rst
+rst_gen: Process 
+begin
+	rst <= '1';
+   wait for 15 ns;
+	rst <= '0';
+   wait;
+end process;
+
+-- gerar uma instância do DUT (device under test)
+DUT: cont3
+port map(
+       RST  => RST , 
+       CLK  => CLK ,
+       Q    => Q   ,
+       EN   => EN  ,
+       CLR  => CLR ,
+	
+End architecture;

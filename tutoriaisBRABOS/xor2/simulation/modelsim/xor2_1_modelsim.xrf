@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/altera/tutoriaisBRABOS/xor2/xor2_1.vhd
+source_file = 1, C:/altera/tutoriaisBRABOS/xor2/xor2_1_tb.vhd
+source_file = 1, C:/altera/tutoriaisBRABOS/xor2/db/xor2_1.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = xor2_1
+instance = comp, \in2~I\, in2, xor2_1, 1
+instance = comp, \in1~I\, in1, xor2_1, 1
+instance = comp, \o~0\, o~0, xor2_1, 1
+instance = comp, \o~I\, o, xor2_1, 1

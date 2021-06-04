@@ -1,0 +1,1871 @@
+TimeQuest Timing Analyzer report for bramVector
+Mon May 03 14:37:11 2021
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow 1200mV 85C Model Fmax Summary
+  6. Timing Closure Recommendations
+  7. Slow 1200mV 85C Model Setup Summary
+  8. Slow 1200mV 85C Model Hold Summary
+  9. Slow 1200mV 85C Model Recovery Summary
+ 10. Slow 1200mV 85C Model Removal Summary
+ 11. Slow 1200mV 85C Model Minimum Pulse Width Summary
+ 12. Slow 1200mV 85C Model Minimum Pulse Width: 'clk'
+ 13. Setup Times
+ 14. Hold Times
+ 15. Clock to Output Times
+ 16. Minimum Clock to Output Times
+ 17. Propagation Delay
+ 18. Minimum Propagation Delay
+ 19. Slow 1200mV 85C Model Metastability Report
+ 20. Slow 1200mV 0C Model Fmax Summary
+ 21. Slow 1200mV 0C Model Setup Summary
+ 22. Slow 1200mV 0C Model Hold Summary
+ 23. Slow 1200mV 0C Model Recovery Summary
+ 24. Slow 1200mV 0C Model Removal Summary
+ 25. Slow 1200mV 0C Model Minimum Pulse Width Summary
+ 26. Slow 1200mV 0C Model Minimum Pulse Width: 'clk'
+ 27. Setup Times
+ 28. Hold Times
+ 29. Clock to Output Times
+ 30. Minimum Clock to Output Times
+ 31. Propagation Delay
+ 32. Minimum Propagation Delay
+ 33. Slow 1200mV 0C Model Metastability Report
+ 34. Fast 1200mV 0C Model Setup Summary
+ 35. Fast 1200mV 0C Model Hold Summary
+ 36. Fast 1200mV 0C Model Recovery Summary
+ 37. Fast 1200mV 0C Model Removal Summary
+ 38. Fast 1200mV 0C Model Minimum Pulse Width Summary
+ 39. Fast 1200mV 0C Model Minimum Pulse Width: 'clk'
+ 40. Setup Times
+ 41. Hold Times
+ 42. Clock to Output Times
+ 43. Minimum Clock to Output Times
+ 44. Propagation Delay
+ 45. Minimum Propagation Delay
+ 46. Fast 1200mV 0C Model Metastability Report
+ 47. Multicorner Timing Analysis Summary
+ 48. Setup Times
+ 49. Hold Times
+ 50. Clock to Output Times
+ 51. Minimum Clock to Output Times
+ 52. Progagation Delay
+ 53. Minimum Progagation Delay
+ 54. Board Trace Model Assignments
+ 55. Input Transition Times
+ 56. Signal Integrity Metrics (Slow 1200mv 0c Model)
+ 57. Signal Integrity Metrics (Slow 1200mv 85c Model)
+ 58. Signal Integrity Metrics (Fast 1200mv 0c Model)
+ 59. Clock Transfers
+ 60. Report TCCS
+ 61. Report RSKM
+ 62. Unconstrained Paths
+ 63. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; bramVector                                                        ;
+; Device Family      ; Cyclone IV GX                                                     ;
+; Device Name        ; EP4CGX15BF14C6                                                    ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Enabled                                                           ;
++--------------------+-------------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Clocks                                                                                                                                                                          ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
+; Clock Name ; Type ; Period ; Frequency  ; Rise  ; Fall  ; Duty Cycle ; Divide by ; Multiply by ; Phase ; Offset ; Edge List ; Edge Shift ; Inverted ; Master ; Source ; Targets ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
+; clk        ; Base ; 1.000  ; 1000.0 MHz ; 0.000 ; 0.500 ;            ;           ;             ;       ;        ;           ;            ;          ;        ;        ; { clk } ;
++------------+------+--------+------------+-------+-------+------------+-----------+-------------+-------+--------+-----------+------------+----------+--------+--------+---------+
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Fmax Summary ;
+--------------------------------------
+No paths to report.
+
+
+----------------------------------
+; Timing Closure Recommendations ;
+----------------------------------
+HTML report is unavailable in plain text report export.
+
+
+---------------------------------------
+; Slow 1200mV 85C Model Setup Summary ;
+---------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 85C Model Hold Summary ;
+--------------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow 1200mV 85C Model Recovery Summary ;
+------------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 85C Model Removal Summary ;
+-----------------------------------------
+No paths to report.
+
+
++---------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width Summary ;
++-------+--------+----------------------------------+
+; Clock ; Slack  ; End Point TNS                    ;
++-------+--------+----------------------------------+
+; clk   ; -3.000 ; -8195.000                        ;
++-------+--------+----------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Slow 1200mV 85C Model Minimum Pulse Width: 'clk'                                    ;
++--------+--------------+----------------+------------+-------+------------+----------+
+; Slack  ; Actual Width ; Required Width ; Type       ; Clock ; Clock Edge ; Target   ;
++--------+--------------+----------------+------------+-------+------------+----------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate  ; clk   ; Rise       ; clk      ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~100  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1000 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1001 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1002 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1003 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1004 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1005 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1006 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1007 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1008 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1009 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~101  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1010 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1011 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1012 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1013 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1014 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1015 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1016 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1017 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1018 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1019 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~102  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1020 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1021 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1022 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1023 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1024 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1025 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1026 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1027 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1028 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1029 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~103  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1030 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1031 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1032 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1033 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1034 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1035 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1036 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1037 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1038 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1039 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~104  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1040 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1041 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1042 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1043 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1044 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1045 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1046 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1047 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1048 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1049 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~105  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1050 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1051 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1052 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1053 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1054 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1055 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1056 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1057 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1058 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1059 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~106  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1060 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1061 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1062 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1063 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1064 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1065 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1066 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1067 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1068 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1069 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~107  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1070 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1071 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1072 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1073 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1074 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1075 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1076 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1077 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1078 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1079 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~108  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1080 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1081 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1082 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1083 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1084 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1085 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1086 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1087 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1088 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1089 ;
++--------+--------------+----------------+------------+-------+------------+----------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; addr[*]   ; clk        ; 15.683 ; 16.516 ; Rise       ; clk             ;
+;  addr[0]  ; clk        ; 15.683 ; 16.516 ; Rise       ; clk             ;
+;  addr[1]  ; clk        ; 12.804 ; 13.670 ; Rise       ; clk             ;
+;  addr[2]  ; clk        ; 11.678 ; 12.559 ; Rise       ; clk             ;
+;  addr[3]  ; clk        ; 12.127 ; 12.402 ; Rise       ; clk             ;
+;  addr[4]  ; clk        ; 9.957  ; 9.868  ; Rise       ; clk             ;
+;  addr[5]  ; clk        ; 10.454 ; 10.540 ; Rise       ; clk             ;
+;  addr[6]  ; clk        ; 12.352 ; 12.850 ; Rise       ; clk             ;
+;  addr[7]  ; clk        ; 12.286 ; 12.727 ; Rise       ; clk             ;
+;  addr[8]  ; clk        ; 9.174  ; 9.456  ; Rise       ; clk             ;
+;  addr[9]  ; clk        ; 8.974  ; 9.705  ; Rise       ; clk             ;
+; dataI[*]  ; clk        ; 7.585  ; 8.223  ; Rise       ; clk             ;
+;  dataI[0] ; clk        ; 6.161  ; 6.852  ; Rise       ; clk             ;
+;  dataI[1] ; clk        ; 5.356  ; 5.968  ; Rise       ; clk             ;
+;  dataI[2] ; clk        ; 4.945  ; 5.441  ; Rise       ; clk             ;
+;  dataI[3] ; clk        ; 6.418  ; 7.131  ; Rise       ; clk             ;
+;  dataI[4] ; clk        ; 7.585  ; 8.223  ; Rise       ; clk             ;
+;  dataI[5] ; clk        ; 4.910  ; 5.509  ; Rise       ; clk             ;
+;  dataI[6] ; clk        ; 6.150  ; 6.704  ; Rise       ; clk             ;
+;  dataI[7] ; clk        ; 6.170  ; 6.785  ; Rise       ; clk             ;
+; wr_en     ; clk        ; 8.959  ; 9.652  ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Hold Times                                                              ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; addr[*]   ; clk        ; -1.717 ; -1.773 ; Rise       ; clk             ;
+;  addr[0]  ; clk        ; -4.120 ; -4.641 ; Rise       ; clk             ;
+;  addr[1]  ; clk        ; -3.442 ; -3.921 ; Rise       ; clk             ;
+;  addr[2]  ; clk        ; -4.000 ; -4.602 ; Rise       ; clk             ;
+;  addr[3]  ; clk        ; -3.344 ; -3.735 ; Rise       ; clk             ;
+;  addr[4]  ; clk        ; -1.905 ; -1.922 ; Rise       ; clk             ;
+;  addr[5]  ; clk        ; -1.717 ; -1.773 ; Rise       ; clk             ;
+;  addr[6]  ; clk        ; -3.187 ; -3.711 ; Rise       ; clk             ;
+;  addr[7]  ; clk        ; -3.655 ; -4.100 ; Rise       ; clk             ;
+;  addr[8]  ; clk        ; -3.106 ; -3.651 ; Rise       ; clk             ;
+;  addr[9]  ; clk        ; -3.124 ; -3.617 ; Rise       ; clk             ;
+; dataI[*]  ; clk        ; -0.908 ; -1.318 ; Rise       ; clk             ;
+;  dataI[0] ; clk        ; -0.908 ; -1.318 ; Rise       ; clk             ;
+;  dataI[1] ; clk        ; -1.205 ; -1.626 ; Rise       ; clk             ;
+;  dataI[2] ; clk        ; -1.460 ; -1.876 ; Rise       ; clk             ;
+;  dataI[3] ; clk        ; -1.188 ; -1.600 ; Rise       ; clk             ;
+;  dataI[4] ; clk        ; -1.285 ; -1.693 ; Rise       ; clk             ;
+;  dataI[5] ; clk        ; -1.064 ; -1.488 ; Rise       ; clk             ;
+;  dataI[6] ; clk        ; -1.093 ; -1.520 ; Rise       ; clk             ;
+;  dataI[7] ; clk        ; -0.927 ; -1.337 ; Rise       ; clk             ;
+; wr_en     ; clk        ; -3.102 ; -3.588 ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Clock to Output Times                                                   ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; dataO[*]  ; clk        ; 20.916 ; 20.862 ; Rise       ; clk             ;
+;  dataO[0] ; clk        ; 16.873 ; 16.764 ; Rise       ; clk             ;
+;  dataO[1] ; clk        ; 18.461 ; 18.430 ; Rise       ; clk             ;
+;  dataO[2] ; clk        ; 17.949 ; 17.988 ; Rise       ; clk             ;
+;  dataO[3] ; clk        ; 17.510 ; 17.395 ; Rise       ; clk             ;
+;  dataO[4] ; clk        ; 16.820 ; 16.810 ; Rise       ; clk             ;
+;  dataO[5] ; clk        ; 18.135 ; 18.058 ; Rise       ; clk             ;
+;  dataO[6] ; clk        ; 17.227 ; 17.124 ; Rise       ; clk             ;
+;  dataO[7] ; clk        ; 20.916 ; 20.862 ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; dataO[*]  ; clk        ; 7.720 ; 7.699 ; Rise       ; clk             ;
+;  dataO[0] ; clk        ; 8.419 ; 8.333 ; Rise       ; clk             ;
+;  dataO[1] ; clk        ; 9.145 ; 9.037 ; Rise       ; clk             ;
+;  dataO[2] ; clk        ; 9.455 ; 9.380 ; Rise       ; clk             ;
+;  dataO[3] ; clk        ; 9.508 ; 9.396 ; Rise       ; clk             ;
+;  dataO[4] ; clk        ; 8.567 ; 8.489 ; Rise       ; clk             ;
+;  dataO[5] ; clk        ; 9.843 ; 9.865 ; Rise       ; clk             ;
+;  dataO[6] ; clk        ; 9.098 ; 8.982 ; Rise       ; clk             ;
+;  dataO[7] ; clk        ; 7.720 ; 7.699 ; Rise       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; addr[0]    ; dataO[0]    ; 22.339 ; 22.241 ; 22.944 ; 22.846 ;
+; addr[0]    ; dataO[1]    ; 20.485 ; 20.376 ; 21.143 ; 21.034 ;
+; addr[0]    ; dataO[2]    ; 22.215 ; 22.185 ; 22.856 ; 22.826 ;
+; addr[0]    ; dataO[3]    ; 21.702 ; 21.581 ; 22.297 ; 22.176 ;
+; addr[0]    ; dataO[4]    ; 22.794 ; 22.727 ; 23.440 ; 23.373 ;
+; addr[0]    ; dataO[5]    ; 22.702 ; 22.625 ; 23.325 ; 23.248 ;
+; addr[0]    ; dataO[6]    ; 21.391 ; 21.288 ; 22.045 ; 21.942 ;
+; addr[0]    ; dataO[7]    ; 22.650 ; 22.596 ; 23.306 ; 23.252 ;
+; addr[1]    ; dataO[0]    ; 18.174 ; 18.076 ; 18.720 ; 18.622 ;
+; addr[1]    ; dataO[1]    ; 16.180 ; 16.071 ; 16.781 ; 16.672 ;
+; addr[1]    ; dataO[2]    ; 18.544 ; 18.514 ; 19.160 ; 19.130 ;
+; addr[1]    ; dataO[3]    ; 18.456 ; 18.335 ; 19.062 ; 18.941 ;
+; addr[1]    ; dataO[4]    ; 17.872 ; 17.805 ; 18.533 ; 18.466 ;
+; addr[1]    ; dataO[5]    ; 19.632 ; 19.555 ; 20.225 ; 20.148 ;
+; addr[1]    ; dataO[6]    ; 16.509 ; 16.406 ; 17.138 ; 17.035 ;
+; addr[1]    ; dataO[7]    ; 17.769 ; 17.715 ; 18.400 ; 18.346 ;
+; addr[2]    ; dataO[0]    ; 18.743 ; 18.634 ; 19.329 ; 19.220 ;
+; addr[2]    ; dataO[1]    ; 18.245 ; 18.214 ; 18.905 ; 18.874 ;
+; addr[2]    ; dataO[2]    ; 20.870 ; 20.909 ; 21.547 ; 21.586 ;
+; addr[2]    ; dataO[3]    ; 18.463 ; 18.342 ; 19.163 ; 19.042 ;
+; addr[2]    ; dataO[4]    ; 19.005 ; 18.995 ; 19.595 ; 19.585 ;
+; addr[2]    ; dataO[5]    ; 17.432 ; 17.395 ; 18.001 ; 17.964 ;
+; addr[2]    ; dataO[6]    ; 17.704 ; 17.601 ; 18.396 ; 18.293 ;
+; addr[2]    ; dataO[7]    ; 20.274 ; 20.220 ; 20.963 ; 20.909 ;
+; addr[3]    ; dataO[0]    ; 18.848 ; 18.739 ; 19.555 ; 19.446 ;
+; addr[3]    ; dataO[1]    ; 18.838 ; 18.807 ; 19.406 ; 19.375 ;
+; addr[3]    ; dataO[2]    ; 20.632 ; 20.671 ; 21.198 ; 21.237 ;
+; addr[3]    ; dataO[3]    ; 18.243 ; 18.122 ; 18.849 ; 18.728 ;
+; addr[3]    ; dataO[4]    ; 19.475 ; 19.465 ; 20.078 ; 20.068 ;
+; addr[3]    ; dataO[5]    ; 18.063 ; 18.026 ; 18.611 ; 18.574 ;
+; addr[3]    ; dataO[6]    ; 17.784 ; 17.696 ; 18.297 ; 18.209 ;
+; addr[3]    ; dataO[7]    ; 20.006 ; 19.952 ; 20.591 ; 20.537 ;
+; addr[4]    ; dataO[0]    ; 15.206 ; 15.097 ; 15.178 ; 15.069 ;
+; addr[4]    ; dataO[1]    ; 15.327 ; 15.218 ; 15.268 ; 15.159 ;
+; addr[4]    ; dataO[2]    ; 14.245 ; 14.215 ; 14.241 ; 14.211 ;
+; addr[4]    ; dataO[3]    ; 17.324 ; 17.209 ; 17.375 ; 17.260 ;
+; addr[4]    ; dataO[4]    ; 15.860 ; 15.836 ; 15.836 ; 15.812 ;
+; addr[4]    ; dataO[5]    ; 16.842 ; 16.765 ; 16.856 ; 16.779 ;
+; addr[4]    ; dataO[6]    ; 15.478 ; 15.375 ; 15.422 ; 15.319 ;
+; addr[4]    ; dataO[7]    ; 19.946 ; 19.892 ; 19.923 ; 19.869 ;
+; addr[5]    ; dataO[0]    ; 15.324 ; 15.215 ; 15.368 ; 15.259 ;
+; addr[5]    ; dataO[1]    ; 15.402 ; 15.343 ; 15.405 ; 15.374 ;
+; addr[5]    ; dataO[2]    ; 14.213 ; 14.246 ; 14.219 ; 14.252 ;
+; addr[5]    ; dataO[3]    ; 17.968 ; 17.853 ; 17.982 ; 17.867 ;
+; addr[5]    ; dataO[4]    ; 16.078 ; 16.054 ; 16.113 ; 16.089 ;
+; addr[5]    ; dataO[5]    ; 17.627 ; 17.550 ; 17.577 ; 17.500 ;
+; addr[5]    ; dataO[6]    ; 16.126 ; 16.023 ; 16.171 ; 16.068 ;
+; addr[5]    ; dataO[7]    ; 20.381 ; 20.327 ; 20.372 ; 20.318 ;
+; addr[6]    ; dataO[0]    ; 18.478 ; 18.369 ; 19.175 ; 19.066 ;
+; addr[6]    ; dataO[1]    ; 20.668 ; 20.637 ; 21.212 ; 21.181 ;
+; addr[6]    ; dataO[2]    ; 18.218 ; 18.135 ; 18.873 ; 18.790 ;
+; addr[6]    ; dataO[3]    ; 19.664 ; 19.549 ; 20.221 ; 20.106 ;
+; addr[6]    ; dataO[4]    ; 18.668 ; 18.716 ; 19.363 ; 19.411 ;
+; addr[6]    ; dataO[5]    ; 19.173 ; 19.144 ; 19.662 ; 19.633 ;
+; addr[6]    ; dataO[6]    ; 19.192 ; 19.089 ; 19.674 ; 19.571 ;
+; addr[6]    ; dataO[7]    ; 16.667 ; 16.613 ; 17.221 ; 17.167 ;
+; addr[7]    ; dataO[0]    ; 18.201 ; 18.092 ; 18.817 ; 18.708 ;
+; addr[7]    ; dataO[1]    ; 21.221 ; 21.190 ; 21.893 ; 21.862 ;
+; addr[7]    ; dataO[2]    ; 19.004 ; 18.921 ; 19.647 ; 19.564 ;
+; addr[7]    ; dataO[3]    ; 20.099 ; 19.984 ; 20.713 ; 20.598 ;
+; addr[7]    ; dataO[4]    ; 18.749 ; 18.797 ; 19.377 ; 19.425 ;
+; addr[7]    ; dataO[5]    ; 19.560 ; 19.550 ; 20.208 ; 20.198 ;
+; addr[7]    ; dataO[6]    ; 19.459 ; 19.356 ; 20.019 ; 19.916 ;
+; addr[7]    ; dataO[7]    ; 16.911 ; 16.845 ; 17.426 ; 17.360 ;
+; addr[8]    ; dataO[0]    ; 8.720  ; 8.616  ; 9.264  ; 9.155  ;
+; addr[8]    ; dataO[1]    ; 8.714  ; 8.605  ; 9.166  ; 9.066  ;
+; addr[8]    ; dataO[2]    ; 8.852  ; 8.769  ; 9.301  ; 9.227  ;
+; addr[8]    ; dataO[3]    ; 8.608  ; 8.487  ; 9.072  ; 8.956  ;
+; addr[8]    ; dataO[4]    ; 9.489  ; 9.412  ; 10.024 ; 10.000 ;
+; addr[8]    ; dataO[5]    ; 9.113  ; 9.036  ; 9.658  ; 9.581  ;
+; addr[8]    ; dataO[6]    ; 8.842  ; 8.739  ; 9.301  ; 9.198  ;
+; addr[8]    ; dataO[7]    ; 8.694  ; 8.640  ; 9.211  ; 9.157  ;
+; addr[9]    ; dataO[0]    ; 8.776  ; 8.681  ; 9.313  ; 9.204  ;
+; addr[9]    ; dataO[1]    ; 8.163  ; 8.054  ; 8.682  ; 8.579  ;
+; addr[9]    ; dataO[2]    ; 8.492  ; 8.409  ; 8.959  ; 8.876  ;
+; addr[9]    ; dataO[3]    ; 8.616  ; 8.495  ; 9.167  ; 9.046  ;
+; addr[9]    ; dataO[4]    ; 9.496  ; 9.441  ; 10.023 ; 9.999  ;
+; addr[9]    ; dataO[5]    ; 9.168  ; 9.100  ; 9.755  ; 9.678  ;
+; addr[9]    ; dataO[6]    ; 9.634  ; 9.531  ; 10.125 ; 10.025 ;
+; addr[9]    ; dataO[7]    ; 8.674  ; 8.620  ; 9.214  ; 9.160  ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; addr[0]    ; dataO[0]    ; 10.779 ; 10.733 ; 11.243 ; 11.197 ;
+; addr[0]    ; dataO[1]    ; 11.270 ; 11.171 ; 11.751 ; 11.652 ;
+; addr[0]    ; dataO[2]    ; 10.188 ; 10.113 ; 10.656 ; 10.581 ;
+; addr[0]    ; dataO[3]    ; 10.809 ; 10.697 ; 11.265 ; 11.153 ;
+; addr[0]    ; dataO[4]    ; 11.057 ; 10.953 ; 11.542 ; 11.477 ;
+; addr[0]    ; dataO[5]    ; 10.641 ; 10.566 ; 11.082 ; 11.015 ;
+; addr[0]    ; dataO[6]    ; 11.539 ; 11.423 ; 11.984 ; 11.868 ;
+; addr[0]    ; dataO[7]    ; 10.810 ; 10.710 ; 11.274 ; 11.174 ;
+; addr[1]    ; dataO[0]    ; 9.798  ; 9.731  ; 10.266 ; 10.190 ;
+; addr[1]    ; dataO[1]    ; 10.196 ; 10.125 ; 10.709 ; 10.633 ;
+; addr[1]    ; dataO[2]    ; 8.365  ; 8.290  ; 8.868  ; 8.790  ;
+; addr[1]    ; dataO[3]    ; 10.918 ; 10.806 ; 11.432 ; 11.320 ;
+; addr[1]    ; dataO[4]    ; 10.174 ; 10.095 ; 10.767 ; 10.688 ;
+; addr[1]    ; dataO[5]    ; 10.472 ; 10.405 ; 10.966 ; 10.895 ;
+; addr[1]    ; dataO[6]    ; 10.700 ; 10.578 ; 11.286 ; 11.228 ;
+; addr[1]    ; dataO[7]    ; 9.672  ; 9.672  ; 10.294 ; 10.147 ;
+; addr[2]    ; dataO[0]    ; 9.476  ; 9.377  ; 10.004 ; 9.944  ;
+; addr[2]    ; dataO[1]    ; 9.543  ; 9.435  ; 10.096 ; 9.997  ;
+; addr[2]    ; dataO[2]    ; 10.693 ; 10.618 ; 11.182 ; 11.107 ;
+; addr[2]    ; dataO[3]    ; 10.076 ; 9.964  ; 10.610 ; 10.498 ;
+; addr[2]    ; dataO[4]    ; 10.719 ; 10.640 ; 11.265 ; 11.186 ;
+; addr[2]    ; dataO[5]    ; 10.600 ; 10.533 ; 11.167 ; 11.091 ;
+; addr[2]    ; dataO[6]    ; 9.195  ; 9.079  ; 9.711  ; 9.595  ;
+; addr[2]    ; dataO[7]    ; 9.212  ; 9.131  ; 9.758  ; 9.668  ;
+; addr[3]    ; dataO[0]    ; 9.994  ; 9.908  ; 10.479 ; 10.423 ;
+; addr[3]    ; dataO[1]    ; 10.589 ; 10.559 ; 11.074 ; 10.975 ;
+; addr[3]    ; dataO[2]    ; 9.994  ; 9.919  ; 10.429 ; 10.354 ;
+; addr[3]    ; dataO[3]    ; 10.527 ; 10.415 ; 11.015 ; 10.903 ;
+; addr[3]    ; dataO[4]    ; 8.797  ; 8.757  ; 9.336  ; 9.220  ;
+; addr[3]    ; dataO[5]    ; 10.828 ; 10.761 ; 11.298 ; 11.231 ;
+; addr[3]    ; dataO[6]    ; 9.601  ; 9.472  ; 10.122 ; 10.032 ;
+; addr[3]    ; dataO[7]    ; 9.540  ; 9.491  ; 10.080 ; 10.022 ;
+; addr[4]    ; dataO[0]    ; 7.360  ; 7.298  ; 7.494  ; 7.365  ;
+; addr[4]    ; dataO[1]    ; 7.034  ; 6.950  ; 7.089  ; 7.065  ;
+; addr[4]    ; dataO[2]    ; 8.088  ; 8.130  ; 8.280  ; 8.313  ;
+; addr[4]    ; dataO[3]    ; 7.174  ; 7.092  ; 7.211  ; 7.120  ;
+; addr[4]    ; dataO[4]    ; 8.556  ; 8.496  ; 8.567  ; 8.498  ;
+; addr[4]    ; dataO[5]    ; 8.375  ; 8.323  ; 8.428  ; 8.436  ;
+; addr[4]    ; dataO[6]    ; 6.627  ; 6.512  ; 6.690  ; 6.584  ;
+; addr[4]    ; dataO[7]    ; 7.074  ; 6.994  ; 7.068  ; 7.018  ;
+; addr[5]    ; dataO[0]    ; 6.499  ; 6.432  ; 6.651  ; 6.525  ;
+; addr[5]    ; dataO[1]    ; 6.937  ; 6.864  ; 7.087  ; 7.014  ;
+; addr[5]    ; dataO[2]    ; 7.851  ; 7.877  ; 7.998  ; 8.067  ;
+; addr[5]    ; dataO[3]    ; 7.880  ; 7.799  ; 7.952  ; 7.871  ;
+; addr[5]    ; dataO[4]    ; 7.782  ; 7.745  ; 7.877  ; 7.870  ;
+; addr[5]    ; dataO[5]    ; 8.458  ; 8.417  ; 8.556  ; 8.515  ;
+; addr[5]    ; dataO[6]    ; 6.345  ; 6.226  ; 6.422  ; 6.294  ;
+; addr[5]    ; dataO[7]    ; 6.660  ; 6.670  ; 6.804  ; 6.675  ;
+; addr[6]    ; dataO[0]    ; 10.048 ; 9.959  ; 10.634 ; 10.545 ;
+; addr[6]    ; dataO[1]    ; 9.544  ; 9.441  ; 10.042 ; 9.943  ;
+; addr[6]    ; dataO[2]    ; 9.618  ; 9.543  ; 10.158 ; 10.083 ;
+; addr[6]    ; dataO[3]    ; 9.470  ; 9.358  ; 10.036 ; 9.924  ;
+; addr[6]    ; dataO[4]    ; 9.411  ; 9.362  ; 9.927  ; 9.864  ;
+; addr[6]    ; dataO[5]    ; 10.744 ; 10.675 ; 11.257 ; 11.190 ;
+; addr[6]    ; dataO[6]    ; 10.807 ; 10.695 ; 11.278 ; 11.223 ;
+; addr[6]    ; dataO[7]    ; 9.516  ; 9.507  ; 10.075 ; 9.949  ;
+; addr[7]    ; dataO[0]    ; 9.137  ; 9.069  ; 9.639  ; 9.544  ;
+; addr[7]    ; dataO[1]    ; 9.481  ; 9.379  ; 9.979  ; 9.871  ;
+; addr[7]    ; dataO[2]    ; 9.005  ; 8.930  ; 9.435  ; 9.360  ;
+; addr[7]    ; dataO[3]    ; 9.764  ; 9.652  ; 10.214 ; 10.102 ;
+; addr[7]    ; dataO[4]    ; 9.269  ; 9.172  ; 9.799  ; 9.732  ;
+; addr[7]    ; dataO[5]    ; 10.832 ; 10.765 ; 11.338 ; 11.271 ;
+; addr[7]    ; dataO[6]    ; 9.896  ; 9.820  ; 10.347 ; 10.301 ;
+; addr[7]    ; dataO[7]    ; 10.182 ; 10.102 ; 10.682 ; 10.608 ;
+; addr[8]    ; dataO[0]    ; 8.333  ; 8.251  ; 8.829  ; 8.775  ;
+; addr[8]    ; dataO[1]    ; 8.024  ; 7.915  ; 8.452  ; 8.407  ;
+; addr[8]    ; dataO[2]    ; 8.444  ; 8.369  ; 8.921  ; 8.837  ;
+; addr[8]    ; dataO[3]    ; 8.087  ; 7.974  ; 8.513  ; 8.430  ;
+; addr[8]    ; dataO[4]    ; 9.046  ; 8.967  ; 9.569  ; 9.490  ;
+; addr[8]    ; dataO[5]    ; 8.533  ; 8.465  ; 9.029  ; 8.991  ;
+; addr[8]    ; dataO[6]    ; 8.446  ; 8.348  ; 8.899  ; 8.792  ;
+; addr[8]    ; dataO[7]    ; 7.613  ; 7.507  ; 8.079  ; 7.964  ;
+; addr[9]    ; dataO[0]    ; 7.888  ; 7.859  ; 8.464  ; 8.299  ;
+; addr[9]    ; dataO[1]    ; 7.874  ; 7.775  ; 8.387  ; 8.282  ;
+; addr[9]    ; dataO[2]    ; 8.012  ; 7.927  ; 8.438  ; 8.417  ;
+; addr[9]    ; dataO[3]    ; 8.245  ; 8.133  ; 8.772  ; 8.651  ;
+; addr[9]    ; dataO[4]    ; 8.619  ; 8.516  ; 9.132  ; 9.061  ;
+; addr[9]    ; dataO[5]    ; 8.826  ; 8.759  ; 9.361  ; 9.287  ;
+; addr[9]    ; dataO[6]    ; 8.563  ; 8.438  ; 9.061  ; 8.966  ;
+; addr[9]    ; dataO[7]    ; 8.270  ; 8.190  ; 8.817  ; 8.683  ;
++------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------------------------
+; Slow 1200mV 85C Model Metastability Report ;
+----------------------------------------------
+No synchronizer chains to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Fmax Summary ;
+-------------------------------------
+No paths to report.
+
+
+--------------------------------------
+; Slow 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Slow 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Slow 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Slow 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width Summary ;
++-------+--------+---------------------------------+
+; Clock ; Slack  ; End Point TNS                   ;
++-------+--------+---------------------------------+
+; clk   ; -3.000 ; -8195.000                       ;
++-------+--------+---------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Slow 1200mV 0C Model Minimum Pulse Width: 'clk'                                     ;
++--------+--------------+----------------+------------+-------+------------+----------+
+; Slack  ; Actual Width ; Required Width ; Type       ; Clock ; Clock Edge ; Target   ;
++--------+--------------+----------------+------------+-------+------------+----------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate  ; clk   ; Rise       ; clk      ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~100  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1000 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1001 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1002 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1003 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1004 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1005 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1006 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1007 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1008 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1009 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~101  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1010 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1011 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1012 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1013 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1014 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1015 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1016 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1017 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1018 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1019 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~102  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1020 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1021 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1022 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1023 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1024 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1025 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1026 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1027 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1028 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1029 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~103  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1030 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1031 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1032 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1033 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1034 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1035 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1036 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1037 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1038 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1039 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~104  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1040 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1041 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1042 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1043 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1044 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1045 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1046 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1047 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1048 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1049 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~105  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1050 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1051 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1052 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1053 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1054 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1055 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1056 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1057 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1058 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1059 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~106  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1060 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1061 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1062 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1063 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1064 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1065 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1066 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1067 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1068 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1069 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~107  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1070 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1071 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1072 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1073 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1074 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1075 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1076 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1077 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1078 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1079 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~108  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1080 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1081 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1082 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1083 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1084 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1085 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1086 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1087 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1088 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1089 ;
++--------+--------------+----------------+------------+-------+------------+----------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; addr[*]   ; clk        ; 14.367 ; 14.749 ; Rise       ; clk             ;
+;  addr[0]  ; clk        ; 14.367 ; 14.749 ; Rise       ; clk             ;
+;  addr[1]  ; clk        ; 11.676 ; 12.161 ; Rise       ; clk             ;
+;  addr[2]  ; clk        ; 10.633 ; 11.173 ; Rise       ; clk             ;
+;  addr[3]  ; clk        ; 10.862 ; 11.203 ; Rise       ; clk             ;
+;  addr[4]  ; clk        ; 8.991  ; 9.136  ; Rise       ; clk             ;
+;  addr[5]  ; clk        ; 9.632  ; 9.550  ; Rise       ; clk             ;
+;  addr[6]  ; clk        ; 11.055 ; 11.630 ; Rise       ; clk             ;
+;  addr[7]  ; clk        ; 10.994 ; 11.518 ; Rise       ; clk             ;
+;  addr[8]  ; clk        ; 8.164  ; 8.537  ; Rise       ; clk             ;
+;  addr[9]  ; clk        ; 8.151  ; 8.572  ; Rise       ; clk             ;
+; dataI[*]  ; clk        ; 6.851  ; 7.299  ; Rise       ; clk             ;
+;  dataI[0] ; clk        ; 5.561  ; 6.046  ; Rise       ; clk             ;
+;  dataI[1] ; clk        ; 4.819  ; 5.233  ; Rise       ; clk             ;
+;  dataI[2] ; clk        ; 4.438  ; 4.760  ; Rise       ; clk             ;
+;  dataI[3] ; clk        ; 5.794  ; 6.312  ; Rise       ; clk             ;
+;  dataI[4] ; clk        ; 6.851  ; 7.299  ; Rise       ; clk             ;
+;  dataI[5] ; clk        ; 4.392  ; 4.823  ; Rise       ; clk             ;
+;  dataI[6] ; clk        ; 5.548  ; 5.905  ; Rise       ; clk             ;
+;  dataI[7] ; clk        ; 5.560  ; 5.985  ; Rise       ; clk             ;
+; wr_en     ; clk        ; 8.134  ; 8.532  ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Hold Times                                                              ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; addr[*]   ; clk        ; -1.557 ; -1.658 ; Rise       ; clk             ;
+;  addr[0]  ; clk        ; -3.680 ; -4.052 ; Rise       ; clk             ;
+;  addr[1]  ; clk        ; -3.023 ; -3.416 ; Rise       ; clk             ;
+;  addr[2]  ; clk        ; -3.558 ; -4.047 ; Rise       ; clk             ;
+;  addr[3]  ; clk        ; -2.928 ; -3.271 ; Rise       ; clk             ;
+;  addr[4]  ; clk        ; -1.763 ; -1.785 ; Rise       ; clk             ;
+;  addr[5]  ; clk        ; -1.557 ; -1.658 ; Rise       ; clk             ;
+;  addr[6]  ; clk        ; -2.799 ; -3.215 ; Rise       ; clk             ;
+;  addr[7]  ; clk        ; -3.222 ; -3.567 ; Rise       ; clk             ;
+;  addr[8]  ; clk        ; -2.743 ; -3.176 ; Rise       ; clk             ;
+;  addr[9]  ; clk        ; -2.729 ; -3.158 ; Rise       ; clk             ;
+; dataI[*]  ; clk        ; -0.729 ; -1.059 ; Rise       ; clk             ;
+;  dataI[0] ; clk        ; -0.729 ; -1.059 ; Rise       ; clk             ;
+;  dataI[1] ; clk        ; -1.001 ; -1.335 ; Rise       ; clk             ;
+;  dataI[2] ; clk        ; -1.235 ; -1.562 ; Rise       ; clk             ;
+;  dataI[3] ; clk        ; -0.988 ; -1.312 ; Rise       ; clk             ;
+;  dataI[4] ; clk        ; -1.071 ; -1.402 ; Rise       ; clk             ;
+;  dataI[5] ; clk        ; -0.868 ; -1.216 ; Rise       ; clk             ;
+;  dataI[6] ; clk        ; -0.896 ; -1.245 ; Rise       ; clk             ;
+;  dataI[7] ; clk        ; -0.749 ; -1.077 ; Rise       ; clk             ;
+; wr_en     ; clk        ; -2.725 ; -3.097 ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Clock to Output Times                                                   ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; dataO[*]  ; clk        ; 18.768 ; 18.687 ; Rise       ; clk             ;
+;  dataO[0] ; clk        ; 15.180 ; 15.057 ; Rise       ; clk             ;
+;  dataO[1] ; clk        ; 16.614 ; 16.473 ; Rise       ; clk             ;
+;  dataO[2] ; clk        ; 16.225 ; 16.142 ; Rise       ; clk             ;
+;  dataO[3] ; clk        ; 15.816 ; 15.658 ; Rise       ; clk             ;
+;  dataO[4] ; clk        ; 15.098 ; 15.007 ; Rise       ; clk             ;
+;  dataO[5] ; clk        ; 16.190 ; 16.091 ; Rise       ; clk             ;
+;  dataO[6] ; clk        ; 15.482 ; 15.369 ; Rise       ; clk             ;
+;  dataO[7] ; clk        ; 18.768 ; 18.687 ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; dataO[*]  ; clk        ; 6.942 ; 6.862 ; Rise       ; clk             ;
+;  dataO[0] ; clk        ; 7.594 ; 7.418 ; Rise       ; clk             ;
+;  dataO[1] ; clk        ; 8.209 ; 8.062 ; Rise       ; clk             ;
+;  dataO[2] ; clk        ; 8.521 ; 8.398 ; Rise       ; clk             ;
+;  dataO[3] ; clk        ; 8.587 ; 8.445 ; Rise       ; clk             ;
+;  dataO[4] ; clk        ; 7.711 ; 7.566 ; Rise       ; clk             ;
+;  dataO[5] ; clk        ; 8.842 ; 8.766 ; Rise       ; clk             ;
+;  dataO[6] ; clk        ; 8.180 ; 8.034 ; Rise       ; clk             ;
+;  dataO[7] ; clk        ; 6.942 ; 6.862 ; Rise       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; addr[0]    ; dataO[0]    ; 20.222 ; 20.033 ; 20.600 ; 20.411 ;
+; addr[0]    ; dataO[1]    ; 18.473 ; 18.322 ; 18.835 ; 18.684 ;
+; addr[0]    ; dataO[2]    ; 20.182 ; 20.015 ; 20.522 ; 20.355 ;
+; addr[0]    ; dataO[3]    ; 19.551 ; 19.407 ; 19.918 ; 19.774 ;
+; addr[0]    ; dataO[4]    ; 20.597 ; 20.474 ; 20.982 ; 20.859 ;
+; addr[0]    ; dataO[5]    ; 20.434 ; 20.340 ; 20.827 ; 20.733 ;
+; addr[0]    ; dataO[6]    ; 19.272 ; 19.155 ; 19.628 ; 19.511 ;
+; addr[0]    ; dataO[7]    ; 20.411 ; 20.330 ; 20.784 ; 20.703 ;
+; addr[1]    ; dataO[0]    ; 16.390 ; 16.201 ; 16.792 ; 16.603 ;
+; addr[1]    ; dataO[1]    ; 14.551 ; 14.408 ; 14.990 ; 14.847 ;
+; addr[1]    ; dataO[2]    ; 16.757 ; 16.590 ; 17.228 ; 17.061 ;
+; addr[1]    ; dataO[3]    ; 16.532 ; 16.382 ; 16.976 ; 16.832 ;
+; addr[1]    ; dataO[4]    ; 16.039 ; 15.916 ; 16.550 ; 16.427 ;
+; addr[1]    ; dataO[5]    ; 17.546 ; 17.447 ; 17.979 ; 17.880 ;
+; addr[1]    ; dataO[6]    ; 14.809 ; 14.631 ; 15.286 ; 15.106 ;
+; addr[1]    ; dataO[7]    ; 15.889 ; 15.808 ; 16.369 ; 16.288 ;
+; addr[2]    ; dataO[0]    ; 16.795 ; 16.672 ; 17.284 ; 17.161 ;
+; addr[2]    ; dataO[1]    ; 16.435 ; 16.271 ; 16.945 ; 16.781 ;
+; addr[2]    ; dataO[2]    ; 18.842 ; 18.759 ; 19.345 ; 19.262 ;
+; addr[2]    ; dataO[3]    ; 16.585 ; 16.434 ; 17.113 ; 16.962 ;
+; addr[2]    ; dataO[4]    ; 17.010 ; 16.919 ; 17.503 ; 17.412 ;
+; addr[2]    ; dataO[5]    ; 15.588 ; 15.478 ; 16.023 ; 15.912 ;
+; addr[2]    ; dataO[6]    ; 15.917 ; 15.804 ; 16.438 ; 16.325 ;
+; addr[2]    ; dataO[7]    ; 18.122 ; 18.041 ; 18.646 ; 18.565 ;
+; addr[3]    ; dataO[0]    ; 16.882 ; 16.728 ; 17.395 ; 17.241 ;
+; addr[3]    ; dataO[1]    ; 16.990 ; 16.826 ; 17.392 ; 17.228 ;
+; addr[3]    ; dataO[2]    ; 18.609 ; 18.526 ; 19.009 ; 18.926 ;
+; addr[3]    ; dataO[3]    ; 16.377 ; 16.226 ; 16.808 ; 16.657 ;
+; addr[3]    ; dataO[4]    ; 17.506 ; 17.415 ; 17.912 ; 17.821 ;
+; addr[3]    ; dataO[5]    ; 16.146 ; 16.036 ; 16.551 ; 16.441 ;
+; addr[3]    ; dataO[6]    ; 15.914 ; 15.805 ; 16.313 ; 16.200 ;
+; addr[3]    ; dataO[7]    ; 17.868 ; 17.787 ; 18.299 ; 18.218 ;
+; addr[4]    ; dataO[0]    ; 13.655 ; 13.532 ; 13.706 ; 13.583 ;
+; addr[4]    ; dataO[1]    ; 13.802 ; 13.659 ; 13.831 ; 13.688 ;
+; addr[4]    ; dataO[2]    ; 12.903 ; 12.736 ; 12.987 ; 12.820 ;
+; addr[4]    ; dataO[3]    ; 15.645 ; 15.487 ; 15.747 ; 15.589 ;
+; addr[4]    ; dataO[4]    ; 14.302 ; 14.241 ; 14.310 ; 14.249 ;
+; addr[4]    ; dataO[5]    ; 15.059 ; 14.968 ; 15.119 ; 15.028 ;
+; addr[4]    ; dataO[6]    ; 13.848 ; 13.735 ; 13.894 ; 13.781 ;
+; addr[4]    ; dataO[7]    ; 17.886 ; 17.805 ; 17.935 ; 17.854 ;
+; addr[5]    ; dataO[0]    ; 13.797 ; 13.674 ; 13.870 ; 13.747 ;
+; addr[5]    ; dataO[1]    ; 13.899 ; 13.756 ; 13.948 ; 13.807 ;
+; addr[5]    ; dataO[2]    ; 12.856 ; 12.741 ; 12.944 ; 12.837 ;
+; addr[5]    ; dataO[3]    ; 16.207 ; 16.049 ; 16.306 ; 16.148 ;
+; addr[5]    ; dataO[4]    ; 14.493 ; 14.432 ; 14.567 ; 14.506 ;
+; addr[5]    ; dataO[5]    ; 15.738 ; 15.639 ; 15.800 ; 15.709 ;
+; addr[5]    ; dataO[6]    ; 14.454 ; 14.341 ; 14.527 ; 14.414 ;
+; addr[5]    ; dataO[7]    ; 18.308 ; 18.227 ; 18.356 ; 18.275 ;
+; addr[6]    ; dataO[0]    ; 16.578 ; 16.455 ; 17.100 ; 16.977 ;
+; addr[6]    ; dataO[1]    ; 18.562 ; 18.421 ; 18.980 ; 18.839 ;
+; addr[6]    ; dataO[2]    ; 16.374 ; 16.256 ; 16.865 ; 16.747 ;
+; addr[6]    ; dataO[3]    ; 17.733 ; 17.575 ; 18.159 ; 18.001 ;
+; addr[6]    ; dataO[4]    ; 16.807 ; 16.719 ; 17.321 ; 17.233 ;
+; addr[6]    ; dataO[5]    ; 17.129 ; 17.022 ; 17.496 ; 17.397 ;
+; addr[6]    ; dataO[6]    ; 17.198 ; 17.085 ; 17.563 ; 17.450 ;
+; addr[6]    ; dataO[7]    ; 14.897 ; 14.810 ; 15.333 ; 15.246 ;
+; addr[7]    ; dataO[0]    ; 16.346 ; 16.223 ; 16.764 ; 16.641 ;
+; addr[7]    ; dataO[1]    ; 19.063 ; 18.922 ; 19.560 ; 19.419 ;
+; addr[7]    ; dataO[2]    ; 17.071 ; 16.953 ; 17.504 ; 17.386 ;
+; addr[7]    ; dataO[3]    ; 18.107 ; 17.949 ; 18.598 ; 18.440 ;
+; addr[7]    ; dataO[4]    ; 16.865 ; 16.777 ; 17.324 ; 17.236 ;
+; addr[7]    ; dataO[5]    ; 17.595 ; 17.484 ; 18.070 ; 17.959 ;
+; addr[7]    ; dataO[6]    ; 17.477 ; 17.364 ; 17.889 ; 17.776 ;
+; addr[7]    ; dataO[7]    ; 15.117 ; 15.010 ; 15.551 ; 15.444 ;
+; addr[8]    ; dataO[0]    ; 7.768  ; 7.632  ; 8.199  ; 8.045  ;
+; addr[8]    ; dataO[1]    ; 7.766  ; 7.615  ; 8.116  ; 7.973  ;
+; addr[8]    ; dataO[2]    ; 7.882  ; 7.756  ; 8.239  ; 8.121  ;
+; addr[8]    ; dataO[3]    ; 7.668  ; 7.522  ; 8.030  ; 7.887  ;
+; addr[8]    ; dataO[4]    ; 8.456  ; 8.351  ; 8.858  ; 8.813  ;
+; addr[8]    ; dataO[5]    ; 8.075  ; 7.983  ; 8.507  ; 8.408  ;
+; addr[8]    ; dataO[6]    ; 7.853  ; 7.736  ; 8.216  ; 8.101  ;
+; addr[8]    ; dataO[7]    ; 7.737  ; 7.653  ; 8.136  ; 8.055  ;
+; addr[9]    ; dataO[0]    ; 7.786  ; 7.662  ; 8.234  ; 8.090  ;
+; addr[9]    ; dataO[1]    ; 7.260  ; 7.114  ; 7.677  ; 7.534  ;
+; addr[9]    ; dataO[2]    ; 7.546  ; 7.427  ; 7.918  ; 7.792  ;
+; addr[9]    ; dataO[3]    ; 7.666  ; 7.515  ; 8.101  ; 7.950  ;
+; addr[9]    ; dataO[4]    ; 8.457  ; 8.371  ; 8.874  ; 8.819  ;
+; addr[9]    ; dataO[5]    ; 8.104  ; 8.013  ; 8.585  ; 8.486  ;
+; addr[9]    ; dataO[6]    ; 8.565  ; 8.448  ; 8.959  ; 8.846  ;
+; addr[9]    ; dataO[7]    ; 7.702  ; 7.620  ; 8.139  ; 8.058  ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; addr[0]    ; dataO[0]    ; 9.667  ; 9.512  ; 10.033 ; 9.872  ;
+; addr[0]    ; dataO[1]    ; 10.083 ; 9.936  ; 10.495 ; 10.348 ;
+; addr[0]    ; dataO[2]    ; 9.128  ; 9.005  ; 9.459  ; 9.336  ;
+; addr[0]    ; dataO[3]    ; 9.683  ; 9.541  ; 10.047 ; 9.905  ;
+; addr[0]    ; dataO[4]    ; 9.919  ; 9.788  ; 10.253 ; 10.157 ;
+; addr[0]    ; dataO[5]    ; 9.442  ; 9.346  ; 9.840  ; 9.744  ;
+; addr[0]    ; dataO[6]    ; 10.307 ; 10.161 ; 10.687 ; 10.541 ;
+; addr[0]    ; dataO[7]    ; 9.674  ; 9.565  ; 10.027 ; 9.915  ;
+; addr[1]    ; dataO[0]    ; 8.762  ; 8.592  ; 9.143  ; 8.967  ;
+; addr[1]    ; dataO[1]    ; 9.138  ; 8.977  ; 9.560  ; 9.389  ;
+; addr[1]    ; dataO[2]    ; 7.456  ; 7.333  ; 7.859  ; 7.736  ;
+; addr[1]    ; dataO[3]    ; 9.761  ; 9.619  ; 10.187 ; 10.045 ;
+; addr[1]    ; dataO[4]    ; 9.079  ; 8.991  ; 9.539  ; 9.451  ;
+; addr[1]    ; dataO[5]    ; 9.324  ; 9.234  ; 9.663  ; 9.567  ;
+; addr[1]    ; dataO[6]    ; 9.571  ; 9.406  ; 10.023 ; 9.913  ;
+; addr[1]    ; dataO[7]    ; 8.650  ; 8.605  ; 9.130  ; 8.954  ;
+; addr[2]    ; dataO[0]    ; 8.480  ; 8.303  ; 8.911  ; 8.769  ;
+; addr[2]    ; dataO[1]    ; 8.505  ; 8.358  ; 8.974  ; 8.827  ;
+; addr[2]    ; dataO[2]    ; 9.585  ; 9.468  ; 9.988  ; 9.871  ;
+; addr[2]    ; dataO[3]    ; 9.006  ; 8.858  ; 9.453  ; 9.311  ;
+; addr[2]    ; dataO[4]    ; 9.598  ; 9.510  ; 10.040 ; 9.952  ;
+; addr[2]    ; dataO[5]    ; 9.441  ; 9.351  ; 9.858  ; 9.762  ;
+; addr[2]    ; dataO[6]    ; 8.187  ; 8.042  ; 8.617  ; 8.477  ;
+; addr[2]    ; dataO[7]    ; 8.235  ; 8.089  ; 8.682  ; 8.530  ;
+; addr[3]    ; dataO[0]    ; 8.960  ; 8.784  ; 9.334  ; 9.194  ;
+; addr[3]    ; dataO[1]    ; 9.502  ; 9.381  ; 9.856  ; 9.709  ;
+; addr[3]    ; dataO[2]    ; 8.931  ; 8.808  ; 9.293  ; 9.171  ;
+; addr[3]    ; dataO[3]    ; 9.429  ; 9.287  ; 9.811  ; 9.669  ;
+; addr[3]    ; dataO[4]    ; 7.830  ; 7.771  ; 8.256  ; 8.122  ;
+; addr[3]    ; dataO[5]    ; 9.639  ; 9.543  ; 10.014 ; 9.918  ;
+; addr[3]    ; dataO[6]    ; 8.569  ; 8.422  ; 8.960  ; 8.848  ;
+; addr[3]    ; dataO[7]    ; 8.547  ; 8.453  ; 8.937  ; 8.837  ;
+; addr[4]    ; dataO[0]    ; 6.657  ; 6.518  ; 6.807  ; 6.608  ;
+; addr[4]    ; dataO[1]    ; 6.362  ; 6.209  ; 6.436  ; 6.337  ;
+; addr[4]    ; dataO[2]    ; 7.349  ; 7.265  ; 7.533  ; 7.443  ;
+; addr[4]    ; dataO[3]    ; 6.491  ; 6.347  ; 6.550  ; 6.400  ;
+; addr[4]    ; dataO[4]    ; 7.726  ; 7.596  ; 7.763  ; 7.627  ;
+; addr[4]    ; dataO[5]    ; 7.529  ; 7.414  ; 7.603  ; 7.542  ;
+; addr[4]    ; dataO[6]    ; 5.963  ; 5.835  ; 6.044  ; 5.922  ;
+; addr[4]    ; dataO[7]    ; 6.382  ; 6.271  ; 6.412  ; 6.328  ;
+; addr[5]    ; dataO[0]    ; 5.883  ; 5.740  ; 6.042  ; 5.850  ;
+; addr[5]    ; dataO[1]    ; 6.279  ; 6.127  ; 6.432  ; 6.286  ;
+; addr[5]    ; dataO[2]    ; 7.131  ; 7.039  ; 7.281  ; 7.224  ;
+; addr[5]    ; dataO[3]    ; 7.112  ; 6.968  ; 7.211  ; 7.067  ;
+; addr[5]    ; dataO[4]    ; 7.049  ; 6.935  ; 7.159  ; 7.072  ;
+; addr[5]    ; dataO[5]    ; 7.610  ; 7.502  ; 7.716  ; 7.608  ;
+; addr[5]    ; dataO[6]    ; 5.712  ; 5.576  ; 5.809  ; 5.667  ;
+; addr[5]    ; dataO[7]    ; 5.999  ; 5.971  ; 6.160  ; 5.995  ;
+; addr[6]    ; dataO[0]    ; 9.001  ; 8.834  ; 9.462  ; 9.295  ;
+; addr[6]    ; dataO[1]    ; 8.512  ; 8.365  ; 8.935  ; 8.794  ;
+; addr[6]    ; dataO[2]    ; 8.596  ; 8.474  ; 9.022  ; 8.899  ;
+; addr[6]    ; dataO[3]    ; 8.454  ; 8.312  ; 8.912  ; 8.765  ;
+; addr[6]    ; dataO[4]    ; 8.377  ; 8.291  ; 8.790  ; 8.692  ;
+; addr[6]    ; dataO[5]    ; 9.546  ; 9.450  ; 9.974  ; 9.878  ;
+; addr[6]    ; dataO[6]    ; 9.651  ; 9.492  ; 10.050 ; 9.899  ;
+; addr[6]    ; dataO[7]    ; 8.503  ; 8.423  ; 8.942  ; 8.762  ;
+; addr[7]    ; dataO[0]    ; 8.165  ; 8.023  ; 8.554  ; 8.383  ;
+; addr[7]    ; dataO[1]    ; 8.454  ; 8.307  ; 8.836  ; 8.689  ;
+; addr[7]    ; dataO[2]    ; 8.030  ; 7.907  ; 8.362  ; 8.245  ;
+; addr[7]    ; dataO[3]    ; 8.695  ; 8.553  ; 9.082  ; 8.940  ;
+; addr[7]    ; dataO[4]    ; 8.260  ; 8.137  ; 8.680  ; 8.584  ;
+; addr[7]    ; dataO[5]    ; 9.649  ; 9.553  ; 10.036 ; 9.940  ;
+; addr[7]    ; dataO[6]    ; 8.841  ; 8.694  ; 9.203  ; 9.083  ;
+; addr[7]    ; dataO[7]    ; 9.113  ; 8.990  ; 9.505  ; 9.372  ;
+; addr[8]    ; dataO[0]    ; 7.432  ; 7.293  ; 7.825  ; 7.712  ;
+; addr[8]    ; dataO[1]    ; 7.144  ; 6.999  ; 7.474  ; 7.384  ;
+; addr[8]    ; dataO[2]    ; 7.526  ; 7.409  ; 7.896  ; 7.773  ;
+; addr[8]    ; dataO[3]    ; 7.200  ; 7.056  ; 7.533  ; 7.417  ;
+; addr[8]    ; dataO[4]    ; 8.054  ; 7.966  ; 8.462  ; 8.359  ;
+; addr[8]    ; dataO[5]    ; 7.561  ; 7.469  ; 7.954  ; 7.890  ;
+; addr[8]    ; dataO[6]    ; 7.509  ; 7.387  ; 7.871  ; 7.743  ;
+; addr[8]    ; dataO[7]    ; 6.765  ; 6.636  ; 7.134  ; 6.999  ;
+; addr[9]    ; dataO[0]    ; 7.005  ; 6.924  ; 7.487  ; 7.284  ;
+; addr[9]    ; dataO[1]    ; 7.012  ; 6.867  ; 7.417  ; 7.270  ;
+; addr[9]    ; dataO[2]    ; 7.121  ; 7.000  ; 7.454  ; 7.388  ;
+; addr[9]    ; dataO[3]    ; 7.337  ; 7.195  ; 7.750  ; 7.602  ;
+; addr[9]    ; dataO[4]    ; 7.665  ; 7.550  ; 8.075  ; 7.989  ;
+; addr[9]    ; dataO[5]    ; 7.800  ; 7.710  ; 8.239  ; 8.143  ;
+; addr[9]    ; dataO[6]    ; 7.614  ; 7.478  ; 8.011  ; 7.902  ;
+; addr[9]    ; dataO[7]    ; 7.351  ; 7.242  ; 7.793  ; 7.636  ;
++------------+-------------+--------+--------+--------+--------+
+
+
+---------------------------------------------
+; Slow 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
+--------------------------------------
+; Fast 1200mV 0C Model Setup Summary ;
+--------------------------------------
+No paths to report.
+
+
+-------------------------------------
+; Fast 1200mV 0C Model Hold Summary ;
+-------------------------------------
+No paths to report.
+
+
+-----------------------------------------
+; Fast 1200mV 0C Model Recovery Summary ;
+-----------------------------------------
+No paths to report.
+
+
+----------------------------------------
+; Fast 1200mV 0C Model Removal Summary ;
+----------------------------------------
+No paths to report.
+
+
++--------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width Summary ;
++-------+--------+---------------------------------+
+; Clock ; Slack  ; End Point TNS                   ;
++-------+--------+---------------------------------+
+; clk   ; -3.000 ; -8443.990                       ;
++-------+--------+---------------------------------+
+
+
++-------------------------------------------------------------------------------------+
+; Fast 1200mV 0C Model Minimum Pulse Width: 'clk'                                     ;
++--------+--------------+----------------+------------+-------+------------+----------+
+; Slack  ; Actual Width ; Required Width ; Type       ; Clock ; Clock Edge ; Target   ;
++--------+--------------+----------------+------------+-------+------------+----------+
+; -3.000 ; 1.000        ; 4.000          ; Port Rate  ; clk   ; Rise       ; clk      ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~100  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1000 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1001 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1002 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1003 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1004 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1005 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1006 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1007 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1008 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1009 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~101  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1010 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1011 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1012 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1013 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1014 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1015 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1016 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1017 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1018 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1019 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~102  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1020 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1021 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1022 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1023 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1024 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1025 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1026 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1027 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1028 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1029 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~103  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1030 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1031 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1032 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1033 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1034 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1035 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1036 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1037 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1038 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1039 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~104  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1040 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1041 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1042 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1043 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1044 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1045 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1046 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1047 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1048 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1049 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~105  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1050 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1051 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1052 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1053 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1054 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1055 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1056 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1057 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1058 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1059 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~106  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1060 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1061 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1062 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1063 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1064 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1065 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1066 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1067 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1068 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1069 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~107  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1070 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1071 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1072 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1073 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1074 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1075 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1076 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1077 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1078 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1079 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~108  ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1080 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1081 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1082 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1083 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1084 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1085 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1086 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1087 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1088 ;
+; -1.000 ; 1.000        ; 2.000          ; Min Period ; clk   ; Rise       ; ram~1089 ;
++--------+--------------+----------------+------------+-------+------------+----------+
+
+
++------------------------------------------------------------------------+
+; Setup Times                                                            ;
++-----------+------------+-------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+--------+------------+-----------------+
+; addr[*]   ; clk        ; 8.939 ; 10.615 ; Rise       ; clk             ;
+;  addr[0]  ; clk        ; 8.939 ; 10.615 ; Rise       ; clk             ;
+;  addr[1]  ; clk        ; 7.285 ; 8.682  ; Rise       ; clk             ;
+;  addr[2]  ; clk        ; 6.658 ; 8.007  ; Rise       ; clk             ;
+;  addr[3]  ; clk        ; 7.291 ; 7.499  ; Rise       ; clk             ;
+;  addr[4]  ; clk        ; 6.269 ; 5.843  ; Rise       ; clk             ;
+;  addr[5]  ; clk        ; 6.006 ; 6.769  ; Rise       ; clk             ;
+;  addr[6]  ; clk        ; 7.535 ; 7.656  ; Rise       ; clk             ;
+;  addr[7]  ; clk        ; 7.489 ; 7.570  ; Rise       ; clk             ;
+;  addr[8]  ; clk        ; 5.554 ; 5.921  ; Rise       ; clk             ;
+;  addr[9]  ; clk        ; 5.060 ; 6.211  ; Rise       ; clk             ;
+; dataI[*]  ; clk        ; 4.352 ; 5.418  ; Rise       ; clk             ;
+;  dataI[0] ; clk        ; 3.514 ; 4.497  ; Rise       ; clk             ;
+;  dataI[1] ; clk        ; 3.049 ; 3.933  ; Rise       ; clk             ;
+;  dataI[2] ; clk        ; 2.782 ; 3.572  ; Rise       ; clk             ;
+;  dataI[3] ; clk        ; 3.718 ; 4.713  ; Rise       ; clk             ;
+;  dataI[4] ; clk        ; 4.352 ; 5.418  ; Rise       ; clk             ;
+;  dataI[5] ; clk        ; 2.774 ; 3.614  ; Rise       ; clk             ;
+;  dataI[6] ; clk        ; 3.466 ; 4.393  ; Rise       ; clk             ;
+;  dataI[7] ; clk        ; 3.515 ; 4.492  ; Rise       ; clk             ;
+; wr_en     ; clk        ; 5.041 ; 6.174  ; Rise       ; clk             ;
++-----------+------------+-------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Hold Times                                                              ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; addr[*]   ; clk        ; -1.003 ; -1.200 ; Rise       ; clk             ;
+;  addr[0]  ; clk        ; -2.299 ; -3.024 ; Rise       ; clk             ;
+;  addr[1]  ; clk        ; -1.957 ; -2.567 ; Rise       ; clk             ;
+;  addr[2]  ; clk        ; -2.292 ; -2.992 ; Rise       ; clk             ;
+;  addr[3]  ; clk        ; -1.901 ; -2.409 ; Rise       ; clk             ;
+;  addr[4]  ; clk        ; -1.161 ; -1.338 ; Rise       ; clk             ;
+;  addr[5]  ; clk        ; -1.003 ; -1.200 ; Rise       ; clk             ;
+;  addr[6]  ; clk        ; -1.779 ; -2.453 ; Rise       ; clk             ;
+;  addr[7]  ; clk        ; -2.046 ; -2.648 ; Rise       ; clk             ;
+;  addr[8]  ; clk        ; -1.766 ; -2.356 ; Rise       ; clk             ;
+;  addr[9]  ; clk        ; -1.780 ; -2.350 ; Rise       ; clk             ;
+; dataI[*]  ; clk        ; -0.495 ; -1.030 ; Rise       ; clk             ;
+;  dataI[0] ; clk        ; -0.495 ; -1.030 ; Rise       ; clk             ;
+;  dataI[1] ; clk        ; -0.667 ; -1.224 ; Rise       ; clk             ;
+;  dataI[2] ; clk        ; -0.812 ; -1.389 ; Rise       ; clk             ;
+;  dataI[3] ; clk        ; -0.646 ; -1.204 ; Rise       ; clk             ;
+;  dataI[4] ; clk        ; -0.703 ; -1.246 ; Rise       ; clk             ;
+;  dataI[5] ; clk        ; -0.576 ; -1.111 ; Rise       ; clk             ;
+;  dataI[6] ; clk        ; -0.593 ; -1.133 ; Rise       ; clk             ;
+;  dataI[7] ; clk        ; -0.509 ; -1.046 ; Rise       ; clk             ;
+; wr_en     ; clk        ; -1.706 ; -2.369 ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Clock to Output Times                                                   ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; dataO[*]  ; clk        ; 12.425 ; 12.487 ; Rise       ; clk             ;
+;  dataO[0] ; clk        ; 9.958  ; 9.939  ; Rise       ; clk             ;
+;  dataO[1] ; clk        ; 11.015 ; 11.148 ; Rise       ; clk             ;
+;  dataO[2] ; clk        ; 10.741 ; 10.957 ; Rise       ; clk             ;
+;  dataO[3] ; clk        ; 10.266 ; 10.396 ; Rise       ; clk             ;
+;  dataO[4] ; clk        ; 9.801  ; 10.020 ; Rise       ; clk             ;
+;  dataO[5] ; clk        ; 10.921 ; 10.946 ; Rise       ; clk             ;
+;  dataO[6] ; clk        ; 10.306 ; 10.373 ; Rise       ; clk             ;
+;  dataO[7] ; clk        ; 12.425 ; 12.487 ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; dataO[*]  ; clk        ; 4.424 ; 4.548 ; Rise       ; clk             ;
+;  dataO[0] ; clk        ; 4.840 ; 4.905 ; Rise       ; clk             ;
+;  dataO[1] ; clk        ; 5.234 ; 5.230 ; Rise       ; clk             ;
+;  dataO[2] ; clk        ; 5.410 ; 5.427 ; Rise       ; clk             ;
+;  dataO[3] ; clk        ; 5.417 ; 5.485 ; Rise       ; clk             ;
+;  dataO[4] ; clk        ; 4.878 ; 5.038 ; Rise       ; clk             ;
+;  dataO[5] ; clk        ; 5.747 ; 5.949 ; Rise       ; clk             ;
+;  dataO[6] ; clk        ; 5.150 ; 5.226 ; Rise       ; clk             ;
+;  dataO[7] ; clk        ; 4.424 ; 4.548 ; Rise       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; addr[0]    ; dataO[0]    ; 13.133 ; 13.226 ; 14.182 ; 14.275 ;
+; addr[0]    ; dataO[1]    ; 11.926 ; 11.916 ; 13.019 ; 13.009 ;
+; addr[0]    ; dataO[2]    ; 12.969 ; 13.142 ; 14.084 ; 14.257 ;
+; addr[0]    ; dataO[3]    ; 12.622 ; 12.686 ; 13.666 ; 13.730 ;
+; addr[0]    ; dataO[4]    ; 13.257 ; 13.358 ; 14.386 ; 14.487 ;
+; addr[0]    ; dataO[5]    ; 13.388 ; 13.413 ; 14.503 ; 14.528 ;
+; addr[0]    ; dataO[6]    ; 12.404 ; 12.471 ; 13.497 ; 13.564 ;
+; addr[0]    ; dataO[7]    ; 13.257 ; 13.319 ; 14.351 ; 14.413 ;
+; addr[1]    ; dataO[0]    ; 10.724 ; 10.817 ; 11.411 ; 11.504 ;
+; addr[1]    ; dataO[1]    ; 9.556  ; 9.546  ; 10.349 ; 10.339 ;
+; addr[1]    ; dataO[2]    ; 10.893 ; 11.066 ; 11.670 ; 11.843 ;
+; addr[1]    ; dataO[3]    ; 10.768 ; 10.832 ; 11.535 ; 11.599 ;
+; addr[1]    ; dataO[4]    ; 10.452 ; 10.553 ; 11.235 ; 11.336 ;
+; addr[1]    ; dataO[5]    ; 11.765 ; 11.790 ; 12.520 ; 12.545 ;
+; addr[1]    ; dataO[6]    ; 9.636  ; 9.720  ; 10.399 ; 10.473 ;
+; addr[1]    ; dataO[7]    ; 10.491 ; 10.553 ; 11.242 ; 11.304 ;
+; addr[2]    ; dataO[0]    ; 11.158 ; 11.139 ; 11.849 ; 11.830 ;
+; addr[2]    ; dataO[1]    ; 10.751 ; 10.884 ; 11.529 ; 11.662 ;
+; addr[2]    ; dataO[2]    ; 12.431 ; 12.647 ; 13.288 ; 13.504 ;
+; addr[2]    ; dataO[3]    ; 10.802 ; 10.866 ; 11.639 ; 11.703 ;
+; addr[2]    ; dataO[4]    ; 11.080 ; 11.299 ; 11.816 ; 12.035 ;
+; addr[2]    ; dataO[5]    ; 10.202 ; 10.378 ; 10.981 ; 11.182 ;
+; addr[2]    ; dataO[6]    ; 10.379 ; 10.446 ; 11.216 ; 11.283 ;
+; addr[2]    ; dataO[7]    ; 12.011 ; 12.073 ; 12.832 ; 12.894 ;
+; addr[3]    ; dataO[0]    ; 11.149 ; 11.130 ; 11.998 ; 11.979 ;
+; addr[3]    ; dataO[1]    ; 11.034 ; 11.167 ; 11.818 ; 11.951 ;
+; addr[3]    ; dataO[2]    ; 12.258 ; 12.474 ; 12.999 ; 13.215 ;
+; addr[3]    ; dataO[3]    ; 10.603 ; 10.667 ; 11.359 ; 11.423 ;
+; addr[3]    ; dataO[4]    ; 11.286 ; 11.505 ; 12.125 ; 12.344 ;
+; addr[3]    ; dataO[5]    ; 10.542 ; 10.689 ; 11.292 ; 11.439 ;
+; addr[3]    ; dataO[6]    ; 10.524 ; 10.619 ; 11.203 ; 11.298 ;
+; addr[3]    ; dataO[7]    ; 11.793 ; 11.855 ; 12.531 ; 12.593 ;
+; addr[4]    ; dataO[0]    ; 9.097  ; 9.078  ; 9.215  ; 9.196  ;
+; addr[4]    ; dataO[1]    ; 9.205  ; 9.195  ; 9.359  ; 9.349  ;
+; addr[4]    ; dataO[2]    ; 8.439  ; 8.612  ; 8.602  ; 8.726  ;
+; addr[4]    ; dataO[3]    ; 10.348 ; 10.478 ; 10.519 ; 10.649 ;
+; addr[4]    ; dataO[4]    ; 9.401  ; 9.508  ; 9.553  ; 9.660  ;
+; addr[4]    ; dataO[5]    ; 10.188 ; 10.213 ; 10.364 ; 10.389 ;
+; addr[4]    ; dataO[6]    ; 9.144  ; 9.211  ; 9.282  ; 9.349  ;
+; addr[4]    ; dataO[7]    ; 11.929 ; 11.991 ; 12.061 ; 12.123 ;
+; addr[5]    ; dataO[0]    ; 9.189  ; 9.170  ; 9.323  ; 9.304  ;
+; addr[5]    ; dataO[1]    ; 9.252  ; 9.380  ; 9.439  ; 9.572  ;
+; addr[5]    ; dataO[2]    ; 8.366  ; 8.591  ; 8.487  ; 8.699  ;
+; addr[5]    ; dataO[3]    ; 10.722 ; 10.852 ; 10.841 ; 10.971 ;
+; addr[5]    ; dataO[4]    ; 9.506  ; 9.613  ; 9.672  ; 9.779  ;
+; addr[5]    ; dataO[5]    ; 10.619 ; 10.644 ; 10.740 ; 10.765 ;
+; addr[5]    ; dataO[6]    ; 9.495  ; 9.562  ; 9.662  ; 9.729  ;
+; addr[5]    ; dataO[7]    ; 12.191 ; 12.253 ; 12.328 ; 12.390 ;
+; addr[6]    ; dataO[0]    ; 10.911 ; 10.892 ; 11.762 ; 11.743 ;
+; addr[6]    ; dataO[1]    ; 12.268 ; 12.401 ; 13.008 ; 13.141 ;
+; addr[6]    ; dataO[2]    ; 10.738 ; 10.751 ; 11.555 ; 11.568 ;
+; addr[6]    ; dataO[3]    ; 11.494 ; 11.624 ; 12.235 ; 12.365 ;
+; addr[6]    ; dataO[4]    ; 10.901 ; 11.165 ; 11.727 ; 11.991 ;
+; addr[6]    ; dataO[5]    ; 11.324 ; 11.458 ; 12.037 ; 12.171 ;
+; addr[6]    ; dataO[6]    ; 11.391 ; 11.458 ; 12.061 ; 12.128 ;
+; addr[6]    ; dataO[7]    ; 9.769  ; 9.831  ; 10.528 ; 10.590 ;
+; addr[7]    ; dataO[0]    ; 10.692 ; 10.673 ; 11.499 ; 11.480 ;
+; addr[7]    ; dataO[1]    ; 12.603 ; 12.736 ; 13.420 ; 13.553 ;
+; addr[7]    ; dataO[2]    ; 11.188 ; 11.201 ; 12.046 ; 12.059 ;
+; addr[7]    ; dataO[3]    ; 11.775 ; 11.905 ; 12.530 ; 12.660 ;
+; addr[7]    ; dataO[4]    ; 10.914 ; 11.178 ; 11.714 ; 11.978 ;
+; addr[7]    ; dataO[5]    ; 11.486 ; 11.687 ; 12.340 ; 12.541 ;
+; addr[7]    ; dataO[6]    ; 11.597 ; 11.664 ; 12.351 ; 12.418 ;
+; addr[7]    ; dataO[7]    ; 9.870  ; 9.932  ; 10.565 ; 10.636 ;
+; addr[8]    ; dataO[0]    ; 5.120  ; 5.101  ; 5.776  ; 5.757  ;
+; addr[8]    ; dataO[1]    ; 5.104  ; 5.094  ; 5.711  ; 5.708  ;
+; addr[8]    ; dataO[2]    ; 5.186  ; 5.199  ; 5.803  ; 5.822  ;
+; addr[8]    ; dataO[3]    ; 4.983  ; 5.047  ; 5.597  ; 5.661  ;
+; addr[8]    ; dataO[4]    ; 5.477  ; 5.564  ; 6.154  ; 6.261  ;
+; addr[8]    ; dataO[5]    ; 5.421  ; 5.446  ; 6.077  ; 6.102  ;
+; addr[8]    ; dataO[6]    ; 5.115  ; 5.182  ; 5.713  ; 5.780  ;
+; addr[8]    ; dataO[7]    ; 5.039  ; 5.101  ; 5.695  ; 5.757  ;
+; addr[9]    ; dataO[0]    ; 5.148  ; 5.131  ; 5.812  ; 5.793  ;
+; addr[9]    ; dataO[1]    ; 4.816  ; 4.806  ; 5.444  ; 5.434  ;
+; addr[9]    ; dataO[2]    ; 4.973  ; 4.986  ; 5.585  ; 5.598  ;
+; addr[9]    ; dataO[3]    ; 4.995  ; 5.059  ; 5.655  ; 5.719  ;
+; addr[9]    ; dataO[4]    ; 5.499  ; 5.604  ; 6.182  ; 6.289  ;
+; addr[9]    ; dataO[5]    ; 5.440  ; 5.472  ; 6.139  ; 6.164  ;
+; addr[9]    ; dataO[6]    ; 5.551  ; 5.618  ; 6.193  ; 6.269  ;
+; addr[9]    ; dataO[7]    ; 5.044  ; 5.106  ; 5.705  ; 5.767  ;
++------------+-------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; addr[0]    ; dataO[0]    ; 6.194 ; 6.233 ; 6.818 ; 6.857 ;
+; addr[0]    ; dataO[1]    ; 6.491 ; 6.487 ; 7.148 ; 7.144 ;
+; addr[0]    ; dataO[2]    ; 5.891 ; 5.908 ; 6.562 ; 6.579 ;
+; addr[0]    ; dataO[3]    ; 6.167 ; 6.235 ; 6.791 ; 6.859 ;
+; addr[0]    ; dataO[4]    ; 6.349 ; 6.445 ; 7.080 ; 7.157 ;
+; addr[0]    ; dataO[5]    ; 6.225 ; 6.256 ; 6.840 ; 6.871 ;
+; addr[0]    ; dataO[6]    ; 6.563 ; 6.639 ; 7.168 ; 7.244 ;
+; addr[0]    ; dataO[7]    ; 6.217 ; 6.265 ; 6.874 ; 6.922 ;
+; addr[1]    ; dataO[0]    ; 5.647 ; 5.686 ; 6.250 ; 6.289 ;
+; addr[1]    ; dataO[1]    ; 5.934 ; 6.037 ; 6.572 ; 6.675 ;
+; addr[1]    ; dataO[2]    ; 4.923 ; 4.940 ; 5.558 ; 5.575 ;
+; addr[1]    ; dataO[3]    ; 6.230 ; 6.298 ; 6.879 ; 6.947 ;
+; addr[1]    ; dataO[4]    ; 5.857 ; 5.934 ; 6.592 ; 6.669 ;
+; addr[1]    ; dataO[5]    ; 6.115 ; 6.146 ; 6.735 ; 6.766 ;
+; addr[1]    ; dataO[6]    ; 6.148 ; 6.255 ; 6.867 ; 6.974 ;
+; addr[1]    ; dataO[7]    ; 5.594 ; 5.706 ; 6.380 ; 6.405 ;
+; addr[2]    ; dataO[0]    ; 5.517 ; 5.569 ; 6.184 ; 6.259 ;
+; addr[2]    ; dataO[1]    ; 5.574 ; 5.570 ; 6.250 ; 6.246 ;
+; addr[2]    ; dataO[2]    ; 6.179 ; 6.196 ; 6.797 ; 6.814 ;
+; addr[2]    ; dataO[3]    ; 5.793 ; 5.861 ; 6.469 ; 6.537 ;
+; addr[2]    ; dataO[4]    ; 6.179 ; 6.256 ; 6.879 ; 6.956 ;
+; addr[2]    ; dataO[5]    ; 6.224 ; 6.255 ; 6.950 ; 6.981 ;
+; addr[2]    ; dataO[6]    ; 5.299 ; 5.375 ; 5.951 ; 6.027 ;
+; addr[2]    ; dataO[7]    ; 5.338 ; 5.388 ; 6.010 ; 6.060 ;
+; addr[3]    ; dataO[0]    ; 5.785 ; 5.824 ; 6.405 ; 6.444 ;
+; addr[3]    ; dataO[1]    ; 6.120 ; 6.116 ; 6.687 ; 6.683 ;
+; addr[3]    ; dataO[2]    ; 5.758 ; 5.775 ; 6.340 ; 6.357 ;
+; addr[3]    ; dataO[3]    ; 6.014 ; 6.082 ; 6.661 ; 6.729 ;
+; addr[3]    ; dataO[4]    ; 5.081 ; 5.190 ; 5.750 ; 5.815 ;
+; addr[3]    ; dataO[5]    ; 6.306 ; 6.337 ; 6.924 ; 6.955 ;
+; addr[3]    ; dataO[6]    ; 5.515 ; 5.578 ; 6.196 ; 6.282 ;
+; addr[3]    ; dataO[7]    ; 5.487 ; 5.585 ; 6.195 ; 6.286 ;
+; addr[4]    ; dataO[0]    ; 4.379 ; 4.429 ; 4.634 ; 4.652 ;
+; addr[4]    ; dataO[1]    ; 4.167 ; 4.239 ; 4.413 ; 4.524 ;
+; addr[4]    ; dataO[2]    ; 4.722 ; 4.934 ; 5.088 ; 5.269 ;
+; addr[4]    ; dataO[3]    ; 4.248 ; 4.383 ; 4.465 ; 4.593 ;
+; addr[4]    ; dataO[4]    ; 4.980 ; 5.122 ; 5.161 ; 5.311 ;
+; addr[4]    ; dataO[5]    ; 5.026 ; 5.149 ; 5.244 ; 5.406 ;
+; addr[4]    ; dataO[6]    ; 3.870 ; 3.943 ; 4.119 ; 4.193 ;
+; addr[4]    ; dataO[7]    ; 4.249 ; 4.307 ; 4.385 ; 4.462 ;
+; addr[5]    ; dataO[0]    ; 3.859 ; 3.908 ; 4.157 ; 4.169 ;
+; addr[5]    ; dataO[1]    ; 4.048 ; 4.133 ; 4.371 ; 4.456 ;
+; addr[5]    ; dataO[2]    ; 4.603 ; 4.799 ; 4.933 ; 5.155 ;
+; addr[5]    ; dataO[3]    ; 4.607 ; 4.738 ; 4.840 ; 4.971 ;
+; addr[5]    ; dataO[4]    ; 4.527 ; 4.733 ; 4.804 ; 5.029 ;
+; addr[5]    ; dataO[5]    ; 5.045 ; 5.181 ; 5.303 ; 5.439 ;
+; addr[5]    ; dataO[6]    ; 3.738 ; 3.815 ; 3.992 ; 4.062 ;
+; addr[5]    ; dataO[7]    ; 3.918 ; 4.024 ; 4.204 ; 4.238 ;
+; addr[6]    ; dataO[0]    ; 5.829 ; 5.877 ; 6.552 ; 6.600 ;
+; addr[6]    ; dataO[1]    ; 5.543 ; 5.539 ; 6.219 ; 6.215 ;
+; addr[6]    ; dataO[2]    ; 5.573 ; 5.590 ; 6.240 ; 6.257 ;
+; addr[6]    ; dataO[3]    ; 5.451 ; 5.519 ; 6.172 ; 6.240 ;
+; addr[6]    ; dataO[4]    ; 5.410 ; 5.533 ; 6.047 ; 6.169 ;
+; addr[6]    ; dataO[5]    ; 6.294 ; 6.325 ; 6.968 ; 6.999 ;
+; addr[6]    ; dataO[6]    ; 6.139 ; 6.246 ; 6.740 ; 6.847 ;
+; addr[6]    ; dataO[7]    ; 5.446 ; 5.601 ; 6.120 ; 6.203 ;
+; addr[7]    ; dataO[0]    ; 5.284 ; 5.342 ; 5.942 ; 5.983 ;
+; addr[7]    ; dataO[1]    ; 5.489 ; 5.485 ; 6.137 ; 6.133 ;
+; addr[7]    ; dataO[2]    ; 5.246 ; 5.263 ; 5.852 ; 5.869 ;
+; addr[7]    ; dataO[3]    ; 5.565 ; 5.633 ; 6.148 ; 6.216 ;
+; addr[7]    ; dataO[4]    ; 5.346 ; 5.437 ; 6.019 ; 6.129 ;
+; addr[7]    ; dataO[5]    ; 6.315 ; 6.346 ; 6.991 ; 7.022 ;
+; addr[7]    ; dataO[6]    ; 5.641 ; 5.748 ; 6.225 ; 6.332 ;
+; addr[7]    ; dataO[7]    ; 5.830 ; 5.921 ; 6.453 ; 6.587 ;
+; addr[8]    ; dataO[0]    ; 4.878 ; 4.889 ; 5.503 ; 5.533 ;
+; addr[8]    ; dataO[1]    ; 4.710 ; 4.692 ; 5.304 ; 5.324 ;
+; addr[8]    ; dataO[2]    ; 4.942 ; 4.959 ; 5.582 ; 5.592 ;
+; addr[8]    ; dataO[3]    ; 4.678 ; 4.742 ; 5.265 ; 5.348 ;
+; addr[8]    ; dataO[4]    ; 5.219 ; 5.296 ; 5.874 ; 5.951 ;
+; addr[8]    ; dataO[5]    ; 5.090 ; 5.117 ; 5.717 ; 5.763 ;
+; addr[8]    ; dataO[6]    ; 4.864 ; 4.951 ; 5.459 ; 5.539 ;
+; addr[8]    ; dataO[7]    ; 4.422 ; 4.463 ; 5.043 ; 5.077 ;
+; addr[9]    ; dataO[0]    ; 4.641 ; 4.672 ; 5.328 ; 5.280 ;
+; addr[9]    ; dataO[1]    ; 4.632 ; 4.628 ; 5.259 ; 5.255 ;
+; addr[9]    ; dataO[2]    ; 4.700 ; 4.703 ; 5.292 ; 5.333 ;
+; addr[9]    ; dataO[3]    ; 4.773 ; 4.841 ; 5.421 ; 5.482 ;
+; addr[9]    ; dataO[4]    ; 5.008 ; 5.074 ; 5.662 ; 5.748 ;
+; addr[9]    ; dataO[5]    ; 5.241 ; 5.272 ; 5.901 ; 5.932 ;
+; addr[9]    ; dataO[6]    ; 4.940 ; 4.999 ; 5.586 ; 5.664 ;
+; addr[9]    ; dataO[7]    ; 4.798 ; 4.848 ; 5.460 ; 5.487 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+---------------------------------------------
+; Fast 1200mV 0C Model Metastability Report ;
+---------------------------------------------
+No synchronizer chains to report.
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; -3.000              ;
+;  clk             ; N/A   ; N/A  ; N/A      ; N/A     ; -3.000              ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; -8443.99            ;
+;  clk             ; N/A   ; N/A  ; N/A      ; N/A     ; -8443.990           ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------------------+
+; Setup Times                                                             ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; addr[*]   ; clk        ; 15.683 ; 16.516 ; Rise       ; clk             ;
+;  addr[0]  ; clk        ; 15.683 ; 16.516 ; Rise       ; clk             ;
+;  addr[1]  ; clk        ; 12.804 ; 13.670 ; Rise       ; clk             ;
+;  addr[2]  ; clk        ; 11.678 ; 12.559 ; Rise       ; clk             ;
+;  addr[3]  ; clk        ; 12.127 ; 12.402 ; Rise       ; clk             ;
+;  addr[4]  ; clk        ; 9.957  ; 9.868  ; Rise       ; clk             ;
+;  addr[5]  ; clk        ; 10.454 ; 10.540 ; Rise       ; clk             ;
+;  addr[6]  ; clk        ; 12.352 ; 12.850 ; Rise       ; clk             ;
+;  addr[7]  ; clk        ; 12.286 ; 12.727 ; Rise       ; clk             ;
+;  addr[8]  ; clk        ; 9.174  ; 9.456  ; Rise       ; clk             ;
+;  addr[9]  ; clk        ; 8.974  ; 9.705  ; Rise       ; clk             ;
+; dataI[*]  ; clk        ; 7.585  ; 8.223  ; Rise       ; clk             ;
+;  dataI[0] ; clk        ; 6.161  ; 6.852  ; Rise       ; clk             ;
+;  dataI[1] ; clk        ; 5.356  ; 5.968  ; Rise       ; clk             ;
+;  dataI[2] ; clk        ; 4.945  ; 5.441  ; Rise       ; clk             ;
+;  dataI[3] ; clk        ; 6.418  ; 7.131  ; Rise       ; clk             ;
+;  dataI[4] ; clk        ; 7.585  ; 8.223  ; Rise       ; clk             ;
+;  dataI[5] ; clk        ; 4.910  ; 5.509  ; Rise       ; clk             ;
+;  dataI[6] ; clk        ; 6.150  ; 6.704  ; Rise       ; clk             ;
+;  dataI[7] ; clk        ; 6.170  ; 6.785  ; Rise       ; clk             ;
+; wr_en     ; clk        ; 8.959  ; 9.652  ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Hold Times                                                              ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; addr[*]   ; clk        ; -1.003 ; -1.200 ; Rise       ; clk             ;
+;  addr[0]  ; clk        ; -2.299 ; -3.024 ; Rise       ; clk             ;
+;  addr[1]  ; clk        ; -1.957 ; -2.567 ; Rise       ; clk             ;
+;  addr[2]  ; clk        ; -2.292 ; -2.992 ; Rise       ; clk             ;
+;  addr[3]  ; clk        ; -1.901 ; -2.409 ; Rise       ; clk             ;
+;  addr[4]  ; clk        ; -1.161 ; -1.338 ; Rise       ; clk             ;
+;  addr[5]  ; clk        ; -1.003 ; -1.200 ; Rise       ; clk             ;
+;  addr[6]  ; clk        ; -1.779 ; -2.453 ; Rise       ; clk             ;
+;  addr[7]  ; clk        ; -2.046 ; -2.648 ; Rise       ; clk             ;
+;  addr[8]  ; clk        ; -1.766 ; -2.356 ; Rise       ; clk             ;
+;  addr[9]  ; clk        ; -1.780 ; -2.350 ; Rise       ; clk             ;
+; dataI[*]  ; clk        ; -0.495 ; -1.030 ; Rise       ; clk             ;
+;  dataI[0] ; clk        ; -0.495 ; -1.030 ; Rise       ; clk             ;
+;  dataI[1] ; clk        ; -0.667 ; -1.224 ; Rise       ; clk             ;
+;  dataI[2] ; clk        ; -0.812 ; -1.389 ; Rise       ; clk             ;
+;  dataI[3] ; clk        ; -0.646 ; -1.204 ; Rise       ; clk             ;
+;  dataI[4] ; clk        ; -0.703 ; -1.246 ; Rise       ; clk             ;
+;  dataI[5] ; clk        ; -0.576 ; -1.111 ; Rise       ; clk             ;
+;  dataI[6] ; clk        ; -0.593 ; -1.133 ; Rise       ; clk             ;
+;  dataI[7] ; clk        ; -0.509 ; -1.046 ; Rise       ; clk             ;
+; wr_en     ; clk        ; -1.706 ; -2.369 ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-------------------------------------------------------------------------+
+; Clock to Output Times                                                   ;
++-----------+------------+--------+--------+------------+-----------------+
+; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
++-----------+------------+--------+--------+------------+-----------------+
+; dataO[*]  ; clk        ; 20.916 ; 20.862 ; Rise       ; clk             ;
+;  dataO[0] ; clk        ; 16.873 ; 16.764 ; Rise       ; clk             ;
+;  dataO[1] ; clk        ; 18.461 ; 18.430 ; Rise       ; clk             ;
+;  dataO[2] ; clk        ; 17.949 ; 17.988 ; Rise       ; clk             ;
+;  dataO[3] ; clk        ; 17.510 ; 17.395 ; Rise       ; clk             ;
+;  dataO[4] ; clk        ; 16.820 ; 16.810 ; Rise       ; clk             ;
+;  dataO[5] ; clk        ; 18.135 ; 18.058 ; Rise       ; clk             ;
+;  dataO[6] ; clk        ; 17.227 ; 17.124 ; Rise       ; clk             ;
+;  dataO[7] ; clk        ; 20.916 ; 20.862 ; Rise       ; clk             ;
++-----------+------------+--------+--------+------------+-----------------+
+
+
++-----------------------------------------------------------------------+
+; Minimum Clock to Output Times                                         ;
++-----------+------------+-------+-------+------------+-----------------+
+; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
++-----------+------------+-------+-------+------------+-----------------+
+; dataO[*]  ; clk        ; 4.424 ; 4.548 ; Rise       ; clk             ;
+;  dataO[0] ; clk        ; 4.840 ; 4.905 ; Rise       ; clk             ;
+;  dataO[1] ; clk        ; 5.234 ; 5.230 ; Rise       ; clk             ;
+;  dataO[2] ; clk        ; 5.410 ; 5.427 ; Rise       ; clk             ;
+;  dataO[3] ; clk        ; 5.417 ; 5.485 ; Rise       ; clk             ;
+;  dataO[4] ; clk        ; 4.878 ; 5.038 ; Rise       ; clk             ;
+;  dataO[5] ; clk        ; 5.747 ; 5.949 ; Rise       ; clk             ;
+;  dataO[6] ; clk        ; 5.150 ; 5.226 ; Rise       ; clk             ;
+;  dataO[7] ; clk        ; 4.424 ; 4.548 ; Rise       ; clk             ;
++-----------+------------+-------+-------+------------+-----------------+
+
+
++--------------------------------------------------------------+
+; Progagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; addr[0]    ; dataO[0]    ; 22.339 ; 22.241 ; 22.944 ; 22.846 ;
+; addr[0]    ; dataO[1]    ; 20.485 ; 20.376 ; 21.143 ; 21.034 ;
+; addr[0]    ; dataO[2]    ; 22.215 ; 22.185 ; 22.856 ; 22.826 ;
+; addr[0]    ; dataO[3]    ; 21.702 ; 21.581 ; 22.297 ; 22.176 ;
+; addr[0]    ; dataO[4]    ; 22.794 ; 22.727 ; 23.440 ; 23.373 ;
+; addr[0]    ; dataO[5]    ; 22.702 ; 22.625 ; 23.325 ; 23.248 ;
+; addr[0]    ; dataO[6]    ; 21.391 ; 21.288 ; 22.045 ; 21.942 ;
+; addr[0]    ; dataO[7]    ; 22.650 ; 22.596 ; 23.306 ; 23.252 ;
+; addr[1]    ; dataO[0]    ; 18.174 ; 18.076 ; 18.720 ; 18.622 ;
+; addr[1]    ; dataO[1]    ; 16.180 ; 16.071 ; 16.781 ; 16.672 ;
+; addr[1]    ; dataO[2]    ; 18.544 ; 18.514 ; 19.160 ; 19.130 ;
+; addr[1]    ; dataO[3]    ; 18.456 ; 18.335 ; 19.062 ; 18.941 ;
+; addr[1]    ; dataO[4]    ; 17.872 ; 17.805 ; 18.533 ; 18.466 ;
+; addr[1]    ; dataO[5]    ; 19.632 ; 19.555 ; 20.225 ; 20.148 ;
+; addr[1]    ; dataO[6]    ; 16.509 ; 16.406 ; 17.138 ; 17.035 ;
+; addr[1]    ; dataO[7]    ; 17.769 ; 17.715 ; 18.400 ; 18.346 ;
+; addr[2]    ; dataO[0]    ; 18.743 ; 18.634 ; 19.329 ; 19.220 ;
+; addr[2]    ; dataO[1]    ; 18.245 ; 18.214 ; 18.905 ; 18.874 ;
+; addr[2]    ; dataO[2]    ; 20.870 ; 20.909 ; 21.547 ; 21.586 ;
+; addr[2]    ; dataO[3]    ; 18.463 ; 18.342 ; 19.163 ; 19.042 ;
+; addr[2]    ; dataO[4]    ; 19.005 ; 18.995 ; 19.595 ; 19.585 ;
+; addr[2]    ; dataO[5]    ; 17.432 ; 17.395 ; 18.001 ; 17.964 ;
+; addr[2]    ; dataO[6]    ; 17.704 ; 17.601 ; 18.396 ; 18.293 ;
+; addr[2]    ; dataO[7]    ; 20.274 ; 20.220 ; 20.963 ; 20.909 ;
+; addr[3]    ; dataO[0]    ; 18.848 ; 18.739 ; 19.555 ; 19.446 ;
+; addr[3]    ; dataO[1]    ; 18.838 ; 18.807 ; 19.406 ; 19.375 ;
+; addr[3]    ; dataO[2]    ; 20.632 ; 20.671 ; 21.198 ; 21.237 ;
+; addr[3]    ; dataO[3]    ; 18.243 ; 18.122 ; 18.849 ; 18.728 ;
+; addr[3]    ; dataO[4]    ; 19.475 ; 19.465 ; 20.078 ; 20.068 ;
+; addr[3]    ; dataO[5]    ; 18.063 ; 18.026 ; 18.611 ; 18.574 ;
+; addr[3]    ; dataO[6]    ; 17.784 ; 17.696 ; 18.297 ; 18.209 ;
+; addr[3]    ; dataO[7]    ; 20.006 ; 19.952 ; 20.591 ; 20.537 ;
+; addr[4]    ; dataO[0]    ; 15.206 ; 15.097 ; 15.178 ; 15.069 ;
+; addr[4]    ; dataO[1]    ; 15.327 ; 15.218 ; 15.268 ; 15.159 ;
+; addr[4]    ; dataO[2]    ; 14.245 ; 14.215 ; 14.241 ; 14.211 ;
+; addr[4]    ; dataO[3]    ; 17.324 ; 17.209 ; 17.375 ; 17.260 ;
+; addr[4]    ; dataO[4]    ; 15.860 ; 15.836 ; 15.836 ; 15.812 ;
+; addr[4]    ; dataO[5]    ; 16.842 ; 16.765 ; 16.856 ; 16.779 ;
+; addr[4]    ; dataO[6]    ; 15.478 ; 15.375 ; 15.422 ; 15.319 ;
+; addr[4]    ; dataO[7]    ; 19.946 ; 19.892 ; 19.923 ; 19.869 ;
+; addr[5]    ; dataO[0]    ; 15.324 ; 15.215 ; 15.368 ; 15.259 ;
+; addr[5]    ; dataO[1]    ; 15.402 ; 15.343 ; 15.405 ; 15.374 ;
+; addr[5]    ; dataO[2]    ; 14.213 ; 14.246 ; 14.219 ; 14.252 ;
+; addr[5]    ; dataO[3]    ; 17.968 ; 17.853 ; 17.982 ; 17.867 ;
+; addr[5]    ; dataO[4]    ; 16.078 ; 16.054 ; 16.113 ; 16.089 ;
+; addr[5]    ; dataO[5]    ; 17.627 ; 17.550 ; 17.577 ; 17.500 ;
+; addr[5]    ; dataO[6]    ; 16.126 ; 16.023 ; 16.171 ; 16.068 ;
+; addr[5]    ; dataO[7]    ; 20.381 ; 20.327 ; 20.372 ; 20.318 ;
+; addr[6]    ; dataO[0]    ; 18.478 ; 18.369 ; 19.175 ; 19.066 ;
+; addr[6]    ; dataO[1]    ; 20.668 ; 20.637 ; 21.212 ; 21.181 ;
+; addr[6]    ; dataO[2]    ; 18.218 ; 18.135 ; 18.873 ; 18.790 ;
+; addr[6]    ; dataO[3]    ; 19.664 ; 19.549 ; 20.221 ; 20.106 ;
+; addr[6]    ; dataO[4]    ; 18.668 ; 18.716 ; 19.363 ; 19.411 ;
+; addr[6]    ; dataO[5]    ; 19.173 ; 19.144 ; 19.662 ; 19.633 ;
+; addr[6]    ; dataO[6]    ; 19.192 ; 19.089 ; 19.674 ; 19.571 ;
+; addr[6]    ; dataO[7]    ; 16.667 ; 16.613 ; 17.221 ; 17.167 ;
+; addr[7]    ; dataO[0]    ; 18.201 ; 18.092 ; 18.817 ; 18.708 ;
+; addr[7]    ; dataO[1]    ; 21.221 ; 21.190 ; 21.893 ; 21.862 ;
+; addr[7]    ; dataO[2]    ; 19.004 ; 18.921 ; 19.647 ; 19.564 ;
+; addr[7]    ; dataO[3]    ; 20.099 ; 19.984 ; 20.713 ; 20.598 ;
+; addr[7]    ; dataO[4]    ; 18.749 ; 18.797 ; 19.377 ; 19.425 ;
+; addr[7]    ; dataO[5]    ; 19.560 ; 19.550 ; 20.208 ; 20.198 ;
+; addr[7]    ; dataO[6]    ; 19.459 ; 19.356 ; 20.019 ; 19.916 ;
+; addr[7]    ; dataO[7]    ; 16.911 ; 16.845 ; 17.426 ; 17.360 ;
+; addr[8]    ; dataO[0]    ; 8.720  ; 8.616  ; 9.264  ; 9.155  ;
+; addr[8]    ; dataO[1]    ; 8.714  ; 8.605  ; 9.166  ; 9.066  ;
+; addr[8]    ; dataO[2]    ; 8.852  ; 8.769  ; 9.301  ; 9.227  ;
+; addr[8]    ; dataO[3]    ; 8.608  ; 8.487  ; 9.072  ; 8.956  ;
+; addr[8]    ; dataO[4]    ; 9.489  ; 9.412  ; 10.024 ; 10.000 ;
+; addr[8]    ; dataO[5]    ; 9.113  ; 9.036  ; 9.658  ; 9.581  ;
+; addr[8]    ; dataO[6]    ; 8.842  ; 8.739  ; 9.301  ; 9.198  ;
+; addr[8]    ; dataO[7]    ; 8.694  ; 8.640  ; 9.211  ; 9.157  ;
+; addr[9]    ; dataO[0]    ; 8.776  ; 8.681  ; 9.313  ; 9.204  ;
+; addr[9]    ; dataO[1]    ; 8.163  ; 8.054  ; 8.682  ; 8.579  ;
+; addr[9]    ; dataO[2]    ; 8.492  ; 8.409  ; 8.959  ; 8.876  ;
+; addr[9]    ; dataO[3]    ; 8.616  ; 8.495  ; 9.167  ; 9.046  ;
+; addr[9]    ; dataO[4]    ; 9.496  ; 9.441  ; 10.023 ; 9.999  ;
+; addr[9]    ; dataO[5]    ; 9.168  ; 9.100  ; 9.755  ; 9.678  ;
+; addr[9]    ; dataO[6]    ; 9.634  ; 9.531  ; 10.125 ; 10.025 ;
+; addr[9]    ; dataO[7]    ; 8.674  ; 8.620  ; 9.214  ; 9.160  ;
++------------+-------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------+
+; Minimum Progagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; addr[0]    ; dataO[0]    ; 6.194 ; 6.233 ; 6.818 ; 6.857 ;
+; addr[0]    ; dataO[1]    ; 6.491 ; 6.487 ; 7.148 ; 7.144 ;
+; addr[0]    ; dataO[2]    ; 5.891 ; 5.908 ; 6.562 ; 6.579 ;
+; addr[0]    ; dataO[3]    ; 6.167 ; 6.235 ; 6.791 ; 6.859 ;
+; addr[0]    ; dataO[4]    ; 6.349 ; 6.445 ; 7.080 ; 7.157 ;
+; addr[0]    ; dataO[5]    ; 6.225 ; 6.256 ; 6.840 ; 6.871 ;
+; addr[0]    ; dataO[6]    ; 6.563 ; 6.639 ; 7.168 ; 7.244 ;
+; addr[0]    ; dataO[7]    ; 6.217 ; 6.265 ; 6.874 ; 6.922 ;
+; addr[1]    ; dataO[0]    ; 5.647 ; 5.686 ; 6.250 ; 6.289 ;
+; addr[1]    ; dataO[1]    ; 5.934 ; 6.037 ; 6.572 ; 6.675 ;
+; addr[1]    ; dataO[2]    ; 4.923 ; 4.940 ; 5.558 ; 5.575 ;
+; addr[1]    ; dataO[3]    ; 6.230 ; 6.298 ; 6.879 ; 6.947 ;
+; addr[1]    ; dataO[4]    ; 5.857 ; 5.934 ; 6.592 ; 6.669 ;
+; addr[1]    ; dataO[5]    ; 6.115 ; 6.146 ; 6.735 ; 6.766 ;
+; addr[1]    ; dataO[6]    ; 6.148 ; 6.255 ; 6.867 ; 6.974 ;
+; addr[1]    ; dataO[7]    ; 5.594 ; 5.706 ; 6.380 ; 6.405 ;
+; addr[2]    ; dataO[0]    ; 5.517 ; 5.569 ; 6.184 ; 6.259 ;
+; addr[2]    ; dataO[1]    ; 5.574 ; 5.570 ; 6.250 ; 6.246 ;
+; addr[2]    ; dataO[2]    ; 6.179 ; 6.196 ; 6.797 ; 6.814 ;
+; addr[2]    ; dataO[3]    ; 5.793 ; 5.861 ; 6.469 ; 6.537 ;
+; addr[2]    ; dataO[4]    ; 6.179 ; 6.256 ; 6.879 ; 6.956 ;
+; addr[2]    ; dataO[5]    ; 6.224 ; 6.255 ; 6.950 ; 6.981 ;
+; addr[2]    ; dataO[6]    ; 5.299 ; 5.375 ; 5.951 ; 6.027 ;
+; addr[2]    ; dataO[7]    ; 5.338 ; 5.388 ; 6.010 ; 6.060 ;
+; addr[3]    ; dataO[0]    ; 5.785 ; 5.824 ; 6.405 ; 6.444 ;
+; addr[3]    ; dataO[1]    ; 6.120 ; 6.116 ; 6.687 ; 6.683 ;
+; addr[3]    ; dataO[2]    ; 5.758 ; 5.775 ; 6.340 ; 6.357 ;
+; addr[3]    ; dataO[3]    ; 6.014 ; 6.082 ; 6.661 ; 6.729 ;
+; addr[3]    ; dataO[4]    ; 5.081 ; 5.190 ; 5.750 ; 5.815 ;
+; addr[3]    ; dataO[5]    ; 6.306 ; 6.337 ; 6.924 ; 6.955 ;
+; addr[3]    ; dataO[6]    ; 5.515 ; 5.578 ; 6.196 ; 6.282 ;
+; addr[3]    ; dataO[7]    ; 5.487 ; 5.585 ; 6.195 ; 6.286 ;
+; addr[4]    ; dataO[0]    ; 4.379 ; 4.429 ; 4.634 ; 4.652 ;
+; addr[4]    ; dataO[1]    ; 4.167 ; 4.239 ; 4.413 ; 4.524 ;
+; addr[4]    ; dataO[2]    ; 4.722 ; 4.934 ; 5.088 ; 5.269 ;
+; addr[4]    ; dataO[3]    ; 4.248 ; 4.383 ; 4.465 ; 4.593 ;
+; addr[4]    ; dataO[4]    ; 4.980 ; 5.122 ; 5.161 ; 5.311 ;
+; addr[4]    ; dataO[5]    ; 5.026 ; 5.149 ; 5.244 ; 5.406 ;
+; addr[4]    ; dataO[6]    ; 3.870 ; 3.943 ; 4.119 ; 4.193 ;
+; addr[4]    ; dataO[7]    ; 4.249 ; 4.307 ; 4.385 ; 4.462 ;
+; addr[5]    ; dataO[0]    ; 3.859 ; 3.908 ; 4.157 ; 4.169 ;
+; addr[5]    ; dataO[1]    ; 4.048 ; 4.133 ; 4.371 ; 4.456 ;
+; addr[5]    ; dataO[2]    ; 4.603 ; 4.799 ; 4.933 ; 5.155 ;
+; addr[5]    ; dataO[3]    ; 4.607 ; 4.738 ; 4.840 ; 4.971 ;
+; addr[5]    ; dataO[4]    ; 4.527 ; 4.733 ; 4.804 ; 5.029 ;
+; addr[5]    ; dataO[5]    ; 5.045 ; 5.181 ; 5.303 ; 5.439 ;
+; addr[5]    ; dataO[6]    ; 3.738 ; 3.815 ; 3.992 ; 4.062 ;
+; addr[5]    ; dataO[7]    ; 3.918 ; 4.024 ; 4.204 ; 4.238 ;
+; addr[6]    ; dataO[0]    ; 5.829 ; 5.877 ; 6.552 ; 6.600 ;
+; addr[6]    ; dataO[1]    ; 5.543 ; 5.539 ; 6.219 ; 6.215 ;
+; addr[6]    ; dataO[2]    ; 5.573 ; 5.590 ; 6.240 ; 6.257 ;
+; addr[6]    ; dataO[3]    ; 5.451 ; 5.519 ; 6.172 ; 6.240 ;
+; addr[6]    ; dataO[4]    ; 5.410 ; 5.533 ; 6.047 ; 6.169 ;
+; addr[6]    ; dataO[5]    ; 6.294 ; 6.325 ; 6.968 ; 6.999 ;
+; addr[6]    ; dataO[6]    ; 6.139 ; 6.246 ; 6.740 ; 6.847 ;
+; addr[6]    ; dataO[7]    ; 5.446 ; 5.601 ; 6.120 ; 6.203 ;
+; addr[7]    ; dataO[0]    ; 5.284 ; 5.342 ; 5.942 ; 5.983 ;
+; addr[7]    ; dataO[1]    ; 5.489 ; 5.485 ; 6.137 ; 6.133 ;
+; addr[7]    ; dataO[2]    ; 5.246 ; 5.263 ; 5.852 ; 5.869 ;
+; addr[7]    ; dataO[3]    ; 5.565 ; 5.633 ; 6.148 ; 6.216 ;
+; addr[7]    ; dataO[4]    ; 5.346 ; 5.437 ; 6.019 ; 6.129 ;
+; addr[7]    ; dataO[5]    ; 6.315 ; 6.346 ; 6.991 ; 7.022 ;
+; addr[7]    ; dataO[6]    ; 5.641 ; 5.748 ; 6.225 ; 6.332 ;
+; addr[7]    ; dataO[7]    ; 5.830 ; 5.921 ; 6.453 ; 6.587 ;
+; addr[8]    ; dataO[0]    ; 4.878 ; 4.889 ; 5.503 ; 5.533 ;
+; addr[8]    ; dataO[1]    ; 4.710 ; 4.692 ; 5.304 ; 5.324 ;
+; addr[8]    ; dataO[2]    ; 4.942 ; 4.959 ; 5.582 ; 5.592 ;
+; addr[8]    ; dataO[3]    ; 4.678 ; 4.742 ; 5.265 ; 5.348 ;
+; addr[8]    ; dataO[4]    ; 5.219 ; 5.296 ; 5.874 ; 5.951 ;
+; addr[8]    ; dataO[5]    ; 5.090 ; 5.117 ; 5.717 ; 5.763 ;
+; addr[8]    ; dataO[6]    ; 4.864 ; 4.951 ; 5.459 ; 5.539 ;
+; addr[8]    ; dataO[7]    ; 4.422 ; 4.463 ; 5.043 ; 5.077 ;
+; addr[9]    ; dataO[0]    ; 4.641 ; 4.672 ; 5.328 ; 5.280 ;
+; addr[9]    ; dataO[1]    ; 4.632 ; 4.628 ; 5.259 ; 5.255 ;
+; addr[9]    ; dataO[2]    ; 4.700 ; 4.703 ; 5.292 ; 5.333 ;
+; addr[9]    ; dataO[3]    ; 4.773 ; 4.841 ; 5.421 ; 5.482 ;
+; addr[9]    ; dataO[4]    ; 5.008 ; 5.074 ; 5.662 ; 5.748 ;
+; addr[9]    ; dataO[5]    ; 5.241 ; 5.272 ; 5.901 ; 5.932 ;
+; addr[9]    ; dataO[6]    ; 4.940 ; 4.999 ; 5.586 ; 5.664 ;
+; addr[9]    ; dataO[7]    ; 4.798 ; 4.848 ; 5.460 ; 5.487 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Board Trace Model Assignments                                                                                                                                                                                                                                                                                                                                                                                    ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; Pin           ; I/O Standard ; Near Tline Length ; Near Tline L per Length ; Near Tline C per Length ; Near Series R ; Near Differential R ; Near Pull-up R ; Near Pull-down R ; Near C ; Far Tline Length ; Far Tline L per Length ; Far Tline C per Length ; Far Series R ; Far Pull-up R ; Far Pull-down R ; Far C ; Termination Voltage ; Far Differential R ; EBD File Name ; EBD Signal Name ; EBD Far-end ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+; dataO[0]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; dataO[1]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; dataO[2]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; dataO[3]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; dataO[4]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; dataO[5]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; dataO[6]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; dataO[7]      ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 in              ; 0 H/in                  ; 0 F/in                  ; short         ; -                   ; open           ; open             ; open   ; 0 in             ; 0 H/in                 ; 0 F/in                 ; short        ; open          ; open            ; open  ; 0 V                 ; -                  ; n/a           ; n/a             ; n/a         ;
++---------------+--------------+-------------------+-------------------------+-------------------------+---------------+---------------------+----------------+------------------+--------+------------------+------------------------+------------------------+--------------+---------------+-----------------+-------+---------------------+--------------------+---------------+-----------------+-------------+
+
+
++-------------------------------------------------------------------+
+; Input Transition Times                                            ;
++----------------+--------------+-----------------+-----------------+
+; Pin            ; I/O Standard ; 10-90 Rise Time ; 90-10 Fall Time ;
++----------------+--------------+-----------------+-----------------+
+; addr[5]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[4]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[0]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[1]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[7]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[6]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[3]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[2]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[9]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; addr[8]        ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; dataI[0]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; clk            ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; wr_en          ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; dataI[1]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; dataI[2]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; dataI[3]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; dataI[4]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; dataI[5]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; dataI[6]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; dataI[7]       ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_DATA0~ ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_ASDO~  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
+; ~ALTERA_NCSO~  ; 2.5 V        ; 2000 ps         ; 2000 ps         ;
++----------------+--------------+-----------------+-----------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; dataO[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.16e-09 V                   ; 2.37 V              ; -0.00861 V          ; 0.168 V                              ; 0.038 V                              ; 6.79e-10 s                  ; 6.49e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 5.16e-09 V                  ; 2.37 V             ; -0.00861 V         ; 0.168 V                             ; 0.038 V                             ; 6.79e-10 s                 ; 6.49e-10 s                 ; No                        ; Yes                       ;
+; dataO[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.16e-09 V                   ; 2.37 V              ; -0.00861 V          ; 0.168 V                              ; 0.038 V                              ; 6.79e-10 s                  ; 6.49e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 5.16e-09 V                  ; 2.37 V             ; -0.00861 V         ; 0.168 V                             ; 0.038 V                             ; 6.79e-10 s                 ; 6.49e-10 s                 ; No                        ; Yes                       ;
+; dataO[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.16e-09 V                   ; 2.37 V              ; -0.00861 V          ; 0.168 V                              ; 0.038 V                              ; 6.79e-10 s                  ; 6.49e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 5.16e-09 V                  ; 2.37 V             ; -0.00861 V         ; 0.168 V                             ; 0.038 V                             ; 6.79e-10 s                 ; 6.49e-10 s                 ; No                        ; Yes                       ;
+; dataO[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; dataO[4]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00339 V          ; 0.206 V                              ; 0.007 V                              ; 2.77e-10 s                  ; 3.24e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00339 V         ; 0.206 V                             ; 0.007 V                             ; 2.77e-10 s                 ; 3.24e-10 s                 ; Yes                       ; Yes                       ;
+; dataO[5]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.16e-09 V                   ; 2.34 V              ; -0.00633 V          ; 0.232 V                              ; 0.083 V                              ; 1.94e-09 s                  ; 1.83e-09 s                  ; No                         ; Yes                        ; 2.32 V                      ; 5.16e-09 V                  ; 2.34 V             ; -0.00633 V         ; 0.232 V                             ; 0.083 V                             ; 1.94e-09 s                 ; 1.83e-09 s                 ; No                        ; Yes                       ;
+; dataO[6]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.16e-09 V                   ; 2.4 V               ; -0.00557 V          ; 0.238 V                              ; 0.014 V                              ; 2.9e-10 s                   ; 3.48e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 5.16e-09 V                  ; 2.4 V              ; -0.00557 V         ; 0.238 V                             ; 0.014 V                             ; 2.9e-10 s                  ; 3.48e-10 s                 ; No                        ; Yes                       ;
+; dataO[7]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.29e-09 V                   ; 2.39 V              ; -0.00317 V          ; 0.179 V                              ; 0.007 V                              ; 4.7e-10 s                   ; 4.72e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 7.29e-09 V                  ; 2.39 V             ; -0.00317 V         ; 0.179 V                             ; 0.007 V                             ; 4.7e-10 s                  ; 4.72e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 4.76e-09 V                   ; 2.4 V               ; -0.034 V            ; 0.102 V                              ; 0.065 V                              ; 2.49e-10 s                  ; 3.49e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 4.76e-09 V                  ; 2.4 V              ; -0.034 V           ; 0.102 V                             ; 0.065 V                             ; 2.49e-10 s                 ; 3.49e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 5.94e-09 V                   ; 2.39 V              ; -0.0344 V           ; 0.156 V                              ; 0.089 V                              ; 2.68e-10 s                  ; 2.6e-10 s                   ; Yes                        ; Yes                        ; 2.32 V                      ; 5.94e-09 V                  ; 2.39 V             ; -0.0344 V          ; 0.156 V                             ; 0.089 V                             ; 2.68e-10 s                 ; 2.6e-10 s                  ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Slow 1200mv 85c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; dataO[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 8.13e-07 V                   ; 2.35 V              ; -0.00662 V          ; 0.129 V                              ; 0.049 V                              ; 8.55e-10 s                  ; 8.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 8.13e-07 V                  ; 2.35 V             ; -0.00662 V         ; 0.129 V                             ; 0.049 V                             ; 8.55e-10 s                 ; 8.01e-10 s                 ; No                        ; Yes                       ;
+; dataO[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 8.13e-07 V                   ; 2.35 V              ; -0.00662 V          ; 0.129 V                              ; 0.049 V                              ; 8.55e-10 s                  ; 8.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 8.13e-07 V                  ; 2.35 V             ; -0.00662 V         ; 0.129 V                             ; 0.049 V                             ; 8.55e-10 s                 ; 8.01e-10 s                 ; No                        ; Yes                       ;
+; dataO[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 8.13e-07 V                   ; 2.35 V              ; -0.00662 V          ; 0.129 V                              ; 0.049 V                              ; 8.55e-10 s                  ; 8.01e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 8.13e-07 V                  ; 2.35 V             ; -0.00662 V         ; 0.129 V                             ; 0.049 V                             ; 8.55e-10 s                 ; 8.01e-10 s                 ; No                        ; Yes                       ;
+; dataO[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; dataO[4]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.37 V              ; -0.00606 V          ; 0.107 V                              ; 0.021 V                              ; 4.26e-10 s                  ; 4.03e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.37 V             ; -0.00606 V         ; 0.107 V                             ; 0.021 V                             ; 4.26e-10 s                 ; 4.03e-10 s                 ; Yes                       ; Yes                       ;
+; dataO[5]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 8.13e-07 V                   ; 2.33 V              ; -0.00252 V          ; 0.203 V                              ; 0.046 V                              ; 2.34e-09 s                  ; 2.24e-09 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 8.13e-07 V                  ; 2.33 V             ; -0.00252 V         ; 0.203 V                             ; 0.046 V                             ; 2.34e-09 s                 ; 2.24e-09 s                 ; Yes                       ; Yes                       ;
+; dataO[6]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 8.13e-07 V                   ; 2.36 V              ; -0.00623 V          ; 0.121 V                              ; 0.03 V                               ; 4.4e-10 s                   ; 4.28e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 8.13e-07 V                  ; 2.36 V             ; -0.00623 V         ; 0.121 V                             ; 0.03 V                              ; 4.4e-10 s                  ; 4.28e-10 s                 ; Yes                       ; Yes                       ;
+; dataO[7]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 1.21e-06 V                   ; 2.36 V              ; -0.00833 V          ; 0.113 V                              ; 0.035 V                              ; 6.32e-10 s                  ; 5.89e-10 s                  ; No                         ; Yes                        ; 2.32 V                      ; 1.21e-06 V                  ; 2.36 V             ; -0.00833 V         ; 0.113 V                             ; 0.035 V                             ; 6.32e-10 s                 ; 5.89e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 7.93e-07 V                   ; 2.37 V              ; -0.0278 V           ; 0.106 V                              ; 0.115 V                              ; 2.69e-10 s                  ; 4.05e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 7.93e-07 V                  ; 2.37 V             ; -0.0278 V          ; 0.106 V                             ; 0.115 V                             ; 2.69e-10 s                 ; 4.05e-10 s                 ; Yes                       ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.32 V                       ; 9.76e-07 V                   ; 2.36 V              ; -0.00439 V          ; 0.088 V                              ; 0.007 V                              ; 4.05e-10 s                  ; 3.35e-10 s                  ; Yes                        ; Yes                        ; 2.32 V                      ; 9.76e-07 V                  ; 2.36 V             ; -0.00439 V         ; 0.088 V                             ; 0.007 V                             ; 4.05e-10 s                 ; 3.35e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Integrity Metrics (Fast 1200mv 0c Model)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; Pin           ; I/O Standard ; Board Delay on Rise ; Board Delay on Fall ; Steady State Voh at FPGA Pin ; Steady State Vol at FPGA Pin ; Voh Max at FPGA Pin ; Vol Min at FPGA Pin ; Ringback Voltage on Rise at FPGA Pin ; Ringback Voltage on Fall at FPGA Pin ; 10-90 Rise Time at FPGA Pin ; 90-10 Fall Time at FPGA Pin ; Monotonic Rise at FPGA Pin ; Monotonic Fall at FPGA Pin ; Steady State Voh at Far-end ; Steady State Vol at Far-end ; Voh Max at Far-end ; Vol Min at Far-end ; Ringback Voltage on Rise at Far-end ; Ringback Voltage on Fall at Far-end ; 10-90 Rise Time at Far-end ; 90-10 Fall Time at Far-end ; Monotonic Rise at Far-end ; Monotonic Fall at Far-end ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+; dataO[0]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.16e-08 V                   ; 2.71 V              ; -0.0171 V           ; 0.273 V                              ; 0.065 V                              ; 4.95e-10 s                  ; 5.37e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.16e-08 V                  ; 2.71 V             ; -0.0171 V          ; 0.273 V                             ; 0.065 V                             ; 4.95e-10 s                 ; 5.37e-10 s                 ; No                        ; Yes                       ;
+; dataO[1]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.16e-08 V                   ; 2.71 V              ; -0.0171 V           ; 0.273 V                              ; 0.065 V                              ; 4.95e-10 s                  ; 5.37e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.16e-08 V                  ; 2.71 V             ; -0.0171 V          ; 0.273 V                             ; 0.065 V                             ; 4.95e-10 s                 ; 5.37e-10 s                 ; No                        ; Yes                       ;
+; dataO[2]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.16e-08 V                   ; 2.71 V              ; -0.0171 V           ; 0.273 V                              ; 0.065 V                              ; 4.95e-10 s                  ; 5.37e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.16e-08 V                  ; 2.71 V             ; -0.0171 V          ; 0.273 V                             ; 0.065 V                             ; 4.95e-10 s                 ; 5.37e-10 s                 ; No                        ; Yes                       ;
+; dataO[3]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; dataO[4]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.73 V              ; -0.0205 V           ; 0.17 V                               ; 0.027 V                              ; 2.58e-10 s                  ; 2.57e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.73 V             ; -0.0205 V          ; 0.17 V                              ; 0.027 V                             ; 2.58e-10 s                 ; 2.57e-10 s                 ; Yes                       ; Yes                       ;
+; dataO[5]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.16e-08 V                   ; 2.65 V              ; -0.0109 V           ; 0.234 V                              ; 0.125 V                              ; 1.64e-09 s                  ; 1.59e-09 s                  ; No                         ; Yes                        ; 2.62 V                      ; 3.16e-08 V                  ; 2.65 V             ; -0.0109 V          ; 0.234 V                             ; 0.125 V                             ; 1.64e-09 s                 ; 1.59e-09 s                 ; No                        ; Yes                       ;
+; dataO[6]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.16e-08 V                   ; 2.72 V              ; -0.0199 V           ; 0.186 V                              ; 0.027 V                              ; 2.63e-10 s                  ; 2.76e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 3.16e-08 V                  ; 2.72 V             ; -0.0199 V          ; 0.186 V                             ; 0.027 V                             ; 2.63e-10 s                 ; 2.76e-10 s                 ; Yes                       ; Yes                       ;
+; dataO[7]      ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 4.66e-08 V                   ; 2.72 V              ; -0.0215 V           ; 0.161 V                              ; 0.061 V                              ; 4.44e-10 s                  ; 4.06e-10 s                  ; No                         ; Yes                        ; 2.62 V                      ; 4.66e-08 V                  ; 2.72 V             ; -0.0215 V          ; 0.161 V                             ; 0.061 V                             ; 4.44e-10 s                 ; 4.06e-10 s                 ; No                        ; Yes                       ;
+; ~ALTERA_NCEO~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.06e-08 V                   ; 2.86 V              ; -0.0341 V           ; 0.364 V                              ; 0.046 V                              ; 1.17e-10 s                  ; 2.6e-10 s                   ; No                         ; Yes                        ; 2.62 V                      ; 3.06e-08 V                  ; 2.86 V             ; -0.0341 V          ; 0.364 V                             ; 0.046 V                             ; 1.17e-10 s                 ; 2.6e-10 s                  ; No                        ; Yes                       ;
+; ~ALTERA_DCLK~ ; 2.5 V        ; 0 s                 ; 0 s                 ; 2.62 V                       ; 3.81e-08 V                   ; 2.72 V              ; -0.0542 V           ; 0.144 V                              ; 0.087 V                              ; 2.55e-10 s                  ; 2.14e-10 s                  ; Yes                        ; Yes                        ; 2.62 V                      ; 3.81e-08 V                  ; 2.72 V             ; -0.0542 V          ; 0.144 V                             ; 0.087 V                             ; 2.55e-10 s                 ; 2.14e-10 s                 ; Yes                       ; Yes                       ;
++---------------+--------------+---------------------+---------------------+------------------------------+------------------------------+---------------------+---------------------+--------------------------------------+--------------------------------------+-----------------------------+-----------------------------+----------------------------+----------------------------+-----------------------------+-----------------------------+--------------------+--------------------+-------------------------------------+-------------------------------------+----------------------------+----------------------------+---------------------------+---------------------------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++-------------------------------------------------+
+; Unconstrained Paths                             ;
++---------------------------------+-------+-------+
+; Property                        ; Setup ; Hold  ;
++---------------------------------+-------+-------+
+; Illegal Clocks                  ; 0     ; 0     ;
+; Unconstrained Clocks            ; 0     ; 0     ;
+; Unconstrained Input Ports       ; 19    ; 19    ;
+; Unconstrained Input Port Paths  ; 98384 ; 98384 ;
+; Unconstrained Output Ports      ; 8     ; 8     ;
+; Unconstrained Output Port Paths ; 8272  ; 8272  ;
++---------------------------------+-------+-------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Mon May 03 14:36:58 2021
+Info: Command: quartus_sta bramVector -c bramVector
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21076): High junction temperature operating condition is not set. Assuming a default value of '85'.
+Info (21076): Low junction temperature operating condition is not set. Assuming a default value of '0'.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'bramVector.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332105): Deriving Clocks
+    Info (332105): create_clock -period 1.000 -name clk clk
+Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1200mV 85C Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -3.000     -8195.000 clk 
+Info: Analyzing Slow 1200mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -3.000     -8195.000 clk 
+Info: Analyzing Fast 1200mV 0C Model
+Info (332154): The derive_clock_uncertainty command did not apply clock uncertainty to any clock-to-clock transfers.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Critical Warning (332148): Timing requirements not met
+    Info (11105): For recommendations on closing timing, run Report Timing Closure Recommendations in the TimeQuest Timing Analyzer.
+Info (332146): Worst-case minimum pulse width slack is -3.000
+    Info (332119):     Slack End Point TNS Clock 
+    Info (332119): ========= ============= =====================
+    Info (332119):    -3.000     -8443.990 clk 
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4707 megabytes
+    Info: Processing ended: Mon May 03 14:37:11 2021
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:12
+
+

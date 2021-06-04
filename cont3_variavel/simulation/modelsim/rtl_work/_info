@@ -1,0 +1,79 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\cont3_variavel\simulation\modelsim
+Econt3
+Z1 w1616958281
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\cont3_variavel\simulation\modelsim
+Z6 8C:/altera/cont3_variavel/cont3.vhd
+Z7 FC:/altera/cont3_variavel/cont3.vhd
+l0
+L6
+V[BTCV6C6<gcYXhVddF^OO2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1616960299.090000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/cont3_variavel/cont3.vhd|
+Z11 !s107 C:/altera/cont3_variavel/cont3.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 86:P>WI5KhAY98FzG0<722
+!i10b 1
+Ahardware
+R2
+R3
+R4
+DEx4 work 5 cont3 0 22 [BTCV6C6<gcYXhVddF^OO2
+l17
+L15
+VDUbfQj3BjDz6CkK6VIUz93
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 UE8ng?KB3b=[Nb]PQg^mz1
+!i10b 1
+Econt3_tb
+Z14 w1616960363
+R2
+R3
+R4
+R5
+Z15 8C:/altera/cont3_variavel/cont3_tb.vhd
+Z16 FC:/altera/cont3_variavel/cont3_tb.vhd
+l0
+L5
+V8ICRj66_TL:GHAeSLRj@30
+!s100 LFF:dVP_W2Di<7:V8I`Lb2
+R8
+32
+!i10b 1
+Z17 !s108 1616960380.082000
+Z18 !s90 -reportprogress|300|-work|work|C:/altera/cont3_variavel/cont3_tb.vhd|
+Z19 !s107 C:/altera/cont3_variavel/cont3_tb.vhd|
+Z20 o-work work -O0
+R13
+Ax1
+R2
+R3
+R4
+DEx4 work 8 cont3_tb 0 22 8ICRj66_TL:GHAeSLRj@30
+l25
+L8
+VHYc3P:9UE?V;:CZkY3A`N3
+!s100 @>JHIz6;fZ:X=D6OI9c>L0
+R8
+32
+!i10b 1
+R17
+R18
+R19
+R20
+R13

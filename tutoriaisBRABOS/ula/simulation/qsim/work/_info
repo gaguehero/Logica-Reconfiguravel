@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\tutoriaisBRABOS\ula\simulation\qsim
+vunidadeLogicaArt
+Z1 IPHahTY;48^DSiOQ@NL]YK3
+Z2 VHMQ^oULlla07Wiob<:c@?1
+Z3 dC:\altera\tutoriaisBRABOS\ula\simulation\qsim
+Z4 w1614795207
+Z5 8unidadeLogicaArt.vo
+Z6 FunidadeLogicaArt.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nunidade@logica@art
+!i10b 1
+Z10 !s100 C=Lemd6X<k_M4WjT8^I6j1
+!s85 0
+Z11 !s108 1614795218.875000
+Z12 !s107 unidadeLogicaArt.vo|
+Z13 !s90 -work|work|unidadeLogicaArt.vo|
+!s101 -O0
+vunidadeLogicaArt_vlg_check_tst
+!i10b 1
+!s100 :[S2Hl^m4::HEV@hPD3[A3
+I;UU?cK;4UCBiK?FYgD_l=0
+VMMceAzl2O4K;09]U0>B>R0
+R3
+Z14 w1614795205
+Z15 8unidadeLogicaArt.vt
+Z16 FunidadeLogicaArt.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1614795219.558000
+Z18 !s107 unidadeLogicaArt.vt|
+Z19 !s90 -work|work|unidadeLogicaArt.vt|
+!s101 -O0
+R8
+nunidade@logica@art_vlg_check_tst
+vunidadeLogicaArt_vlg_sample_tst
+!i10b 1
+!s100 PFEaeGik3So0jYP76S^PW1
+IaVk6G15[X<6XdLQBPACi@2
+Vn^b7kmQjOAma9S=D4Wce[2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nunidade@logica@art_vlg_sample_tst
+vunidadeLogicaArt_vlg_vec_tst
+!i10b 1
+!s100 _W09k2jZeQYVJPdXTemTO0
+IlbFa4LU]cf5nPdz>i7Aid0
+VW=NI`MmU?ZShIncZdiCij1
+R3
+R14
+R15
+R16
+L0 209
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nunidade@logica@art_vlg_vec_tst

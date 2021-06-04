@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\BCD_7Seg\simulation\modelsim
+Ebcd_7seg
+Z1 w1614886492
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\altera\BCD_7Seg\simulation\modelsim
+Z5 8C:/altera/BCD_7Seg/BCD_7Seg.vhd
+Z6 FC:/altera/BCD_7Seg/BCD_7Seg.vhd
+l0
+L23
+V[g@WVRoWiIUfL8lG9Oi6]2
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1614887984.727000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/altera/BCD_7Seg/BCD_7Seg.vhd|
+Z10 !s107 C:/altera/BCD_7Seg/BCD_7Seg.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 hbWcLPl4IA@:Z76Rc>emO2
+!i10b 1
+Ahardware
+R2
+R3
+DEx4 work 8 bcd_7seg 0 22 [g@WVRoWiIUfL8lG9Oi6]2
+l31
+L30
+VaA8R=WY6`A@7P?0h[k^hP2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 k4QO<7OaPEL<JO85K6F^N0
+!i10b 1
+Ebcd_7seg_tb
+Z13 w1614887949
+R2
+R3
+R4
+Z14 8C:/altera/BCD_7Seg/BCD_7Seg_tb.vhd
+Z15 FC:/altera/BCD_7Seg/BCD_7Seg_tb.vhd
+l0
+L23
+V9nLWD`_?fzILZH[dUV]gf0
+!s100 SzIj5PbQFOWX97dIcCJ?R1
+R7
+32
+!i10b 1
+Z16 !s108 1614888001.030000
+Z17 !s90 -reportprogress|300|-work|work|C:/altera/BCD_7Seg/BCD_7Seg_tb.vhd|
+Z18 !s107 C:/altera/BCD_7Seg/BCD_7Seg_tb.vhd|
+Z19 o-work work -O0
+R12
+Abcdaum
+R2
+R3
+DEx4 work 11 bcd_7seg_tb 0 22 9nLWD`_?fzILZH[dUV]gf0
+l36
+L26
+VT2LCHJhA<4fE[P?1^dbOb2
+!s100 ]?TY@04dVF7G=mcecI:Ek3
+R7
+32
+!i10b 1
+R16
+R17
+R18
+R19
+R12

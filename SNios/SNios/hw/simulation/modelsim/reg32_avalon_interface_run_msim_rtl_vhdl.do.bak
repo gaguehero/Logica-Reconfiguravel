@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {D:/VHDL/user_HW_Copia1/hw/reg32_avalon_interface.vhd}
+vcom -93 -work work {D:/VHDL/user_HW_Copia1/hw/reg32.vhd}
+vcom -93 -work work {D:/VHDL/user_HW_Copia1/hw/contador8bit.vhd}
+vcom -93 -work work {D:/VHDL/user_HW_Copia1/hw/contador1.vhd}
+vcom -93 -work work {D:/VHDL/user_HW_Copia1/hw/contador0.vhd}
+

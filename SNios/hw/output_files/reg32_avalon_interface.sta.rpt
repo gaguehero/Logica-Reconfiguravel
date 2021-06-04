@@ -1,0 +1,676 @@
+TimeQuest Timing Analyzer report for reg32_avalon_interface
+Fri Sep 18 09:56:50 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; reg32_avalon_interface                                            ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C5F256C6                                                       ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------+
+; Propagation Delay                                           ;
++------------+--------------+-------+--------+--------+-------+
+; Input Port ; Output Port  ; RR    ; RF     ; FR     ; FF    ;
++------------+--------------+-------+--------+--------+-------+
+; chipselect ; readdata[0]  ;       ; 11.889 ; 11.889 ;       ;
+; chipselect ; readdata[1]  ;       ; 10.242 ; 10.242 ;       ;
+; chipselect ; readdata[2]  ;       ; 10.724 ; 10.724 ;       ;
+; chipselect ; readdata[3]  ; 9.494 ; 9.525  ; 9.525  ; 9.494 ;
+; chipselect ; readdata[4]  ;       ; 9.941  ; 9.941  ;       ;
+; chipselect ; readdata[5]  ;       ; 11.201 ; 11.201 ;       ;
+; chipselect ; readdata[6]  ;       ; 10.965 ; 10.965 ;       ;
+; chipselect ; readdata[7]  ;       ; 9.921  ; 9.921  ;       ;
+; chipselect ; readdata[8]  ;       ; 9.514  ; 9.514  ;       ;
+; chipselect ; readdata[9]  ;       ; 10.162 ; 10.162 ;       ;
+; chipselect ; readdata[10] ;       ; 10.935 ; 10.935 ;       ;
+; chipselect ; readdata[11] ;       ; 11.123 ; 11.123 ;       ;
+; chipselect ; readdata[12] ;       ; 10.751 ; 10.751 ;       ;
+; chipselect ; readdata[13] ;       ; 10.314 ; 10.314 ;       ;
+; chipselect ; readdata[14] ;       ; 10.995 ; 10.995 ;       ;
+; chipselect ; readdata[15] ;       ; 10.847 ; 10.847 ;       ;
+; chipselect ; readdata[16] ;       ; 10.461 ; 10.461 ;       ;
+; chipselect ; readdata[17] ;       ; 11.101 ; 11.101 ;       ;
+; chipselect ; readdata[18] ;       ; 10.537 ; 10.537 ;       ;
+; chipselect ; readdata[19] ;       ; 11.871 ; 11.871 ;       ;
+; chipselect ; readdata[20] ;       ; 10.844 ; 10.844 ;       ;
+; chipselect ; readdata[21] ;       ; 11.158 ; 11.158 ;       ;
+; chipselect ; readdata[22] ;       ; 10.172 ; 10.172 ;       ;
+; chipselect ; readdata[23] ;       ; 10.171 ; 10.171 ;       ;
+; chipselect ; readdata[24] ;       ; 10.242 ; 10.242 ;       ;
+; chipselect ; readdata[25] ;       ; 11.022 ; 11.022 ;       ;
+; chipselect ; readdata[26] ;       ; 11.123 ; 11.123 ;       ;
+; chipselect ; readdata[27] ;       ; 10.507 ; 10.507 ;       ;
+; chipselect ; readdata[28] ;       ; 10.486 ; 10.486 ;       ;
+; chipselect ; readdata[29] ;       ; 10.724 ; 10.724 ;       ;
+; chipselect ; readdata[30] ;       ; 10.526 ; 10.526 ;       ;
+; chipselect ; readdata[31] ;       ; 10.771 ; 10.771 ;       ;
+; read       ; readdata[0]  ;       ; 12.042 ; 12.042 ;       ;
+; read       ; readdata[1]  ;       ; 10.395 ; 10.395 ;       ;
+; read       ; readdata[2]  ;       ; 10.877 ; 10.877 ;       ;
+; read       ; readdata[3]  ; 9.647 ; 9.678  ; 9.678  ; 9.647 ;
+; read       ; readdata[4]  ;       ; 10.094 ; 10.094 ;       ;
+; read       ; readdata[5]  ;       ; 11.354 ; 11.354 ;       ;
+; read       ; readdata[6]  ;       ; 11.118 ; 11.118 ;       ;
+; read       ; readdata[7]  ;       ; 10.074 ; 10.074 ;       ;
+; read       ; readdata[8]  ;       ; 9.667  ; 9.667  ;       ;
+; read       ; readdata[9]  ;       ; 10.315 ; 10.315 ;       ;
+; read       ; readdata[10] ;       ; 11.088 ; 11.088 ;       ;
+; read       ; readdata[11] ;       ; 11.276 ; 11.276 ;       ;
+; read       ; readdata[12] ;       ; 10.904 ; 10.904 ;       ;
+; read       ; readdata[13] ;       ; 10.467 ; 10.467 ;       ;
+; read       ; readdata[14] ;       ; 11.148 ; 11.148 ;       ;
+; read       ; readdata[15] ;       ; 11.000 ; 11.000 ;       ;
+; read       ; readdata[16] ;       ; 10.614 ; 10.614 ;       ;
+; read       ; readdata[17] ;       ; 11.254 ; 11.254 ;       ;
+; read       ; readdata[18] ;       ; 10.690 ; 10.690 ;       ;
+; read       ; readdata[19] ;       ; 12.024 ; 12.024 ;       ;
+; read       ; readdata[20] ;       ; 10.997 ; 10.997 ;       ;
+; read       ; readdata[21] ;       ; 11.311 ; 11.311 ;       ;
+; read       ; readdata[22] ;       ; 10.325 ; 10.325 ;       ;
+; read       ; readdata[23] ;       ; 10.324 ; 10.324 ;       ;
+; read       ; readdata[24] ;       ; 10.395 ; 10.395 ;       ;
+; read       ; readdata[25] ;       ; 11.175 ; 11.175 ;       ;
+; read       ; readdata[26] ;       ; 11.276 ; 11.276 ;       ;
+; read       ; readdata[27] ;       ; 10.660 ; 10.660 ;       ;
+; read       ; readdata[28] ;       ; 10.639 ; 10.639 ;       ;
+; read       ; readdata[29] ;       ; 10.877 ; 10.877 ;       ;
+; read       ; readdata[30] ;       ; 10.679 ; 10.679 ;       ;
+; read       ; readdata[31] ;       ; 10.924 ; 10.924 ;       ;
++------------+--------------+-------+--------+--------+-------+
+
+
++-------------------------------------------------------------+
+; Minimum Propagation Delay                                   ;
++------------+--------------+-------+--------+--------+-------+
+; Input Port ; Output Port  ; RR    ; RF     ; FR     ; FF    ;
++------------+--------------+-------+--------+--------+-------+
+; chipselect ; readdata[0]  ;       ; 11.889 ; 11.889 ;       ;
+; chipselect ; readdata[1]  ;       ; 10.242 ; 10.242 ;       ;
+; chipselect ; readdata[2]  ;       ; 10.724 ; 10.724 ;       ;
+; chipselect ; readdata[3]  ; 9.494 ; 9.494  ; 9.494  ; 9.494 ;
+; chipselect ; readdata[4]  ;       ; 9.941  ; 9.941  ;       ;
+; chipselect ; readdata[5]  ;       ; 11.201 ; 11.201 ;       ;
+; chipselect ; readdata[6]  ;       ; 10.965 ; 10.965 ;       ;
+; chipselect ; readdata[7]  ;       ; 9.921  ; 9.921  ;       ;
+; chipselect ; readdata[8]  ;       ; 9.514  ; 9.514  ;       ;
+; chipselect ; readdata[9]  ;       ; 10.162 ; 10.162 ;       ;
+; chipselect ; readdata[10] ;       ; 10.935 ; 10.935 ;       ;
+; chipselect ; readdata[11] ;       ; 11.123 ; 11.123 ;       ;
+; chipselect ; readdata[12] ;       ; 10.751 ; 10.751 ;       ;
+; chipselect ; readdata[13] ;       ; 10.314 ; 10.314 ;       ;
+; chipselect ; readdata[14] ;       ; 10.995 ; 10.995 ;       ;
+; chipselect ; readdata[15] ;       ; 10.847 ; 10.847 ;       ;
+; chipselect ; readdata[16] ;       ; 10.461 ; 10.461 ;       ;
+; chipselect ; readdata[17] ;       ; 11.101 ; 11.101 ;       ;
+; chipselect ; readdata[18] ;       ; 10.537 ; 10.537 ;       ;
+; chipselect ; readdata[19] ;       ; 11.871 ; 11.871 ;       ;
+; chipselect ; readdata[20] ;       ; 10.844 ; 10.844 ;       ;
+; chipselect ; readdata[21] ;       ; 11.158 ; 11.158 ;       ;
+; chipselect ; readdata[22] ;       ; 10.172 ; 10.172 ;       ;
+; chipselect ; readdata[23] ;       ; 10.171 ; 10.171 ;       ;
+; chipselect ; readdata[24] ;       ; 10.242 ; 10.242 ;       ;
+; chipselect ; readdata[25] ;       ; 11.022 ; 11.022 ;       ;
+; chipselect ; readdata[26] ;       ; 11.123 ; 11.123 ;       ;
+; chipselect ; readdata[27] ;       ; 10.507 ; 10.507 ;       ;
+; chipselect ; readdata[28] ;       ; 10.486 ; 10.486 ;       ;
+; chipselect ; readdata[29] ;       ; 10.724 ; 10.724 ;       ;
+; chipselect ; readdata[30] ;       ; 10.526 ; 10.526 ;       ;
+; chipselect ; readdata[31] ;       ; 10.771 ; 10.771 ;       ;
+; read       ; readdata[0]  ;       ; 12.042 ; 12.042 ;       ;
+; read       ; readdata[1]  ;       ; 10.395 ; 10.395 ;       ;
+; read       ; readdata[2]  ;       ; 10.877 ; 10.877 ;       ;
+; read       ; readdata[3]  ; 9.647 ; 9.647  ; 9.647  ; 9.647 ;
+; read       ; readdata[4]  ;       ; 10.094 ; 10.094 ;       ;
+; read       ; readdata[5]  ;       ; 11.354 ; 11.354 ;       ;
+; read       ; readdata[6]  ;       ; 11.118 ; 11.118 ;       ;
+; read       ; readdata[7]  ;       ; 10.074 ; 10.074 ;       ;
+; read       ; readdata[8]  ;       ; 9.667  ; 9.667  ;       ;
+; read       ; readdata[9]  ;       ; 10.315 ; 10.315 ;       ;
+; read       ; readdata[10] ;       ; 11.088 ; 11.088 ;       ;
+; read       ; readdata[11] ;       ; 11.276 ; 11.276 ;       ;
+; read       ; readdata[12] ;       ; 10.904 ; 10.904 ;       ;
+; read       ; readdata[13] ;       ; 10.467 ; 10.467 ;       ;
+; read       ; readdata[14] ;       ; 11.148 ; 11.148 ;       ;
+; read       ; readdata[15] ;       ; 11.000 ; 11.000 ;       ;
+; read       ; readdata[16] ;       ; 10.614 ; 10.614 ;       ;
+; read       ; readdata[17] ;       ; 11.254 ; 11.254 ;       ;
+; read       ; readdata[18] ;       ; 10.690 ; 10.690 ;       ;
+; read       ; readdata[19] ;       ; 12.024 ; 12.024 ;       ;
+; read       ; readdata[20] ;       ; 10.997 ; 10.997 ;       ;
+; read       ; readdata[21] ;       ; 11.311 ; 11.311 ;       ;
+; read       ; readdata[22] ;       ; 10.325 ; 10.325 ;       ;
+; read       ; readdata[23] ;       ; 10.324 ; 10.324 ;       ;
+; read       ; readdata[24] ;       ; 10.395 ; 10.395 ;       ;
+; read       ; readdata[25] ;       ; 11.175 ; 11.175 ;       ;
+; read       ; readdata[26] ;       ; 11.276 ; 11.276 ;       ;
+; read       ; readdata[27] ;       ; 10.660 ; 10.660 ;       ;
+; read       ; readdata[28] ;       ; 10.639 ; 10.639 ;       ;
+; read       ; readdata[29] ;       ; 10.877 ; 10.877 ;       ;
+; read       ; readdata[30] ;       ; 10.679 ; 10.679 ;       ;
+; read       ; readdata[31] ;       ; 10.924 ; 10.924 ;       ;
++------------+--------------+-------+--------+--------+-------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-----------------------------------------------------------+
+; Propagation Delay                                         ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; chipselect ; readdata[0]  ;       ; 6.397 ; 6.397 ;       ;
+; chipselect ; readdata[1]  ;       ; 5.636 ; 5.636 ;       ;
+; chipselect ; readdata[2]  ;       ; 5.860 ; 5.860 ;       ;
+; chipselect ; readdata[3]  ; 5.271 ; 5.302 ; 5.302 ; 5.271 ;
+; chipselect ; readdata[4]  ;       ; 5.495 ; 5.495 ;       ;
+; chipselect ; readdata[5]  ;       ; 6.089 ; 6.089 ;       ;
+; chipselect ; readdata[6]  ;       ; 5.975 ; 5.975 ;       ;
+; chipselect ; readdata[7]  ;       ; 5.483 ; 5.483 ;       ;
+; chipselect ; readdata[8]  ;       ; 5.292 ; 5.292 ;       ;
+; chipselect ; readdata[9]  ;       ; 5.603 ; 5.603 ;       ;
+; chipselect ; readdata[10] ;       ; 5.952 ; 5.952 ;       ;
+; chipselect ; readdata[11] ;       ; 6.006 ; 6.006 ;       ;
+; chipselect ; readdata[12] ;       ; 5.881 ; 5.881 ;       ;
+; chipselect ; readdata[13] ;       ; 5.623 ; 5.623 ;       ;
+; chipselect ; readdata[14] ;       ; 6.005 ; 6.005 ;       ;
+; chipselect ; readdata[15] ;       ; 5.869 ; 5.869 ;       ;
+; chipselect ; readdata[16] ;       ; 5.733 ; 5.733 ;       ;
+; chipselect ; readdata[17] ;       ; 5.979 ; 5.979 ;       ;
+; chipselect ; readdata[18] ;       ; 5.787 ; 5.787 ;       ;
+; chipselect ; readdata[19] ;       ; 6.379 ; 6.379 ;       ;
+; chipselect ; readdata[20] ;       ; 5.866 ; 5.866 ;       ;
+; chipselect ; readdata[21] ;       ; 6.055 ; 6.055 ;       ;
+; chipselect ; readdata[22] ;       ; 5.613 ; 5.613 ;       ;
+; chipselect ; readdata[23] ;       ; 5.535 ; 5.535 ;       ;
+; chipselect ; readdata[24] ;       ; 5.636 ; 5.636 ;       ;
+; chipselect ; readdata[25] ;       ; 6.007 ; 6.007 ;       ;
+; chipselect ; readdata[26] ;       ; 6.006 ; 6.006 ;       ;
+; chipselect ; readdata[27] ;       ; 5.756 ; 5.756 ;       ;
+; chipselect ; readdata[28] ;       ; 5.688 ; 5.688 ;       ;
+; chipselect ; readdata[29] ;       ; 5.868 ; 5.868 ;       ;
+; chipselect ; readdata[30] ;       ; 5.775 ; 5.775 ;       ;
+; chipselect ; readdata[31] ;       ; 5.901 ; 5.901 ;       ;
+; read       ; readdata[0]  ;       ; 6.475 ; 6.475 ;       ;
+; read       ; readdata[1]  ;       ; 5.714 ; 5.714 ;       ;
+; read       ; readdata[2]  ;       ; 5.938 ; 5.938 ;       ;
+; read       ; readdata[3]  ; 5.349 ; 5.380 ; 5.380 ; 5.349 ;
+; read       ; readdata[4]  ;       ; 5.573 ; 5.573 ;       ;
+; read       ; readdata[5]  ;       ; 6.167 ; 6.167 ;       ;
+; read       ; readdata[6]  ;       ; 6.053 ; 6.053 ;       ;
+; read       ; readdata[7]  ;       ; 5.561 ; 5.561 ;       ;
+; read       ; readdata[8]  ;       ; 5.370 ; 5.370 ;       ;
+; read       ; readdata[9]  ;       ; 5.681 ; 5.681 ;       ;
+; read       ; readdata[10] ;       ; 6.030 ; 6.030 ;       ;
+; read       ; readdata[11] ;       ; 6.084 ; 6.084 ;       ;
+; read       ; readdata[12] ;       ; 5.959 ; 5.959 ;       ;
+; read       ; readdata[13] ;       ; 5.701 ; 5.701 ;       ;
+; read       ; readdata[14] ;       ; 6.083 ; 6.083 ;       ;
+; read       ; readdata[15] ;       ; 5.947 ; 5.947 ;       ;
+; read       ; readdata[16] ;       ; 5.811 ; 5.811 ;       ;
+; read       ; readdata[17] ;       ; 6.057 ; 6.057 ;       ;
+; read       ; readdata[18] ;       ; 5.865 ; 5.865 ;       ;
+; read       ; readdata[19] ;       ; 6.457 ; 6.457 ;       ;
+; read       ; readdata[20] ;       ; 5.944 ; 5.944 ;       ;
+; read       ; readdata[21] ;       ; 6.133 ; 6.133 ;       ;
+; read       ; readdata[22] ;       ; 5.691 ; 5.691 ;       ;
+; read       ; readdata[23] ;       ; 5.613 ; 5.613 ;       ;
+; read       ; readdata[24] ;       ; 5.714 ; 5.714 ;       ;
+; read       ; readdata[25] ;       ; 6.085 ; 6.085 ;       ;
+; read       ; readdata[26] ;       ; 6.084 ; 6.084 ;       ;
+; read       ; readdata[27] ;       ; 5.834 ; 5.834 ;       ;
+; read       ; readdata[28] ;       ; 5.766 ; 5.766 ;       ;
+; read       ; readdata[29] ;       ; 5.946 ; 5.946 ;       ;
+; read       ; readdata[30] ;       ; 5.853 ; 5.853 ;       ;
+; read       ; readdata[31] ;       ; 5.979 ; 5.979 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
++-----------------------------------------------------------+
+; Minimum Propagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; chipselect ; readdata[0]  ;       ; 6.397 ; 6.397 ;       ;
+; chipselect ; readdata[1]  ;       ; 5.636 ; 5.636 ;       ;
+; chipselect ; readdata[2]  ;       ; 5.860 ; 5.860 ;       ;
+; chipselect ; readdata[3]  ; 5.271 ; 5.271 ; 5.271 ; 5.271 ;
+; chipselect ; readdata[4]  ;       ; 5.495 ; 5.495 ;       ;
+; chipselect ; readdata[5]  ;       ; 6.089 ; 6.089 ;       ;
+; chipselect ; readdata[6]  ;       ; 5.975 ; 5.975 ;       ;
+; chipselect ; readdata[7]  ;       ; 5.483 ; 5.483 ;       ;
+; chipselect ; readdata[8]  ;       ; 5.292 ; 5.292 ;       ;
+; chipselect ; readdata[9]  ;       ; 5.603 ; 5.603 ;       ;
+; chipselect ; readdata[10] ;       ; 5.952 ; 5.952 ;       ;
+; chipselect ; readdata[11] ;       ; 6.006 ; 6.006 ;       ;
+; chipselect ; readdata[12] ;       ; 5.881 ; 5.881 ;       ;
+; chipselect ; readdata[13] ;       ; 5.623 ; 5.623 ;       ;
+; chipselect ; readdata[14] ;       ; 6.005 ; 6.005 ;       ;
+; chipselect ; readdata[15] ;       ; 5.869 ; 5.869 ;       ;
+; chipselect ; readdata[16] ;       ; 5.733 ; 5.733 ;       ;
+; chipselect ; readdata[17] ;       ; 5.979 ; 5.979 ;       ;
+; chipselect ; readdata[18] ;       ; 5.787 ; 5.787 ;       ;
+; chipselect ; readdata[19] ;       ; 6.379 ; 6.379 ;       ;
+; chipselect ; readdata[20] ;       ; 5.866 ; 5.866 ;       ;
+; chipselect ; readdata[21] ;       ; 6.055 ; 6.055 ;       ;
+; chipselect ; readdata[22] ;       ; 5.613 ; 5.613 ;       ;
+; chipselect ; readdata[23] ;       ; 5.535 ; 5.535 ;       ;
+; chipselect ; readdata[24] ;       ; 5.636 ; 5.636 ;       ;
+; chipselect ; readdata[25] ;       ; 6.007 ; 6.007 ;       ;
+; chipselect ; readdata[26] ;       ; 6.006 ; 6.006 ;       ;
+; chipselect ; readdata[27] ;       ; 5.756 ; 5.756 ;       ;
+; chipselect ; readdata[28] ;       ; 5.688 ; 5.688 ;       ;
+; chipselect ; readdata[29] ;       ; 5.868 ; 5.868 ;       ;
+; chipselect ; readdata[30] ;       ; 5.775 ; 5.775 ;       ;
+; chipselect ; readdata[31] ;       ; 5.901 ; 5.901 ;       ;
+; read       ; readdata[0]  ;       ; 6.475 ; 6.475 ;       ;
+; read       ; readdata[1]  ;       ; 5.714 ; 5.714 ;       ;
+; read       ; readdata[2]  ;       ; 5.938 ; 5.938 ;       ;
+; read       ; readdata[3]  ; 5.349 ; 5.349 ; 5.349 ; 5.349 ;
+; read       ; readdata[4]  ;       ; 5.573 ; 5.573 ;       ;
+; read       ; readdata[5]  ;       ; 6.167 ; 6.167 ;       ;
+; read       ; readdata[6]  ;       ; 6.053 ; 6.053 ;       ;
+; read       ; readdata[7]  ;       ; 5.561 ; 5.561 ;       ;
+; read       ; readdata[8]  ;       ; 5.370 ; 5.370 ;       ;
+; read       ; readdata[9]  ;       ; 5.681 ; 5.681 ;       ;
+; read       ; readdata[10] ;       ; 6.030 ; 6.030 ;       ;
+; read       ; readdata[11] ;       ; 6.084 ; 6.084 ;       ;
+; read       ; readdata[12] ;       ; 5.959 ; 5.959 ;       ;
+; read       ; readdata[13] ;       ; 5.701 ; 5.701 ;       ;
+; read       ; readdata[14] ;       ; 6.083 ; 6.083 ;       ;
+; read       ; readdata[15] ;       ; 5.947 ; 5.947 ;       ;
+; read       ; readdata[16] ;       ; 5.811 ; 5.811 ;       ;
+; read       ; readdata[17] ;       ; 6.057 ; 6.057 ;       ;
+; read       ; readdata[18] ;       ; 5.865 ; 5.865 ;       ;
+; read       ; readdata[19] ;       ; 6.457 ; 6.457 ;       ;
+; read       ; readdata[20] ;       ; 5.944 ; 5.944 ;       ;
+; read       ; readdata[21] ;       ; 6.133 ; 6.133 ;       ;
+; read       ; readdata[22] ;       ; 5.691 ; 5.691 ;       ;
+; read       ; readdata[23] ;       ; 5.613 ; 5.613 ;       ;
+; read       ; readdata[24] ;       ; 5.714 ; 5.714 ;       ;
+; read       ; readdata[25] ;       ; 6.085 ; 6.085 ;       ;
+; read       ; readdata[26] ;       ; 6.084 ; 6.084 ;       ;
+; read       ; readdata[27] ;       ; 5.834 ; 5.834 ;       ;
+; read       ; readdata[28] ;       ; 5.766 ; 5.766 ;       ;
+; read       ; readdata[29] ;       ; 5.946 ; 5.946 ;       ;
+; read       ; readdata[30] ;       ; 5.853 ; 5.853 ;       ;
+; read       ; readdata[31] ;       ; 5.979 ; 5.979 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------+
+; Progagation Delay                                           ;
++------------+--------------+-------+--------+--------+-------+
+; Input Port ; Output Port  ; RR    ; RF     ; FR     ; FF    ;
++------------+--------------+-------+--------+--------+-------+
+; chipselect ; readdata[0]  ;       ; 11.889 ; 11.889 ;       ;
+; chipselect ; readdata[1]  ;       ; 10.242 ; 10.242 ;       ;
+; chipselect ; readdata[2]  ;       ; 10.724 ; 10.724 ;       ;
+; chipselect ; readdata[3]  ; 9.494 ; 9.525  ; 9.525  ; 9.494 ;
+; chipselect ; readdata[4]  ;       ; 9.941  ; 9.941  ;       ;
+; chipselect ; readdata[5]  ;       ; 11.201 ; 11.201 ;       ;
+; chipselect ; readdata[6]  ;       ; 10.965 ; 10.965 ;       ;
+; chipselect ; readdata[7]  ;       ; 9.921  ; 9.921  ;       ;
+; chipselect ; readdata[8]  ;       ; 9.514  ; 9.514  ;       ;
+; chipselect ; readdata[9]  ;       ; 10.162 ; 10.162 ;       ;
+; chipselect ; readdata[10] ;       ; 10.935 ; 10.935 ;       ;
+; chipselect ; readdata[11] ;       ; 11.123 ; 11.123 ;       ;
+; chipselect ; readdata[12] ;       ; 10.751 ; 10.751 ;       ;
+; chipselect ; readdata[13] ;       ; 10.314 ; 10.314 ;       ;
+; chipselect ; readdata[14] ;       ; 10.995 ; 10.995 ;       ;
+; chipselect ; readdata[15] ;       ; 10.847 ; 10.847 ;       ;
+; chipselect ; readdata[16] ;       ; 10.461 ; 10.461 ;       ;
+; chipselect ; readdata[17] ;       ; 11.101 ; 11.101 ;       ;
+; chipselect ; readdata[18] ;       ; 10.537 ; 10.537 ;       ;
+; chipselect ; readdata[19] ;       ; 11.871 ; 11.871 ;       ;
+; chipselect ; readdata[20] ;       ; 10.844 ; 10.844 ;       ;
+; chipselect ; readdata[21] ;       ; 11.158 ; 11.158 ;       ;
+; chipselect ; readdata[22] ;       ; 10.172 ; 10.172 ;       ;
+; chipselect ; readdata[23] ;       ; 10.171 ; 10.171 ;       ;
+; chipselect ; readdata[24] ;       ; 10.242 ; 10.242 ;       ;
+; chipselect ; readdata[25] ;       ; 11.022 ; 11.022 ;       ;
+; chipselect ; readdata[26] ;       ; 11.123 ; 11.123 ;       ;
+; chipselect ; readdata[27] ;       ; 10.507 ; 10.507 ;       ;
+; chipselect ; readdata[28] ;       ; 10.486 ; 10.486 ;       ;
+; chipselect ; readdata[29] ;       ; 10.724 ; 10.724 ;       ;
+; chipselect ; readdata[30] ;       ; 10.526 ; 10.526 ;       ;
+; chipselect ; readdata[31] ;       ; 10.771 ; 10.771 ;       ;
+; read       ; readdata[0]  ;       ; 12.042 ; 12.042 ;       ;
+; read       ; readdata[1]  ;       ; 10.395 ; 10.395 ;       ;
+; read       ; readdata[2]  ;       ; 10.877 ; 10.877 ;       ;
+; read       ; readdata[3]  ; 9.647 ; 9.678  ; 9.678  ; 9.647 ;
+; read       ; readdata[4]  ;       ; 10.094 ; 10.094 ;       ;
+; read       ; readdata[5]  ;       ; 11.354 ; 11.354 ;       ;
+; read       ; readdata[6]  ;       ; 11.118 ; 11.118 ;       ;
+; read       ; readdata[7]  ;       ; 10.074 ; 10.074 ;       ;
+; read       ; readdata[8]  ;       ; 9.667  ; 9.667  ;       ;
+; read       ; readdata[9]  ;       ; 10.315 ; 10.315 ;       ;
+; read       ; readdata[10] ;       ; 11.088 ; 11.088 ;       ;
+; read       ; readdata[11] ;       ; 11.276 ; 11.276 ;       ;
+; read       ; readdata[12] ;       ; 10.904 ; 10.904 ;       ;
+; read       ; readdata[13] ;       ; 10.467 ; 10.467 ;       ;
+; read       ; readdata[14] ;       ; 11.148 ; 11.148 ;       ;
+; read       ; readdata[15] ;       ; 11.000 ; 11.000 ;       ;
+; read       ; readdata[16] ;       ; 10.614 ; 10.614 ;       ;
+; read       ; readdata[17] ;       ; 11.254 ; 11.254 ;       ;
+; read       ; readdata[18] ;       ; 10.690 ; 10.690 ;       ;
+; read       ; readdata[19] ;       ; 12.024 ; 12.024 ;       ;
+; read       ; readdata[20] ;       ; 10.997 ; 10.997 ;       ;
+; read       ; readdata[21] ;       ; 11.311 ; 11.311 ;       ;
+; read       ; readdata[22] ;       ; 10.325 ; 10.325 ;       ;
+; read       ; readdata[23] ;       ; 10.324 ; 10.324 ;       ;
+; read       ; readdata[24] ;       ; 10.395 ; 10.395 ;       ;
+; read       ; readdata[25] ;       ; 11.175 ; 11.175 ;       ;
+; read       ; readdata[26] ;       ; 11.276 ; 11.276 ;       ;
+; read       ; readdata[27] ;       ; 10.660 ; 10.660 ;       ;
+; read       ; readdata[28] ;       ; 10.639 ; 10.639 ;       ;
+; read       ; readdata[29] ;       ; 10.877 ; 10.877 ;       ;
+; read       ; readdata[30] ;       ; 10.679 ; 10.679 ;       ;
+; read       ; readdata[31] ;       ; 10.924 ; 10.924 ;       ;
++------------+--------------+-------+--------+--------+-------+
+
+
++-----------------------------------------------------------+
+; Minimum Progagation Delay                                 ;
++------------+--------------+-------+-------+-------+-------+
+; Input Port ; Output Port  ; RR    ; RF    ; FR    ; FF    ;
++------------+--------------+-------+-------+-------+-------+
+; chipselect ; readdata[0]  ;       ; 6.397 ; 6.397 ;       ;
+; chipselect ; readdata[1]  ;       ; 5.636 ; 5.636 ;       ;
+; chipselect ; readdata[2]  ;       ; 5.860 ; 5.860 ;       ;
+; chipselect ; readdata[3]  ; 5.271 ; 5.271 ; 5.271 ; 5.271 ;
+; chipselect ; readdata[4]  ;       ; 5.495 ; 5.495 ;       ;
+; chipselect ; readdata[5]  ;       ; 6.089 ; 6.089 ;       ;
+; chipselect ; readdata[6]  ;       ; 5.975 ; 5.975 ;       ;
+; chipselect ; readdata[7]  ;       ; 5.483 ; 5.483 ;       ;
+; chipselect ; readdata[8]  ;       ; 5.292 ; 5.292 ;       ;
+; chipselect ; readdata[9]  ;       ; 5.603 ; 5.603 ;       ;
+; chipselect ; readdata[10] ;       ; 5.952 ; 5.952 ;       ;
+; chipselect ; readdata[11] ;       ; 6.006 ; 6.006 ;       ;
+; chipselect ; readdata[12] ;       ; 5.881 ; 5.881 ;       ;
+; chipselect ; readdata[13] ;       ; 5.623 ; 5.623 ;       ;
+; chipselect ; readdata[14] ;       ; 6.005 ; 6.005 ;       ;
+; chipselect ; readdata[15] ;       ; 5.869 ; 5.869 ;       ;
+; chipselect ; readdata[16] ;       ; 5.733 ; 5.733 ;       ;
+; chipselect ; readdata[17] ;       ; 5.979 ; 5.979 ;       ;
+; chipselect ; readdata[18] ;       ; 5.787 ; 5.787 ;       ;
+; chipselect ; readdata[19] ;       ; 6.379 ; 6.379 ;       ;
+; chipselect ; readdata[20] ;       ; 5.866 ; 5.866 ;       ;
+; chipselect ; readdata[21] ;       ; 6.055 ; 6.055 ;       ;
+; chipselect ; readdata[22] ;       ; 5.613 ; 5.613 ;       ;
+; chipselect ; readdata[23] ;       ; 5.535 ; 5.535 ;       ;
+; chipselect ; readdata[24] ;       ; 5.636 ; 5.636 ;       ;
+; chipselect ; readdata[25] ;       ; 6.007 ; 6.007 ;       ;
+; chipselect ; readdata[26] ;       ; 6.006 ; 6.006 ;       ;
+; chipselect ; readdata[27] ;       ; 5.756 ; 5.756 ;       ;
+; chipselect ; readdata[28] ;       ; 5.688 ; 5.688 ;       ;
+; chipselect ; readdata[29] ;       ; 5.868 ; 5.868 ;       ;
+; chipselect ; readdata[30] ;       ; 5.775 ; 5.775 ;       ;
+; chipselect ; readdata[31] ;       ; 5.901 ; 5.901 ;       ;
+; read       ; readdata[0]  ;       ; 6.475 ; 6.475 ;       ;
+; read       ; readdata[1]  ;       ; 5.714 ; 5.714 ;       ;
+; read       ; readdata[2]  ;       ; 5.938 ; 5.938 ;       ;
+; read       ; readdata[3]  ; 5.349 ; 5.349 ; 5.349 ; 5.349 ;
+; read       ; readdata[4]  ;       ; 5.573 ; 5.573 ;       ;
+; read       ; readdata[5]  ;       ; 6.167 ; 6.167 ;       ;
+; read       ; readdata[6]  ;       ; 6.053 ; 6.053 ;       ;
+; read       ; readdata[7]  ;       ; 5.561 ; 5.561 ;       ;
+; read       ; readdata[8]  ;       ; 5.370 ; 5.370 ;       ;
+; read       ; readdata[9]  ;       ; 5.681 ; 5.681 ;       ;
+; read       ; readdata[10] ;       ; 6.030 ; 6.030 ;       ;
+; read       ; readdata[11] ;       ; 6.084 ; 6.084 ;       ;
+; read       ; readdata[12] ;       ; 5.959 ; 5.959 ;       ;
+; read       ; readdata[13] ;       ; 5.701 ; 5.701 ;       ;
+; read       ; readdata[14] ;       ; 6.083 ; 6.083 ;       ;
+; read       ; readdata[15] ;       ; 5.947 ; 5.947 ;       ;
+; read       ; readdata[16] ;       ; 5.811 ; 5.811 ;       ;
+; read       ; readdata[17] ;       ; 6.057 ; 6.057 ;       ;
+; read       ; readdata[18] ;       ; 5.865 ; 5.865 ;       ;
+; read       ; readdata[19] ;       ; 6.457 ; 6.457 ;       ;
+; read       ; readdata[20] ;       ; 5.944 ; 5.944 ;       ;
+; read       ; readdata[21] ;       ; 6.133 ; 6.133 ;       ;
+; read       ; readdata[22] ;       ; 5.691 ; 5.691 ;       ;
+; read       ; readdata[23] ;       ; 5.613 ; 5.613 ;       ;
+; read       ; readdata[24] ;       ; 5.714 ; 5.714 ;       ;
+; read       ; readdata[25] ;       ; 6.085 ; 6.085 ;       ;
+; read       ; readdata[26] ;       ; 6.084 ; 6.084 ;       ;
+; read       ; readdata[27] ;       ; 5.834 ; 5.834 ;       ;
+; read       ; readdata[28] ;       ; 5.766 ; 5.766 ;       ;
+; read       ; readdata[29] ;       ; 5.946 ; 5.946 ;       ;
+; read       ; readdata[30] ;       ; 5.853 ; 5.853 ;       ;
+; read       ; readdata[31] ;       ; 5.979 ; 5.979 ;       ;
++------------+--------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 2     ; 2    ;
+; Unconstrained Input Port Paths  ; 64    ; 64   ;
+; Unconstrained Output Ports      ; 32    ; 32   ;
+; Unconstrained Output Port Paths ; 64    ; 64   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Sep 18 09:56:49 2020
+Info: Command: quartus_sta reg32_avalon_interface -c reg32_avalon_interface
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'reg32_avalon_interface.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4570 megabytes
+    Info: Processing ended: Fri Sep 18 09:56:50 2020
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

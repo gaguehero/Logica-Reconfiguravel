@@ -1,0 +1,43 @@
+Library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+Entity totalV_tb is
+end entity;
+
+Architecture x of totalV_tb is
+
+component totalV is 
+	PORT(	
+			CLK  	: in std_logic;
+			RST	: in STD_logic;
+			Qout	: out unsigned (2 downto 0));
+end component;
+
+signal clk, rst : std_logic;
+signal Q : unsigned (2 downto 0);
+begin
+
+clk_gen: Process	
+begin
+	clk <= '0';
+   wait for 10 ns;
+	clk <= '1';
+   wait for 10 ns;
+end process;
+	
+-- gerar o rst
+rst_gen: Process 
+begin
+	rst <= '1';
+   wait for 15 ns;
+	rst <= '0';
+   wait;
+end process;
+-- gerar uma instância do DUT (device under test)
+DUT: totalV
+port map(
+	CLK => CLK,
+	RST => RST,
+	Qout => Q);
+End architecture;

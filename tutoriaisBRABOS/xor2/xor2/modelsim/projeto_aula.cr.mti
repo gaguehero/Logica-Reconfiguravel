@@ -1,0 +1,17 @@
+C:/altera/tutoriaisBRABOS/xor2/xor2_1.vhd {1 {vcom -work work -2002 -explicit C:/altera/tutoriaisBRABOS/xor2/xor2_1.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor2_1
+-- Compiling architecture hardware of xor2_1
+
+} {} {}} C:/altera/tutoriaisBRABOS/xor2/xor2_1_tb.vhd {1 {vcom -work work -2002 -explicit C:/altera/tutoriaisBRABOS/xor2/xor2_1_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Compiling entity testbench1
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling architecture xor2_1_tb of testbench1
+
+} {} {}}

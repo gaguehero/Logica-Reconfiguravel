@@ -1,0 +1,151 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\SNios\hw\simulation\modelsim
+Ebram
+Z1 w1620064976
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\SNios\hw\simulation\modelsim
+Z6 8C:/SNios/hw/bram.vhd
+Z7 FC:/SNios/hw/bram.vhd
+l0
+L5
+VXFMHH^nZ^SoGlH_zFzRaZ2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1620177157.896000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/SNios/hw/bram.vhd|
+Z11 !s107 C:/SNios/hw/bram.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 eJW1@gfUB`^`8Bg;kKciW3
+!i10b 1
+Aarc
+R2
+R3
+R4
+DEx4 work 4 bram 0 22 XFMHH^nZ^SoGlH_zFzRaZ2
+l18
+L15
+V>ezg?CUdTlRmH0<N5ekgJ2
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 F1]i69fQCLk37@8BzfW9M2
+!i10b 1
+Ereg32
+Z14 w1620176928
+R3
+R4
+R5
+Z15 8C:/SNios/hw/reg32.vhd
+Z16 FC:/SNios/hw/reg32.vhd
+l0
+L3
+VknnH2GEdhICzYjk<8PGJ60
+R8
+31
+Z17 !s108 1620177157.520000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/SNios/hw/reg32.vhd|
+Z19 !s107 C:/SNios/hw/reg32.vhd|
+R12
+R13
+!s100 kk@4:=b9]e1^l]aUjiNY70
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 5 reg32 0 22 knnH2GEdhICzYjk<8PGJ60
+l20
+L10
+V6=WRYQ77[ncaTNC@Wfgi11
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 @HnK:BP5FlA04nkUmR`UP1
+!i10b 1
+Etop_avalon
+Z20 w1620159747
+R2
+R3
+R4
+R5
+Z21 8C:/SNios/hw/top_avalon.vhd
+Z22 FC:/SNios/hw/top_avalon.vhd
+l0
+L4
+V5UEUlPD64E>QFMTJ;e?a[0
+R8
+31
+Z23 !s108 1620177157.104000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/SNios/hw/top_avalon.vhd|
+Z25 !s107 C:/SNios/hw/top_avalon.vhd|
+R12
+R13
+!s100 _7o2h7zC=eVU07zAz=@Gi3
+!i10b 1
+Aarq
+R2
+R3
+R4
+DEx4 work 10 top_avalon 0 22 5UEUlPD64E>QFMTJ;e?a[0
+l44
+L14
+VQzBTgSn>6F`hILJNV7a8:1
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 ZcVdRKDbbgE9k1M0NYJf62
+!i10b 1
+Etop_avalon_tb
+Z26 w1620177012
+R2
+R3
+R4
+R5
+Z27 8C:/SNios/hw/top_avalon_tb.vhd
+Z28 FC:/SNios/hw/top_avalon_tb.vhd
+l0
+L4
+VDi4BoCLY_lRKnN=Klz`P02
+!s100 kc?JYGR8IiLo=RlPV9l<21
+R8
+32
+!i10b 1
+Z29 !s108 1620177179.007000
+Z30 !s90 -reportprogress|300|-work|work|C:/SNios/hw/top_avalon_tb.vhd|
+Z31 !s107 C:/SNios/hw/top_avalon_tb.vhd|
+Z32 o-work work -O0
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 13 top_avalon_tb 0 22 Di4BoCLY_lRKnN=Klz`P02
+l21
+L7
+Vh^Wfj48KSCJ7A8mW`a^X53
+!s100 i>0cBRABTgLWWVzW6j`hT2
+R8
+32
+!i10b 1
+R29
+R30
+R31
+R32
+R13

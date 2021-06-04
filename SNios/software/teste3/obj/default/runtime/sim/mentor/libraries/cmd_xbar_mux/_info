@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\VHDL_NOVO\user_HW_Copia1\hw\aaaaa\NIOS-IV\SimpleNiosII\software\teste3\obj\default\runtime\sim\mentor
+Ehostsystem_cmd_xbar_mux
+Z1 w1600350940
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 DPx5 sgate 10 sgate_pack 0 22 T9IHbG>MnW3faLYHJJ;[L3
+Z5 dD:\VHDL_NOVO\user_HW_Copia1\hw\aaaaa\NIOS-IV\SimpleNiosII\software\teste3\obj\default\runtime\sim\mentor
+Z6 8D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_cmd_xbar_mux.vho
+Z7 FD:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_cmd_xbar_mux.vho
+l0
+L33
+V?]^eP=UGeo2]6>cn3m;8M3
+!s100 Gl?cffEjOJPJn1eif[4_H0
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1600352644.920000
+Z10 !s90 -reportprogress|300|D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_cmd_xbar_mux.vho|-work|cmd_xbar_mux|
+Z11 !s107 D:/VHDL_NOVO/user_HW_Copia1/hw/aaaaa/NIOS-IV/SimpleNiosII/HostSystem/testbench/HostSystem_tb/simulation/submodules/HostSystem_cmd_xbar_mux.vho|
+Z12 o-work cmd_xbar_mux -O0
+Z13 tExplicit 1
+Artl
+R2
+R3
+R4
+Z14 DEx4 work 23 hostsystem_cmd_xbar_mux 0 22 ?]^eP=UGeo2]6>cn3m;8M3
+l551
+L59
+Z15 VK<4[@mg[`Dz??P3Zj;ak:1
+Z16 !s100 GEX`2EJP5=>c>5IAKHPl42
+R8
+32
+!i10b 1
+R9
+R10
+R11
+R12
+R13

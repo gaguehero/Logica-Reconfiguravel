@@ -1,0 +1,59 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "system.h"
+
+#include "io.h"
+
+int main()
+{
+	//printf("Hello from Nios II!\n");
+	int envio[20],recibo[20]; //cria vetor de envio e recibo
+	int atual, flag=0, i=0;
+	int *pWr, *pRd;
+	pRd = TOP_AVALON1_0_BASE;
+	pWr = TOP_AVALON1_0_BASE;
+	while (i++<10){
+		envio[i] = 3*i; //
+		envio[10+i] = 7*i; //
+	}
+	i=0;
+
+	while (i++<20){	//rotina de envio
+		*(pWr + 0) = i;
+		*(pWr + 1) = envio[i];
+	}
+	i=0;
+
+	while (i++<20){	//rotina de recibo
+		*(pWr + 0) = i;
+		atual = *pRd;
+		recibo[i] = atual;
+	}
+	i=0;
+	while (i++<20){ //comparação
+		if(envio[i]!=recibo[i])
+			flag = 1;
+	}
+	if(flag) //teste final
+		*(pWr + 2) = 70657376; // Fail
+	else
+		*(pWr + 2) = 80658383; // Pass
+
+	atual = *(pRd+1);
+	return 0;
+}

@@ -1,0 +1,19 @@
+|decod2_4
+B[0] => Mux0.IN5
+B[0] => Mux1.IN5
+B[0] => Mux2.IN5
+B[0] => Mux3.IN5
+B[1] => Mux0.IN4
+B[1] => Mux1.IN4
+B[1] => Mux2.IN4
+B[1] => Mux3.IN4
+Y[0] <= Y[0].DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1].DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2].DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y[3].DB_MAX_OUTPUT_PORT_TYPE
+EN => Y[0].OE
+EN => Y[1].OE
+EN => Y[2].OE
+EN => Y[3].OE
+
+

@@ -1,0 +1,116 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\conta99\simulation\modelsim
+Econta4
+Z1 w1620244016
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\conta99\simulation\modelsim
+Z6 8C:/altera/conta4/conta4.vhd
+Z7 FC:/altera/conta4/conta4.vhd
+l0
+L6
+V`:O;YmDUmM>odJW@QS`TY2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1620246771.566000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/conta4/conta4.vhd|
+Z11 !s107 C:/altera/conta4/conta4.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 l0MH4CiZG3Da8?aB?20nB2
+!i10b 1
+Ahardware
+R2
+R3
+R4
+DEx4 work 6 conta4 0 22 `:O;YmDUmM>odJW@QS`TY2
+l19
+L16
+VWcP7U0CeNFX]4Ob<zIDhn3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 025`SnN8NjHGe0Pn5AYjH2
+!i10b 1
+Econta99
+Z14 w1620246682
+R2
+R3
+R4
+R5
+Z15 8C:/altera/conta99/conta99.vhd
+Z16 FC:/altera/conta99/conta99.vhd
+l0
+L6
+VYNioSi1C6IXbHninacA>m0
+R8
+31
+Z17 !s108 1620246771.839000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/altera/conta99/conta99.vhd|
+Z19 !s107 C:/altera/conta99/conta99.vhd|
+R12
+R13
+!s100 @=gTOcX3nm]zbQ9aZbT]L3
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 7 conta99 0 22 YNioSi1C6IXbHninacA>m0
+l31
+L16
+V6V6[gVbaFk8]ZNXm=cPa_2
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 R]=9E>FcHK2LoUmQO4T?P1
+!i10b 1
+Econta99_tb
+Z20 w1620245988
+R2
+R3
+R4
+R5
+Z21 8C:/altera/conta99/conta99_tb.vhd
+Z22 FC:/altera/conta99/conta99_tb.vhd
+l0
+L6
+Vd3@>1QD]Hz^8eJYo4:`T30
+!s100 nnmL_GB_REaBLfH`UGUPf1
+R8
+32
+!i10b 1
+Z23 !s108 1620246794.778000
+Z24 !s90 -reportprogress|300|-work|work|C:/altera/conta99/conta99_tb.vhd|
+Z25 !s107 C:/altera/conta99/conta99_tb.vhd|
+Z26 o-work work -O0
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 10 conta99_tb 0 22 d3@>1QD]Hz^8eJYo4:`T30
+l24
+L9
+VzFI9DIJOR>:dl5Bi<kmf;1
+!s100 MgW=I0`n1ZF6ZQJMgfzf:3
+R8
+32
+!i10b 1
+R23
+R24
+R25
+R26
+R13

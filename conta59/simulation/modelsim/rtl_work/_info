@@ -1,0 +1,116 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\conta59\simulation\modelsim
+Econta4
+Z1 w1620244016
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\conta59\simulation\modelsim
+Z6 8C:/altera/conta4/conta4.vhd
+Z7 FC:/altera/conta4/conta4.vhd
+l0
+L6
+V`:O;YmDUmM>odJW@QS`TY2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1620247244.642000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/conta4/conta4.vhd|
+Z11 !s107 C:/altera/conta4/conta4.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 l0MH4CiZG3Da8?aB?20nB2
+!i10b 1
+Ahardware
+R2
+R3
+R4
+DEx4 work 6 conta4 0 22 `:O;YmDUmM>odJW@QS`TY2
+l19
+L16
+VWcP7U0CeNFX]4Ob<zIDhn3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 025`SnN8NjHGe0Pn5AYjH2
+!i10b 1
+Econta59
+Z14 w1620247100
+R2
+R3
+R4
+R5
+Z15 8C:/altera/conta59/conta59.vhd
+Z16 FC:/altera/conta59/conta59.vhd
+l0
+L6
+V6WkSXjn:cG2J:?Do9mSoi2
+R8
+31
+Z17 !s108 1620247244.961000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/altera/conta59/conta59.vhd|
+Z19 !s107 C:/altera/conta59/conta59.vhd|
+R12
+R13
+!s100 f9H]R_iCz?6E8@VHZlG9h0
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 7 conta59 0 22 6WkSXjn:cG2J:?Do9mSoi2
+l31
+L16
+VF<b8B^nj9EnB5_CzAKOHP1
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 :=9nb;F^SE1EOVJ8<egW10
+!i10b 1
+Econta59_tb
+Z20 w1620247208
+R2
+R3
+R4
+R5
+Z21 8C:/altera/conta59/conta59_tb.vhd
+Z22 FC:/altera/conta59/conta59_tb.vhd
+l0
+L6
+V_6ncXbCf=lljM5b8IJK^33
+!s100 @UB1N;0kAP7L<iQ<oozd^1
+R8
+32
+!i10b 1
+Z23 !s108 1620247264.852000
+Z24 !s90 -reportprogress|300|-work|work|C:/altera/conta59/conta59_tb.vhd|
+Z25 !s107 C:/altera/conta59/conta59_tb.vhd|
+Z26 o-work work -O0
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 10 conta59_tb 0 22 _6ncXbCf=lljM5b8IJK^33
+l24
+L9
+VS]e<Xgli=;02^FhiahMQZ2
+!s100 n6?b>K`ZDM2oz[a[OI0zX2
+R8
+32
+!i10b 1
+R23
+R24
+R25
+R26
+R13

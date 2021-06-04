@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\SNios\software\SNIOS1\obj\default\runtime\sim\mentor
+v0OYHfoOP1ZSBdhHFFWzxeEVD35Wr675m9XX7tVQ5Ff4=
+I[ffF8EK_d=e?6_YKQ1i=P2
+VBWWT<i0A@QcN4KE]hBS<V0
+xsip
+d.
+Z1 Fnofile
+L0 38
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-work rst_controller -O0
+nf2f26c2
+!i10b 0
+!s100 5ccQD;BgX3_6>Cm5P<`FL2
+!i8a 1050172592
+!s85 0
+!s108 1620068980.848000
+!s107 C:/SNios/HSys/testbench/HSys_tb/simulation/submodules/mentor/altera_reset_controller.v|
+!s90 -reportprogress|300|C:/SNios/HSys/testbench/HSys_tb/simulation/submodules/mentor/altera_reset_controller.v|-work|rst_controller|
+!s101 -O0
+vKpNM5mftu+99oNwuaGidDIYSTsHjRb/jpemVnkxwprs=
+!i10b 0
+!s100 g8PS2jPcm865m?bAjcjG]2
+IS:=fB9Ycel^BQhnVRIiUb0
+V3CjoOZCIEdzCJgPn8]D7`2
+xsip
+!i8a 1792196368
+d.
+R1
+L0 38
+R2
+r1
+!s85 0
+31
+!s108 1620068981.676000
+!s107 C:/SNios/HSys/testbench/HSys_tb/simulation/submodules/mentor/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|C:/SNios/HSys/testbench/HSys_tb/simulation/submodules/mentor/altera_reset_synchronizer.v|-work|rst_controller|
+!s101 -O0
+R3
+n15f2da2

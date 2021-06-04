@@ -1,0 +1,190 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\cronometro\simulation\modelsim
+Econta4
+Z1 w1620244016
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\altera\cronometro\simulation\modelsim
+Z6 8C:/altera/conta4/conta4.vhd
+Z7 FC:/altera/conta4/conta4.vhd
+l0
+L6
+V`:O;YmDUmM>odJW@QS`TY2
+Z8 OV;C;10.1d;51
+31
+Z9 !s108 1620253654.790000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/altera/conta4/conta4.vhd|
+Z11 !s107 C:/altera/conta4/conta4.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 l0MH4CiZG3Da8?aB?20nB2
+!i10b 1
+Ahardware
+R2
+R3
+R4
+DEx4 work 6 conta4 0 22 `:O;YmDUmM>odJW@QS`TY2
+l19
+L16
+VWcP7U0CeNFX]4Ob<zIDhn3
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 025`SnN8NjHGe0Pn5AYjH2
+!i10b 1
+Econta59
+Z14 w1620253537
+R2
+R3
+R4
+R5
+Z15 8C:/altera/conta59/conta59.vhd
+Z16 FC:/altera/conta59/conta59.vhd
+l0
+L6
+V4EMECg3Yllc:NJ:3GZWRN1
+R8
+31
+Z17 !s108 1620253655.092000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/altera/conta59/conta59.vhd|
+Z19 !s107 C:/altera/conta59/conta59.vhd|
+R12
+R13
+!s100 TIg`0Y=Z<D5:_7@3P90mB0
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 7 conta59 0 22 4EMECg3Yllc:NJ:3GZWRN1
+l32
+L17
+VF7lGX2Q20f5BXA7FzYLQG1
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 NDeW9:kzLJZR3WF:I1KEF1
+!i10b 1
+Econta99
+Z20 w1620252573
+R2
+R3
+R4
+R5
+Z21 8C:/altera/conta99/conta99.vhd
+Z22 FC:/altera/conta99/conta99.vhd
+l0
+L6
+VYNioSi1C6IXbHninacA>m0
+R8
+31
+Z23 !s108 1620253655.431000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/altera/conta99/conta99.vhd|
+Z25 !s107 C:/altera/conta99/conta99.vhd|
+R12
+R13
+!s100 @=gTOcX3nm]zbQ9aZbT]L3
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 7 conta99 0 22 YNioSi1C6IXbHninacA>m0
+l31
+L16
+VP9TYU]S4c7QV?KniLlmg[3
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 QocKHGcL76=Ro^Hd>Xebf1
+!i10b 1
+Ecronometro
+Z26 w1620253601
+R2
+R3
+R4
+R5
+Z27 8C:/altera/cronometro/cronometro.vhd
+Z28 FC:/altera/cronometro/cronometro.vhd
+l0
+L5
+V[>5i8:N2aIXC?1iL1<b^a2
+R8
+31
+Z29 !s108 1620253655.768000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/altera/cronometro/cronometro.vhd|
+Z31 !s107 C:/altera/cronometro/cronometro.vhd|
+R12
+R13
+!s100 [iZ]Kzh@2?T]cP[Y^UEkI3
+!i10b 1
+Ax
+R2
+R3
+R4
+DEx4 work 10 cronometro 0 22 [>5i8:N2aIXC?1iL1<b^a2
+l39
+L13
+VCBFAIZ=QcCAoiX@o=LfBI3
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 4daA[MZW0K0O[NDTQ9WW[1
+!i10b 1
+Ecronometro_tb
+Z32 w1620250192
+R2
+R3
+R4
+R5
+Z33 8C:/altera/cronometro/cronometro_tb.vhd
+Z34 FC:/altera/cronometro/cronometro_tb.vhd
+l0
+L6
+VJ1?Z_Qa7z0?Wg0eZkYVQ81
+!s100 0KjmNS5L^aWeJ2Q7R6G:U3
+R8
+32
+!i10b 1
+Z35 !s108 1620253671.446000
+Z36 !s90 -reportprogress|300|-work|work|C:/altera/cronometro/cronometro_tb.vhd|
+Z37 !s107 C:/altera/cronometro/cronometro_tb.vhd|
+Z38 o-work work -O0
+R13
+Ax
+R2
+R3
+R4
+DEx4 work 13 cronometro_tb 0 22 J1?Z_Qa7z0?Wg0eZkYVQ81
+l22
+L9
+VD@]e@ZiMP1f:TULQVN:gI1
+!s100 dh4fU>>B>YmQm7h=fm[3O3
+R8
+32
+!i10b 1
+R35
+R36
+R37
+R38
+R13
